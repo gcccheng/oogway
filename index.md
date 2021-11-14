@@ -21,7 +21,7 @@ Linux system operation
 
 ## Currently
 
-**System Engineer at UiO**
+**System Engineer at UiO 2012--Now**
 
 Be responsible to deliver a reliable scientific computing infrastructure to researchers at Centre for Molecular Medicine Norway, University of Oslo. Main tasks:
 
