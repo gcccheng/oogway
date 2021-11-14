@@ -3,14 +3,21 @@ layout: cv
 title: Gang Cheng's CV
 ---
 # Gang Cheng
+
 System Operation Engineer
 
 <div id="webaddress">
 <a href="https://www.med.uio.no/ncmm/personer/adm/gangch/index.html">My UiO page</a>
 </div>
+
 ## Summary
 
 Main skills reside in Red Hat Linux administration and have extened to the technologies around it listed below. Proved skills at communicating with coworkers and clients at varying levels of technical expertise. Excellent trouble-shooting and documentation skills. Rapidly self-orienting in new environments and a quick learner.
+
+
+## Specialized in
+
+Linux system operation
 
 ## Currently
 
@@ -31,9 +38,6 @@ Be responsible to deliver a reliable scientific computing infrastructure to rese
 
 
 
-### Specialized in
-
-Linux system operation
 
 
 
