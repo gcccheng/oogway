@@ -92,7 +92,7 @@ Basic cryptography and SSH remote logins
 Red Hat, Windows Server, SCCM, KVM, Dell PowerEdge series, <a href="https://www.proxmox.com/en/">Proxmox </a>, NFS, SAMBA, DNS, DHCP, Apache HTTPD, LDAP, Maria DB, Zabbix, Perpl, Bash, Ansible...
 
 
-### Exposed Skills
+### Exposure Skills
 
 Amazon EC2, MS Azure, Docker Container, Openstack, Terraform, Vagrant, IPv6
   
