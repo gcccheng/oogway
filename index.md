@@ -23,7 +23,7 @@ Linux system operation, administration, virtulization
 ## Education
 
 `2010-2012`
-__University of Oslo: Master in Network and System Administration._
+University of Oslo: Master in Network and System Administration._
 
 
 ## Certificate 
