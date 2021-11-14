@@ -94,7 +94,7 @@ Red Hat, Windows Server, SCCM, KVM, Dell PowerEdge series, <a href="https://www.
 
 ### Exposure
 
-Amazon EC2, MS Azure, Docker Container, Openstack, Terraform, Vagrant, IPv6
+AWS, MS Azure, Docker Container, Openstack, Terraform, Vagrant, IPv6
   
 ### Hobies
   
