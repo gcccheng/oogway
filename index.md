@@ -2,7 +2,7 @@
 layout: cv
 title: Gang Cheng's CV
 ---
-# Isaac Newton
+# Gang Cheng
 System Administrator, System Operation Engineer
 
 <div id="webaddress">
@@ -71,7 +71,7 @@ Red Hat, KVM, Dell Server seriles, <a href="https://www.proxmox.com/en/">Proxmox
 
 ### Exposed Skills
 
-Amazon EC2, MS Azure, Docker Container, Openstack, IPv6
+Amazon EC2, MS Azure, Docker Container, Openstack, Terraform, Vagrant, IPv6
   
 ### Hobies
   
