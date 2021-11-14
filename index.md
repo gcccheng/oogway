@@ -1,88 +1,89 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Gang Cheng's CV
 ---
 # Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+System Administrator, System Operation Engineer
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="https://www.med.uio.no/ncmm/personer/adm/gangch/index.html">My UiO page</a>
 </div>
 
 
 ## Currently
 
-Standing on the shoulders of giants
+System Engineer at UiO
 
 ### Specialized in
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+Linux system operation, administration, virtulization
 
-
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples.
 
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
-
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
+`2010-2012`
+__University of Oslo: Master in Network and System Administration._
 
 
+## Certificate 
 
-## Awards
-
-`2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France
+<a href="https://www.redhat.com/en/services/certification/rhcsa"> Red Hat 8 Certificated System Administrator</a>
 
 
+## Courses
 
-## Publications
+<a href="https://www.uio.no/studier/emner/matnat/ifi/INF5004NSA/index.html"> Intrusion detection and firewalls </a>
 
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+<a href="https://www.uio.no/studier/emner/matnat/ifi/INF4018NSA/index.html"> Enterprise Networking: Practices and Technologiesv </a>
 
-### Journals
+<a href="https://www.uio.no/studier/emner/matnat/ifi/INF5100NSA/index.html"> Research Methods and Data Analysis </a>
 
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
+<a href="https://www.udemy.com/course/mastering-ansible/?gclid=Cj0KCQiAhMOMBhDhARIsAPVml-HCo3Nm7AYmD15j425Ld7FLtLZOYQ9vTev6CMsi5-DeO7ST9exGqw0aAuX3EALw_wcB&matchtype=e&utm_campaign=LongTail_la.EN_cc.ROW&utm_content=deal4584&utm_medium=udemyads&utm_source=adwords&utm_term=_._ag_80675493522_._ad_535700245675_._kw_ansible+course_._de_c_._dm__._pl__._ti_kwd-822946965094_._li_1010826_._pd__._"> Ansible For System Automation </a>
 
-`1669`
-Lectiones opticæ.
+<a href="https://www.uio.no/studier/emner/matnat/ifi/INF1100/index-eng.html">Introduction to programming with scientific applications</a>
 
-etc. etc. etc.
+<a href="https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS162x+3T2019/home"> Linux Foundation: Introduction to DevOps and Site Reliability Engineering</a>
 
-### Patents
+<a href="https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS151.x+2T2020/home"> Linux Foundation: Introduction to Cloud Infrastructure Technologies
 
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+<a href="https://www.edx.org/course/fundamentals-of-containers-kubernetes-and-red-hat">Red Hat: Fundamentals of Containers, Kubernetes, and Red Hat OpenShift</a>
 
 
-## Occupation
+### Workshops
 
-`1600`
-__Royal Mint__, London
+<a href="https://www.ub.uio.no/english/courses-events/courses/other/Carpentry/211103_github"> Version Control with Git </a>
 
-- Warden
-- Minted coins
+Basic cryptography and SSH remote logins 
+  
+<a href="https://www.ub.uio.no/english/courses-events/courses/other/coderefinery/Python%20for%20Scientific%20Computing%20%28internediate%29"> Python for Scientific Computing</a>
 
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+<a href="https://arnsteio.github.io/UH-IaaS-mini-workshop/"> Virtualized research architecture using openstack</a>
+  
+<a href="https://www.uio.no/tjenester/it/forskning/kompetansehuber/uio-ai-hub-node-project/it-resources/"> AI at UiO </a>
 
 
+
+### Experienced Skills
+
+Red Hat, KVM, Dell Server seriles, <a href="https://www.proxmox.com/en/">Proxmox </a>, NFS, SAMBA, DNS, DHCP, Apache HTTPD, LDAP, Maria DB, Zabbix, Perpl, Bash, Ansible...
+
+
+### Exposed Skills
+
+Amazon EC2, MS Azure, Docker Container, Openstack, IPv6
+  
+### Hobies
+  
+<a href="https://norchinese.com/category/eng/">Blog writting </a>, Skiing and hiking
+  
+### Languages
+  
+English: Full Professional Working Proficiency
+  
+Norwegian: Daily Conversation, Limited Professional Working Proficiency
+  
+Chinese: Native
 
 <!-- ### Footer
 
