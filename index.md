@@ -14,6 +14,10 @@ System Administrator, System Operation Engineer
 
 System Engineer at UiO
 
+*** server drift
+*** install 
+
+
 ### Specialized in
 
 Linux system operation
@@ -66,7 +70,7 @@ Basic cryptography and SSH remote logins
 
 ### Experienced Skills
 
-Red Hat, KVM, Dell Server seriles, <a href="https://www.proxmox.com/en/">Proxmox </a>, NFS, SAMBA, DNS, DHCP, Apache HTTPD, LDAP, Maria DB, Zabbix, Perpl, Bash, Ansible...
+Red Hat, Windows Server, SCCM, KVM, Dell PowerEdge series, <a href="https://www.proxmox.com/en/">Proxmox </a>, NFS, SAMBA, DNS, DHCP, Apache HTTPD, LDAP, Maria DB, Zabbix, Perpl, Bash, Ansible...
 
 
 ### Exposed Skills
