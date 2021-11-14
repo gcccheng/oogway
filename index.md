@@ -16,7 +16,7 @@ System Engineer at UiO
 
 ### Specialized in
 
-Linux system operation, administration, virtulization
+Linux system operation
 
 
 
