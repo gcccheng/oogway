@@ -25,15 +25,15 @@ Linux system operation
 
 Be responsible to deliver a reliable scientific computing infrastructure to researchers at Centre for Molecular Medicine Norway, University of Oslo. Main tasks:
 
-1. Install, configure and maintain rhel server for a variety of services including computing, virtulization, database, web, Samba, NFS, inventory...
+1.Install, configure and maintain rhel server for a variety of services including computing, virtulization, database, web, Samba, NFS, inventory...
 
-2. Install and maitain complex software pipelines that contain an increasing number of software dependencies to function properly.
+2.Install and maitain complex software pipelines that contain an increasing number of software dependencies to function properly.
 
-3. Maitain DNS, DHCP and FirewallD services for internal lab network.
+3.Maitain DNS, DHCP and FirewallD services for internal lab network.
 
-4. Daily admin work including account management, storage management, ACLs, security and problem troubleshooting.
+4.Daily admin work including account management, storage management, ACLs, security and problem troubleshooting.
 
-5. Purchase hardware, plan/design infrastructure, deploy new technology to accommodate researching needs.
+5.Purchase hardware, plan/design infrastructure, deploy new technology to accommodate researching needs.
 
 
 
