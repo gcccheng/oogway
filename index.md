@@ -49,7 +49,7 @@ University of Oslo: Master in Network and System Administration
 
 ## Certificate 
 
-<a href="https://www.redhat.com/en/services/certification/rhcsa"> Red Hat 8 Certificated System Administrator</a>
+<a href="https://www.redhat.com/en/services/certification/rhcsa"> Red Hat 8 Certified System Administrator</a>
 
 
 ## Courses
