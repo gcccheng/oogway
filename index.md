@@ -44,7 +44,7 @@ Be responsible to deliver a reliable scientific computing infrastructure to rese
 ## Education
 
 `2010-2012`
-University of Oslo: Master in Network and System Administration._
+University of Oslo: Master in Network and System Administration.
 
 
 ## Certificate 
