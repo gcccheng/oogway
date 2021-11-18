@@ -86,7 +86,13 @@ Cryptography and SSH remote logins
   
 <a href="https://www.uio.no/tjenester/it/forskning/kompetansehuber/uio-ai-hub-node-project/it-resources/"> AI at UiO </a>
 
+### Projects
 
+Integrate Active Directory and Linux Environments
+
+Intrustion detection and monitoring with Snort and Munin
+
+  
 
 ### Experienced Skills
 
