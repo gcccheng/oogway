@@ -11,19 +11,13 @@ System Operation Engineer
 </div>
 
 ## Summary
-
 Main skills reside in Red Hat Linux administration and have extened to the technologies around it listed below. Proved skills at communicating with coworkers and clients at varying levels of technical expertise. Strong trouble-shooting and documentation skills. Rapidly self-orienting in new environments and a quick learner.
-
 ## Specialized in
 
 Linux Network and System Operation
-
 ## Currently
-
 `2012-Now`
-
 **System Engineer at UiO**
-
 Be responsible to deliver a reliable scientific computing infrastructure to researchers at Centre for Molecular Medicine Norway, University of Oslo. Main tasks:
 
 1.Install, configure and maintain rhel server for a variety of services including computing, virtulization, database, web, Samba, NFS, inventory...
@@ -37,16 +31,11 @@ Be responsible to deliver a reliable scientific computing infrastructure to rese
 5.Purchase hardware, plan/design infrastructure, deploy new technology to accommodate researching needs.
 
 ## Education
-
 `2010-2012`
 University of Oslo: Master in Network and System Administration
-
-## Certificate 
-
+## Certificate
 <a href="https://www.redhat.com/en/services/certification/rhcsa"> Red Hat 8 Certified System Administrator</a>
-
 ## Courses
-
 <a href="https://www.uio.no/studier/emner/matnat/ifi/INF5004NSA/index.html"> Intrusion detection and firewalls </a>
 
 <a href="https://www.uio.no/studier/emner/matnat/ifi/INF4018NSA/index.html"> Enterprise Networking: Practices and Technologiesv </a>
@@ -63,8 +52,7 @@ University of Oslo: Master in Network and System Administration
 
 <a href="https://www.edx.org/course/fundamentals-of-containers-kubernetes-and-red-hat">Red Hat: Fundamentals of Containers, Kubernetes, and Red Hat OpenShift</a>
 
-### Workshops
-
+## Workshops
 Deploy AWS EC2 instance with terraform
 
 Running containers with podman
@@ -79,26 +67,22 @@ Cryptography and SSH remote logins
   
 <a href="https://www.uio.no/tjenester/it/forskning/kompetansehuber/uio-ai-hub-node-project/it-resources/"> AI at UiO </a>
 
-### Projects
-
+## Projects
 Integrate Active Directory and Linux Environments
 
 Intrustion detection and monitoring with Snort and Munin
 
-### Experienced Skills
-
+## Experienced Skills
 Red Hat, Windows Server, SCCM, KVM, Dell PowerEdge series, <a href="https://www.proxmox.com/en/">Proxmox </a>, NFS, SAMBA, DNS, DHCP, Apache HTTPD, LDAP, Maria DB, Zabbix, Perpl, Bash, Ansible...
 
-### Exposure Skills
+## Exposure Skills
 
 AWS, MS Azure, Docker Container, Openstack, Terraform, Vagrant, IPv6
   
-### Hobies
-  
+## Hobies 
 <a href="https://norchinese.com/category/eng/">Blog writting </a>, Skiing and hiking
   
-### Languages
-  
+## Languages 
 English: Full Professional Working Proficiency
   
 Norwegian: Daily Conversation, Limited Professional Working Proficiency
