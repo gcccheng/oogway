@@ -14,7 +14,6 @@ System Operation Engineer
 
 Main skills reside in Red Hat Linux administration and have extened to the technologies around it listed below. Proved skills at communicating with coworkers and clients at varying levels of technical expertise. Strong trouble-shooting and documentation skills. Rapidly self-orienting in new environments and a quick learner.
 
-
 ## Specialized in
 
 Linux Network and System Operation
@@ -37,19 +36,14 @@ Be responsible to deliver a reliable scientific computing infrastructure to rese
 
 5.Purchase hardware, plan/design infrastructure, deploy new technology to accommodate researching needs.
 
-
-
-
 ## Education
 
 `2010-2012`
 University of Oslo: Master in Network and System Administration
 
-
 ## Certificate 
 
 <a href="https://www.redhat.com/en/services/certification/rhcsa"> Red Hat 8 Certified System Administrator</a>
-
 
 ## Courses
 
@@ -68,7 +62,6 @@ University of Oslo: Master in Network and System Administration
 <a href="https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS151.x+2T2020/home"> Linux Foundation: Introduction to Cloud Infrastructure Technologies
 
 <a href="https://www.edx.org/course/fundamentals-of-containers-kubernetes-and-red-hat">Red Hat: Fundamentals of Containers, Kubernetes, and Red Hat OpenShift</a>
-
 
 ### Workshops
 
@@ -92,12 +85,9 @@ Integrate Active Directory and Linux Environments
 
 Intrustion detection and monitoring with Snort and Munin
 
-  
-
 ### Experienced Skills
 
 Red Hat, Windows Server, SCCM, KVM, Dell PowerEdge series, <a href="https://www.proxmox.com/en/">Proxmox </a>, NFS, SAMBA, DNS, DHCP, Apache HTTPD, LDAP, Maria DB, Zabbix, Perpl, Bash, Ansible...
-
 
 ### Exposure Skills
 
@@ -118,5 +108,4 @@ Chinese: Native
 <!-- ### Footer
 
 Last updated: May 2013 -->
-
 
