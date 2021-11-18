@@ -86,8 +86,7 @@ AWS, MS Azure, Docker Container, Openstack, Terraform, Vagrant, IPv6
 English: Full Professional Working Proficiency
   
 Norwegian: Daily Conversation, Limited Professional Working Proficiency
-  
-Chinese: Native
+
 
 <!-- ### Footer
 
