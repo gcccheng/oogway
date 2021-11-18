@@ -40,9 +40,6 @@ Be responsible to deliver a reliable scientific computing infrastructure to rese
 
 
 
-
-
-
 ## Education
 
 `2010-2012`
@@ -75,9 +72,11 @@ University of Oslo: Master in Network and System Administration
 
 ### Workshops
 
+Deploy AWS EC2 instance with terraform
+  
 <a href="https://www.ub.uio.no/english/courses-events/courses/other/Carpentry/211103_github"> Version Control with Git </a>
 
-Basic cryptography and SSH remote logins 
+Cryptography and SSH remote logins 
   
 <a href="https://www.ub.uio.no/english/courses-events/courses/other/coderefinery/Python%20for%20Scientific%20Computing%20%28internediate%29"> Python for Scientific Computing</a>
 
@@ -92,7 +91,7 @@ Basic cryptography and SSH remote logins
 Red Hat, Windows Server, SCCM, KVM, Dell PowerEdge series, <a href="https://www.proxmox.com/en/">Proxmox </a>, NFS, SAMBA, DNS, DHCP, Apache HTTPD, LDAP, Maria DB, Zabbix, Perpl, Bash, Ansible...
 
 
-### Exposure
+### Exposure Skills
 
 AWS, MS Azure, Docker Container, Openstack, Terraform, Vagrant, IPv6
   
