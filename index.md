@@ -11,7 +11,7 @@ System Operation Engineer
 </div>
 
 ## Summary
-Main skills reside in Red Hat Linux administration and have extened to the technologies around it listed below. Proved skills at communicating with coworkers and clients at varying levels of technical expertise. Strong trouble-shooting and documentation skills. Rapidly self-orienting in new environments and a quick learner.
+Main skills reside in Red Hat Linux administration and have extended to the technologies around it listed below. Proved skills at communicating with coworkers and clients at varying levels of technical expertise. Strong trouble-shooting and documentation skills. Rapidly self-orienting in new environments and a quick learner.
 ## Specialized in
 
 Linux Network and System Operation
@@ -20,11 +20,11 @@ Linux Network and System Operation
 **System Engineer at UiO**
 Be responsible to deliver a reliable scientific computing infrastructure to researchers at Centre for Molecular Medicine Norway, University of Oslo. Main tasks:
 
-1.Install, configure and maintain rhel server for a variety of services including computing, virtulization, database, web, Samba, NFS, inventory...
+1.Install, configure and maintain rhel server for a variety of services including computing, virtualization, database, web, Samba, NFS, inventory...
 
-2.Install and maitain complex software pipelines that contain an increasing number of software dependencies to function properly.
+2.Install and maintain complex software pipelines that contain an increasing number of software dependencies to function properly.
 
-3.Maitain DNS, DHCP, NAT and FirewallD services for different networks.
+3.Maintain DNS, DHCP, NAT and FirewallD services for different networks.
 
 4.Daily admin work including account management, storage management, security, monitoring and problem troubleshooting.
 
@@ -38,7 +38,7 @@ University of Oslo: Master in Network and System Administration
 ## Courses
 <a href="https://www.uio.no/studier/emner/matnat/ifi/INF5004NSA/index.html"> Intrusion detection and firewalls </a>
 
-<a href="https://www.uio.no/studier/emner/matnat/ifi/INF4018NSA/index.html"> Enterprise Networking: Practices and Technologiesv </a>
+<a href="https://www.uio.no/studier/emner/matnat/ifi/INF4018NSA/index.html"> Enterprise Networking: Practices and Technologies </a>
 
 <a href="https://www.uio.no/studier/emner/matnat/ifi/INF5100NSA/index.html"> Research Methods and Data Analysis </a>
 
@@ -70,23 +70,23 @@ Cryptography and SSH remote logins
 ## Projects
 Integrate Active Directory and Linux Environments
 
-Intrustion detection and monitoring with Snort and Munin
+Intrusion detection and monitoring with Snort and Munin
 
 ## Experienced Skills
-Red Hat, Windows Server, SCCM, KVM, Dell PowerEdge series, <a href="https://www.proxmox.com/en/">Proxmox </a>, NFS, SAMBA, DNS, DHCP, Apache HTTPD, LDAP, Maria DB, Zabbix, Perpl, Bash, Ansible...
+Red Hat, Windows Server, Bash, Perl, SCCM, KVM, Dell PowerEdge series, <a href="https://www.proxmox.com/en/">Proxmox </a>, NFS, SAMBA, DNS, DHCP, Apache HTTPD, LDAP, Maria DB, Zabbix, Bash, Ansible...
 
 ## Exposure Skills
 
 AWS, MS Azure, Docker Container, Openstack, Terraform, Vagrant, IPv6
   
-## Hobies 
-Blog writting, Skiing and hiking
+## Hobbies 
+Blog writing, Skiing and hiking
   
 ## Languages 
 English: Full Professional Working Proficiency
   
 Norwegian: Daily Conversation, Limited Professional Working Proficiency
-
+  
 
 <!-- ### Footer
 
