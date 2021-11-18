@@ -12,12 +12,12 @@ System Operation Engineer
 
 ## Summary
 
-Main skills reside in Red Hat Linux administration and have extened to the technologies around it listed below. Proved skills at communicating with coworkers and clients at varying levels of technical expertise. Excellent trouble-shooting and documentation skills. Rapidly self-orienting in new environments and a quick learner.
+Main skills reside in Red Hat Linux administration and have extened to the technologies around it listed below. Proved skills at communicating with coworkers and clients at varying levels of technical expertise. Strong trouble-shooting and documentation skills. Rapidly self-orienting in new environments and a quick learner.
 
 
 ## Specialized in
 
-Linux system operation
+Linux Network and System Operation
 
 ## Currently
 
@@ -31,9 +31,9 @@ Be responsible to deliver a reliable scientific computing infrastructure to rese
 
 2.Install and maitain complex software pipelines that contain an increasing number of software dependencies to function properly.
 
-3.Maitain DNS, DHCP and FirewallD services for internal lab network.
+3.Maitain DNS, DHCP, NAT and FirewallD services for different networks.
 
-4.Daily admin work including account management, storage management, ACLs, security and problem troubleshooting.
+4.Daily admin work including account management, storage management, security, monitoring and problem troubleshooting.
 
 5.Purchase hardware, plan/design infrastructure, deploy new technology to accommodate researching needs.
 
@@ -73,6 +73,8 @@ University of Oslo: Master in Network and System Administration
 ### Workshops
 
 Deploy AWS EC2 instance with terraform
+
+Running containers with podman
   
 <a href="https://www.ub.uio.no/english/courses-events/courses/other/Carpentry/211103_github"> Version Control with Git </a>
 
