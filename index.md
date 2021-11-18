@@ -80,7 +80,7 @@ Red Hat, Windows Server, SCCM, KVM, Dell PowerEdge series, <a href="https://www.
 AWS, MS Azure, Docker Container, Openstack, Terraform, Vagrant, IPv6
   
 ## Hobies 
-<a href="https://norchinese.com/category/eng/">Blog writting </a>, Skiing and hiking
+Blog writting, Skiing and hiking
   
 ## Languages 
 English: Full Professional Working Proficiency
