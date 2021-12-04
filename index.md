@@ -73,6 +73,8 @@ Cryptography and SSH remote logins
 ## Projects
 Integrate Active Directory and Linux Environments
 
+<a href="https://guacamole.apache.org/">Using Apache Guacamole as free and open-source cross-platform Remote Desktop Gateway</a>
+  
 Intrusion detection and monitoring with Snort and Munin
 
 ## Experienced Skills
