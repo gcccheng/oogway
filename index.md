@@ -53,6 +53,9 @@ University of Oslo: Master in Network and System Administration
 <a href="https://www.edx.org/course/fundamentals-of-containers-kubernetes-and-red-hat">Red Hat: Fundamentals of Containers, Kubernetes, and Red Hat OpenShift</a>
 
 ## Workshops
+  
+<a href="http://modules.sourceforge.net/">Using Environment Modules to initialize shell and modify shell environment</a>
+  
 Deploy AWS EC2 instance with terraform
 
 Running containers with podman
