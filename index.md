@@ -79,7 +79,7 @@ Cryptography and SSH remote logins
   
 Intergrate Linux to Windows Domain
   
-Set up local Active Directory service with LDAP
+Set up local directory service with Openldap
   
 <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus"> Set up Windows Server Update Services for lab network </a>
 
