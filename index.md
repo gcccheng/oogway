@@ -80,6 +80,8 @@ Cryptography and SSH remote logins
 Intergrate Linux to Windows Domain
   
 Set up local Active Directory service with LDAP
+  
+<a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus"> Set up Windows Server Update Services for lab network </a>
 
 <a href="https://guacamole.apache.org/">Using Apache Guacamole as free and open-source cross-platform Remote Desktop Gateway</a>
   
