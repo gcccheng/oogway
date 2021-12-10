@@ -4,7 +4,7 @@ title: Gang Cheng's CV
 ---
 # Gang Cheng
 
-System Operation Engineer
+Senior Engineer
 
 <div id="webaddress">
 <a href="https://www.med.uio.no/ncmm/personer/adm/gangch/index.html">My UiO page</a> | <a href="https://www.linkedin.com/in/gang-cheng-7170a521/">My Linkedin page</a>
@@ -36,6 +36,8 @@ University of Oslo: Master in Network and System Administration
 ## Certificate
 <a href="https://www.redhat.com/en/services/certification/rhcsa"> Red Hat 8 Certified System Administrator</a>
 ## Courses
+<a href="https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/"> MicroSoft Azure Foundamentals </a>
+
 <a href="https://www.uio.no/studier/emner/matnat/ifi/INF5004NSA/index.html"> Intrusion detection and firewalls </a>
 
 <a href="https://www.uio.no/studier/emner/matnat/ifi/INF4018NSA/index.html"> Enterprise Networking: Practices and Technologies </a>
@@ -53,6 +55,8 @@ University of Oslo: Master in Network and System Administration
 <a href="https://www.edx.org/course/fundamentals-of-containers-kubernetes-and-red-hat">Red Hat: Fundamentals of Containers, Kubernetes, and Red Hat OpenShift</a>
 
 ## Workshops
+  
+ <a href="https://docs.microsoft.com/en-us/system-center/vmm/manage-azure-vms?view=sc-vmm-2019"> Manage vm, virtul network, firewall on Azure </a>
   
 <a href="http://modules.sourceforge.net/">Using Environment Modules to initialize shell and modify shell environment</a>
   
