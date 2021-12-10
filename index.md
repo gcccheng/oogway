@@ -17,7 +17,8 @@ Main skills reside in Red Hat Linux administration and have extended to the tech
 Linux Network and System Operation
 ## Currently
 `2012-Now`
-**System Engineer at UiO**
+**Senior Engineer at NCMM UiO**
+
 Be responsible to deliver a reliable scientific computing infrastructure to researchers at Centre for Molecular Medicine Norway, University of Oslo. Main tasks:
 
 1.Install, configure and maintain rhel server for a variety of services including computing, virtualization, database, web, Samba, NFS, inventory...
@@ -48,7 +49,7 @@ University of Oslo: Master in Network and System Administration
 
 <a href="https://www.uio.no/studier/emner/matnat/ifi/INF1100/index-eng.html">Introduction to programming with scientific applications</a>
 
-<a href="https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS162x+3T2019/home"> Linux Foundation: Introduction to DevOps and Site Reliability Engineering</a>
+<a href="https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS162x+3T2019/home"> Linux Foundation: Introduction to DevOps and Site Reliability Engineering(Graded and Certified)</a>
 
 <a href="https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS151.x+2T2020/home"> Linux Foundation: Introduction to Cloud Infrastructure Technologies
 
@@ -75,7 +76,10 @@ Cryptography and SSH remote logins
 <a href="https://www.uio.no/tjenester/it/forskning/kompetansehuber/uio-ai-hub-node-project/it-resources/"> AI at UiO </a>
 
 ## Projects
-Integrate Active Directory and Linux Environments
+  
+Intergrate Linux to Windows Domain
+  
+Set up local Active Directory service with LDAP
 
 <a href="https://guacamole.apache.org/">Using Apache Guacamole as free and open-source cross-platform Remote Desktop Gateway</a>
   
