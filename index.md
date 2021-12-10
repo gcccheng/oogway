@@ -90,7 +90,7 @@ Red Hat, Windows Server, Bash, Perl, SCCM, KVM, Dell PowerEdge series, <a href="
 
 ## Exposure Skills
 
-AWS, MS Azure, Docker Container, Openstack, Terraform, Vagrant, IPv6
+AWS, MS Azure, Docker Container, Openstack, Terraform, Vagrant
   
 ## Hobbies 
 Blog writing, Skiing and hiking
