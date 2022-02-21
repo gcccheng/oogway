@@ -36,6 +36,8 @@ Be responsible to deliver a reliable scientific computing infrastructure to rese
 University of Oslo: Master in Network and System Administration
 ## Certificate
 <a href="https://www.redhat.com/en/services/certification/rhcsa"> Red Hat 8 Certified System Administrator</a>
+
+
 <a href="https://www.redhat.com/en/services/certification/red-hat-certified-specialist-in-containers-and-kubernetes"> Red Hat Certified Specialist in Containers and Kubernetes</a>
 
 
