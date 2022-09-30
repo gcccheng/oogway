@@ -82,6 +82,8 @@ Cryptography and SSH remote logins
 
 ## Projects
   
+Build Foreman+Ansible+Smart Proxy and provision hosts for large infrastructure
+  
 Intergrate Linux to Windows Domain
   
 Set up local directory service with Openldap
