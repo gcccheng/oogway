@@ -11,10 +11,10 @@ Senior Engineer
 </div>
 
 ## Summary
-Main skills reside in Red Hat Linux administration and have extended to the technologies around it listed below. Proved skills at communicating with coworkers and clients at varying levels of technical expertise. Strong trouble-shooting and documentation skills. Rapidly self-orienting in new environments and a quick learner.
+Main skills reside in Red Hat filed and have extended to the technologies around it listed below. Proved skills at communicating with coworkers and clients at varying levels of technical expertise. Strong trouble-shooting and documentation skills. Rapidly self-orienting in new environments and a quick learner.
 ## Specialized in
 
-Linux Network and System Operation
+Red Hat Linux system, Red Hat Satellite, Ansible, Red Hat Openshift
 ## Currently
 `2012-Now`
 **Senior Engineer at NCMM UiO**
@@ -35,6 +35,11 @@ Be responsible to deliver a reliable scientific computing infrastructure to rese
 `2010-2012`
 University of Oslo: Master in Network and System Administration
 ## Certificate
+
+<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Specialist in Deployment and Systems Management</a>
+
+<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Engineer</a>
+
 <a href="https://www.redhat.com/en/services/certification/rhcsa"> Red Hat 8 Certified System Administrator</a>
 
 
