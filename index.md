@@ -11,7 +11,7 @@ Senior Engineer
 </div>
 
 ## Summary
-Main skills reside in Red Hat filed and have extended to the technologies around it listed below. Proved skills at communicating with coworkers and clients at varying levels of technical expertise. Strong trouble-shooting and documentation skills. Rapidly self-orienting in new environments and a quick learner.
+Main skills reside in Red Hat field and have extended to the technologies around it listed below. Proved skills at communicating with coworkers and clients at varying levels of technical expertise. Strong trouble-shooting and documentation skills. Rapidly self-orienting in new environments and a quick learner.
 ## Specialized in
 
 Red Hat Linux system, Red Hat Satellite, Ansible, Red Hat Openshift
