@@ -18,6 +18,7 @@ Red Hat Linux system, Red Hat Satellite, Ansible, Red Hat Openshift
 ## Currently
 `2022-Now`
 **Senior Infrastructure Engineer at Sopra Steria**
+
 Work on variety of project with clients, including
 
 1. Test, install, troubleshooting, maintain Microsoft Defender on large scale of Linux machines.
