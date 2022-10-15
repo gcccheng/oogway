@@ -16,7 +16,17 @@ Main skills reside in Red Hat field and have extended to the technologies around
 
 Red Hat Linux system, Red Hat Satellite, Ansible, Red Hat Openshift
 ## Currently
-`2012-Now`
+`2022-Now`
+**Senior Infrastructure Engineer at Sopra Steria**
+Work on variety of project with clients, including
+
+1. Test, install, troubleshooting, maintain Microsoft Defender on large scale of Linux machines.
+
+2. Responsible for the planning, deployment, and management of multiple physical or virtualized servers using Red Hat Satellite.
+
+3. Adminstrate Satellite + VMWare + Red Hat Enterprise + Openshift infrastructure with Ansible.
+
+`2012-2022`
 **Senior Engineer at NCMM UiO**
 
 Be responsible to deliver a reliable scientific computing infrastructure to researchers at Centre for Molecular Medicine Norway, University of Oslo. Main tasks:
