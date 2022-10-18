@@ -11,10 +11,10 @@ Senior Engineer
 </div>
 
 ## Summary
-Main skills reside in Red Hat field and have extended to the technologies around it listed below. Proved skills at communicating with coworkers and clients at varying levels of technical expertise. Strong trouble-shooting and documentation skills. Rapidly self-orienting in new environments and a quick learner.
+Technical skills start with network and system administration and have extended to the Devops engineering and site reliability engineering. Good Communication skills with coworkers and clients at varying levels of technical expertise. Rapidly self-orienting in new environments and a quick learner.
 ## Specialized in
 
-Red Hat Linux system, Red Hat Satellite, Ansible, Red Hat Openshift
+Red Hat Linux system, Red Hat Satellite, Ansible, Red Hat Openshift, Windows SCCM 
 ## Currently
 `2022-Now`
 **Senior Infrastructure Engineer at Sopra Steria**
@@ -23,24 +23,26 @@ Work on variety of project with clients, including
 
 1. Test, install, troubleshooting, maintain Microsoft Defender on large scale of Linux machines.
 
-2. Responsible for the planning, deployment, and management of multiple physical or virtualized servers using Red Hat Satellite.
+2. Provision and manage physical or virtualized servers using Red Hat Satellite.
 
 3. Adminstrate Satellite + VMWare + Red Hat Enterprise + Openshift infrastructure with Ansible.
 
 `2012-2022`
-**Senior Engineer at NCMM UiO**
+**Senior Engineer at UiO**
 
 Be responsible to deliver a reliable scientific computing infrastructure to researchers at Centre for Molecular Medicine Norway, University of Oslo. Main tasks:
 
 1.Install, configure and maintain rhel server for a variety of services including computing, virtualization, database, web, Samba, NFS, inventory...
 
-2.Install and maintain complex software pipelines that contain an increasing number of software dependencies to function properly.
+2.Deploy and manage Windows machines with SCCM.
 
-3.Maintain DNS, DHCP, NAT and FirewallD services for different networks.
+3.Install and maintain complex scientific applications with increasing and unstable dependencies to function properly.
 
-4.Daily admin work including account management, storage management, security, monitoring and problem troubleshooting.
+4.Maintain DNS, DHCP, NAT and FirewallD services for different networks.
 
-5.Purchase hardware, plan/design infrastructure, deploy new technology to accommodate researching needs.
+5.Daily admin work including account management, storage management, security, monitoring and problem troubleshooting.
+
+6.Purchase hardware, plan/design infrastructure, deploy new technology to accommodate researching needs.
 
 ## Education
 `2010-2012`
@@ -124,6 +126,8 @@ Blog writing, Skiing and hiking
 English: Full Professional Working Proficiency
   
 Norwegian: Daily Conversation, Limited Professional Working Proficiency
+
+Mandarin: Native speaker
   
 
 <!-- ### Footer
