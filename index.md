@@ -26,44 +26,44 @@ He has worked on variety of project with clients, including
 
 He has take full responsibility to deploy rhel9 to the production environment. Tasks are done with Ansible and can be listed as
 
-  1. Create customized Red Hat image and template for VMWare vSphere virtual machine.
+  1. 1. Create customized Red Hat image and template for VMWare vSphere virtual machine.
 
-  2. Configure and deploy rhel9.
+  2. 2. Configure and deploy rhel9.
 
-      1. Configure system, subscription, network, application.
+      1. 1. Configure system, subscription, network, application.
     
-      2. Integrate to Windows Active Directory
+      2. 2. Integrate to Windows Active Directory
  
 `project`
 **Migrate Ansible Tower to Ansible Automation Platform**
 
 He has taken part in setting up and testing Ansible Automation Platform and migrating playbooks to new platform.
 
-  1. Install Ansible Automation Platform and configure with Bitbucket.
+  1. 1. Install Ansible Automation Platform and configure with Bitbucket.
 
-  2. Migrate playbooks to new platform and troubleshooting errors
+  2. 2. Migrate playbooks to new platform and troubleshooting errors
 
 `project`
 **Automate patching process for large scale of Red Hat machines**
 
 He has simplified and improved existing procedure of patching with Ansible and Satellite.
 
-  1. Devide existing machines into different environment.
+  1. 1. Devide existing machines into different environment.
 
-  2. Set priorities on machines by criticality.
+  2. 2. Set priorities on machines by criticality.
 
-  3. Designed Ansible workflow to automate the process of patching.
+  3. 3. Designed Ansible workflow to automate the process of patching.
 
 `project`
 **Deploy security application to infrastructure**
 
 He has taken full responsibility to deploy cloud-based security application to the whole infrastructure.
 
-  1. Troubleshooting installing errors and tackle performance issue.
+  1. 1. Troubleshooting installing errors and tackle performance issue.
 
-  2. Customize security rules for machine for its functionality.
+  2. 2. Customize security rules for machine for its functionality.
 
-  3. Communicate between different parties including application provider, license provider, network group and security group.
+  3. 3. Communicate between different parties including application provider, license provider, network group and security group.
 
 
 `2012-2022`
@@ -71,17 +71,17 @@ He has taken full responsibility to deploy cloud-based security application to t
 
 Gang started at UiO as master student and has taken responsiblity to deliver a reliable scientific computing infrastructure to researchers at Centre for Molecular Medicine Norway, University of Oslo. Main tasks include:
 
-  1. Install, configure and maintain rhel server for a variety of services including computing, virtualization, database, web, Samba, NFS, inventory...
+  1. 1. Install, configure and maintain rhel server for a variety of services including computing, virtualization, database, web, Samba, NFS, inventory...
 
-  2. Deploy and manage Windows machines with SCCM.
+  2. 2. Deploy and manage Windows machines with SCCM.
 
-  3. Install and maintain complex scientific applications with increasing and unstable dependencies to function properly.
+  3. 3. Install and maintain complex scientific applications with increasing and unstable dependencies to function properly.
 
-  4. Maintain DNS, DHCP, NAT and FirewallD services for different networks.
+  4. 4. Maintain DNS, DHCP, NAT and FirewallD services for different networks.
 
-  5. Daily admin work including account management, storage management, security, monitoring and problem troubleshooting.
+  5. 5. Daily admin work including account management, storage management, security, monitoring and problem troubleshooting.
 
-  6. Purchase hardware, plan/design infrastructure, deploy new technology to accommodate researching needs.
+  6. 6. Purchase hardware, plan/design infrastructure, deploy new technology to accommodate researching needs.
 
 ## Education
 `2010-2012`
