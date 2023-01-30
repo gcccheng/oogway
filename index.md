@@ -17,22 +17,25 @@ Technical skills start with network and system administration and have extended 
 Red Hat Linux system, Red Hat Satellite, Ansible, Red Hat Openshift, Windows SCCM 
 ## Currently
 `2022-Now`
-**Senior Infrastructure Engineer at Sopra Steria**
+**<font size= "5">Senior Infrastructure Engineer at Sopra Steria</font>**
 
 Work on variety of project with clients, including
 
 `project`
-***Test, install, troubleshooting, maintain Microsoft Defender on large scale of Linux machines.
+**Deploy Red Hat 9 to production infrastructure**
+
+Test, install, troubleshooting, maintain Microsoft Defender on large scale of Linux machines.
 
 adasdfasdf
 
 `project`
-***Provision and manage physical or virtualized servers using Red Hat Satellite.
+Provision and manage physical or virtualized servers using Red Hat Satellite.
 
 asdfasdf
 
 
-3. Adminstrate Satellite + VMWare + Red Hat Enterprise + Openshift infrastructure with Ansible.
+`project`
+Adminstrate Satellite + VMWare + Red Hat Enterprise + Openshift infrastructure with Ansible.
 
 `2012-2022`
 **Senior Engineer at UiO**
