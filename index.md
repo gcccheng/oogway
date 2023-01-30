@@ -11,7 +11,7 @@ Senior Engineer
 </div>
 
 ## Summary
-Technical skills start with network and system administration and have extended to the Devops engineering and site reliability engineering. Good Communication skills with coworkers and clients at varying levels of technical expertise. Rapidly self-orienting in new environments and a quick learner.
+Gang Cheng has over 10 years of working experience in large public sectors with complex and demanding IT Infrastructure in Norway. He has been working in the environment mixed with local data center, private/public cloud and  Windows-Linux. His technical skills start from network and system administration and have extended to the devops engineering and site reliability engineering. Gang is enthusiastic to new technoloy and has presented good communication skills to coworkers and clients. 
 ## Specialized in
 
 Red Hat Linux system, Red Hat Satellite, Ansible, Red Hat Openshift, Windows SCCM 
@@ -19,40 +19,58 @@ Red Hat Linux system, Red Hat Satellite, Ansible, Red Hat Openshift, Windows SCC
 `2022-Now`
 ***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
 
-Work on variety of project with clients, including
+He has worked on variety of project with clients, including
 
 `project`
 **Deploy Red Hat 9 to production infrastructure**
 
-Test, install, troubleshooting, maintain Microsoft Defender on large scale of Linux machines.
+He has take full responsibility to deploy rhel9 to the production environment. Tasks are done with Ansible and can be listed as
+1. Create customized Red Hat image and template for VMWare vSphere virtual machine.
+2. Configure and deploy rhel9.
+    1. Configure system, subscription, network, application.
+    2. Integrate to Windows Active Directory
+ 
+`project`
+**Migrate Ansible Tower to Ansible Automation Platform**
 
-adasdfasdf
+He has taken part in setting up and testing Ansible Automation Platform and migrating playbooks to new platform.
+1. Install Ansible Automation Platform and configure with Bitbucket.
+2. Migrate playbooks to new platform and troubleshooting errors
 
 `project`
-Provision and manage physical or virtualized servers using Red Hat Satellite.
+**Automate patching process for large scale of Red Hat machines**
 
-asdfasdf
-
+He has simplified and improved existing procedure of patching with Ansible and Satellite.
+1. Devide existing machines into different environment.
+2. Set priorities on machines by criticality.
+3. Designed Ansible workflow to automate the process of patching.
 
 `project`
-Adminstrate Satellite + VMWare + Red Hat Enterprise + Openshift infrastructure with Ansible.
+**Deploy security application to infrastructure**
+
+He has taken full responsibility to deploy cloud-based security application to the whole infrastructure.
+1. Troubleshooting installing errors and tackle performance issue.
+2. Customize security rules for machine for its functionality.
+3. Communicate between different parties including application provider, license provider, network group and security group.
+
 
 `2012-2022`
-**Senior Engineer at UiO**
+***<font size= "3">System Engineer at University of Oslo</font>***
 
-Be responsible to deliver a reliable scientific computing infrastructure to researchers at Centre for Molecular Medicine Norway, University of Oslo. Main tasks:
 
-1.Install, configure and maintain rhel server for a variety of services including computing, virtualization, database, web, Samba, NFS, inventory...
+Gang started at UiO as master student and has taken responsiblity to deliver a reliable scientific computing infrastructure to researchers at Centre for Molecular Medicine Norway, University of Oslo. Main tasks include:
 
-2.Deploy and manage Windows machines with SCCM.
+1. Install, configure and maintain rhel server for a variety of services including computing, virtualization, database, web, Samba, NFS, inventory...
 
-3.Install and maintain complex scientific applications with increasing and unstable dependencies to function properly.
+2. Deploy and manage Windows machines with SCCM.
 
-4.Maintain DNS, DHCP, NAT and FirewallD services for different networks.
+3. Install and maintain complex scientific applications with increasing and unstable dependencies to function properly.
 
-5.Daily admin work including account management, storage management, security, monitoring and problem troubleshooting.
+4. Maintain DNS, DHCP, NAT and FirewallD services for different networks.
 
-6.Purchase hardware, plan/design infrastructure, deploy new technology to accommodate researching needs.
+5. Daily admin work including account management, storage management, security, monitoring and problem troubleshooting.
+
+6. Purchase hardware, plan/design infrastructure, deploy new technology to accommodate researching needs.
 
 ## Education
 `2010-2012`
