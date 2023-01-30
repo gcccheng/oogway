@@ -2,7 +2,7 @@
 layout: cv
 title: Gang Cheng's CV
 ---
-# Gang Cheng
+# Gang Cheng 1
 
 Senior Engineer
 
@@ -23,22 +23,27 @@ He has worked on variety of project with clients, including
 
 `project`
 **Deploy Red Hat 9 to production infrastructure**
+
 He has take full responsibility to deploy rhel9 to the production environment. Tasks are done with Ansible and can be listed as
+
 1. Create customized Red Hat image and template for VMWare vSphere virtual machine.
-2. Configure and deploy rhel9.
+
+3. Configure and deploy rhel9.
     1. Configure system, subscription, network, application.
     2. Integrate to Windows Active Directory
  
 `project`
 **Migrate Ansible Tower to Ansible Automation Platform**
+
 He has taken part in setting up and testing Ansible Automation Platform and migrating playbooks to new platform.
 
 1. Install Ansible Automation Platform and configure with Bitbucket.
-2. 
+
 3. Migrate playbooks to new platform and troubleshooting errors
 
 `project`
 **Automate patching process for large scale of Red Hat machines**
+
 He has simplified and improved existing procedure of patching with Ansible and Satellite.
 
 1. Devide existing machines into different environment.
@@ -60,6 +65,7 @@ He has taken full responsibility to deploy cloud-based security application to t
 
 `2012-2022`
 ***<font size= "3">System Engineer at University of Oslo</font>***
+
 Gang started at UiO as master student and has taken responsiblity to deliver a reliable scientific computing infrastructure to researchers at Centre for Molecular Medicine Norway, University of Oslo. Main tasks include:
 
 1. Install, configure and maintain rhel server for a variety of services including computing, virtualization, database, web, Samba, NFS, inventory...
