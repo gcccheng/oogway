@@ -21,9 +21,16 @@ Red Hat Linux system, Red Hat Satellite, Ansible, Red Hat Openshift, Windows SCC
 
 Work on variety of project with clients, including
 
-1. Test, install, troubleshooting, maintain Microsoft Defender on large scale of Linux machines.
+`project`
+***Test, install, troubleshooting, maintain Microsoft Defender on large scale of Linux machines.
 
-2. Provision and manage physical or virtualized servers using Red Hat Satellite.
+adasdfasdf
+
+`project`
+***Provision and manage physical or virtualized servers using Red Hat Satellite.
+
+asdfasdf
+
 
 3. Adminstrate Satellite + VMWare + Red Hat Enterprise + Openshift infrastructure with Ansible.
 
