@@ -29,8 +29,10 @@ He has take full responsibility to deploy rhel9 to the production environment. T
 1. Create customized Red Hat image and template for VMWare vSphere virtual machine.
 
 3. Configure and deploy rhel9.
+
     1. Configure system, subscription, network, application.
-    2. Integrate to Windows Active Directory
+    
+    3. Integrate to Windows Active Directory
  
 `project`
 **Migrate Ansible Tower to Ansible Automation Platform**
@@ -47,20 +49,21 @@ He has taken part in setting up and testing Ansible Automation Platform and migr
 He has simplified and improved existing procedure of patching with Ansible and Satellite.
 
 1. Devide existing machines into different environment.
-2. 
-3. Set priorities on machines by criticality.
-4. 
-5. Designed Ansible workflow to automate the process of patching.
+
+2. Set priorities on machines by criticality.
+
+3. Designed Ansible workflow to automate the process of patching.
 
 `project`
 **Deploy security application to infrastructure**
+
 He has taken full responsibility to deploy cloud-based security application to the whole infrastructure.
 
 1. Troubleshooting installing errors and tackle performance issue.
 
-3. Customize security rules for machine for its functionality.
+2. Customize security rules for machine for its functionality.
 
-5. Communicate between different parties including application provider, license provider, network group and security group.
+3. Communicate between different parties including application provider, license provider, network group and security group.
 
 
 `2012-2022`
