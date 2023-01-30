@@ -32,22 +32,30 @@ He has take full responsibility to deploy rhel9 to the production environment. T
 `project`
 **Migrate Ansible Tower to Ansible Automation Platform**
 He has taken part in setting up and testing Ansible Automation Platform and migrating playbooks to new platform.
+
 1. Install Ansible Automation Platform and configure with Bitbucket.
-2. Migrate playbooks to new platform and troubleshooting errors
+2. 
+3. Migrate playbooks to new platform and troubleshooting errors
 
 `project`
 **Automate patching process for large scale of Red Hat machines**
 He has simplified and improved existing procedure of patching with Ansible and Satellite.
+
 1. Devide existing machines into different environment.
-2. Set priorities on machines by criticality.
-3. Designed Ansible workflow to automate the process of patching.
+2. 
+3. Set priorities on machines by criticality.
+4. 
+5. Designed Ansible workflow to automate the process of patching.
 
 `project`
 **Deploy security application to infrastructure**
 He has taken full responsibility to deploy cloud-based security application to the whole infrastructure.
+
 1. Troubleshooting installing errors and tackle performance issue.
-2. Customize security rules for machine for its functionality.
-3. Communicate between different parties including application provider, license provider, network group and security group.
+
+3. Customize security rules for machine for its functionality.
+
+5. Communicate between different parties including application provider, license provider, network group and security group.
 
 
 `2012-2022`
