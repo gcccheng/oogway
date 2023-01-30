@@ -17,7 +17,7 @@ Technical skills start with network and system administration and have extended 
 Red Hat Linux system, Red Hat Satellite, Ansible, Red Hat Openshift, Windows SCCM 
 ## Currently
 `2022-Now`
-**<font size= "5">Senior Infrastructure Engineer at Sopra Steria</font>**
+**<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>**
 
 Work on variety of project with clients, including
 
