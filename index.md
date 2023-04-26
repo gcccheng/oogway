@@ -23,6 +23,14 @@ Red Hat Linux, Red Hat Satellite, Ansible, Red Hat Openshift, Red Hat Automation
 ***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
 
 During past years, Gang has contributed to a variety of projects for clients, including:
+ 
+`project`
+**Automate Infrastructure Workflow with Ansible Automation Platform(AAP)**
+
+Managing a modern infrastructure can be a challenging task, and implementing automation can greatly reduce maunal work. Gang participated in setting up Ansible Automation Platform(AAP) and integrating infrastructure workflow to AAP. 
+  1. Installing Ansible Automation Platform and testing functionalities.
+
+  2. Communicating with various parties within infrastructure such as developing team, database team, security team to design workflow that can reduce errors, improve effeciency and enhance performnance.
 
 `project`
 **Deploy Red Hat 9 to production infrastructure**
@@ -35,16 +43,7 @@ Gang was responsible for deploying Red Hat 9 to the production environment, util
   3. Configuring and deploying RHEL9, including system configuration, subscription management, network configuration, and application integration
   
   5. Integrating the system with Windows Active Directory
-
- 
-`project`
-**Automate Infrastructure Workflow with Ansible Automation Platform(AAP)**
-
-Managing a modern infrastructure can be a challenging task, and implementing automation can greatly reduce maunal work. Gang participated in setting up Ansible Automation Platform(AAP) and integrating infrastructure workflow to AAP. 
-  1. Installing Ansible Automation Platform and testing functionalities.
-
-  2. Communicating with various parties within infrastructure such as developing team, database team, security team to design workflow that can reduce errors, improve effeciency and enhance performnance.
-
+  
 `project`
 **Automate patching process for large scale of Red Hat machines**
 
