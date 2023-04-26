@@ -18,7 +18,7 @@ Gang has a strong passion for staying up-to-date with emerging technologies and 
 ## Specialized in
 
 Red Hat Linux, Red Hat Satellite, Ansible, Red Hat Openshift, Red Hat Automation Platform, Microsoft Defender on Linux, Windows SCCM 
-## Enployment
+## Employment
 `2022-Now`
 ***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
 
