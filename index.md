@@ -38,13 +38,12 @@ Gang was responsible for deploying Red Hat 9 to the production environment, util
 
  
 `project`
-**Migrate Ansible Tower to Ansible Automation Platform**
+**Automate Infrastructure Workflow with Ansible Automation Platform(AAP)**
 
-Gang played a critical role in setting up and testing Ansible Automation Platform, as well as migrating playbooks to the new platform. His tasks included:
+Managing a modern infrastructure can be a challenging task, and implementing automation can greatly reduce maunal work. Gang participated in setting up Ansible Automation Platform(AAP) and integrating infrastructure workflow to AAP. 
+  1. Installing Ansible Automation Platform and testing functionalities.
 
-  1. Installing Ansible Automation Platform and configure with Bitbucket.
-
-  2. Migrate playbooks to new platform and troubleshooting errors
+  2. Communicating with various parties within infrastructure such as developing team, database team, security team to design workflow that can reduce errors, improve effeciency and enhance performnance.
 
 `project`
 **Automate patching process for large scale of Red Hat machines**
