@@ -11,77 +11,80 @@ Senior Engineer
 </div>
 
 ## Summary
-Gang Cheng has over 10 years of working experience in large public sectors with complex and demanding IT Infrastructure in Norway. He has been working in the environment mixed with local data center, private/public cloud and  Windows-Linux. His technical skills start from network and system administration and have extended to the devops engineering and site reliability engineering. Gang is enthusiastic to new technoloy and has presented good communication skills to coworkers and clients. 
+Gang Cheng is an experienced IT professional with over 10 years of experience working in complex and demanding IT infrastructure environments in the public sector in Norway. His expertise spans network and system administration, devops engineering, and site reliability engineering, with a focus on managing a mixed environment of local data centers, private/public clouds, and Windows-Linux systems.
+
+Gang has a strong passion for staying up-to-date with emerging technologies and is skilled at communicating effectively with colleagues and clients. His technical proficiency, combined with his ability to collaborate effectively, has enabled him to successfully deliver high-quality IT solutions that meet business needs.
+
 ## Specialized in
 
-Red Hat Linux system, Red Hat Satellite, Ansible, Red Hat Openshift, Windows SCCM 
+Red Hat Linux, Red Hat Satellite, Ansible, Red Hat Openshift, Red Hat Automation Platform, Microsoft Defender on Linux, Windows SCCM 
 ## Currently
 `2022-Now`
 ***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
 
-He has worked on variety of project with clients, including
+During past years, Gang has contributed to a variety of projects for clients, including:
 
 `project`
 **Deploy Red Hat 9 to production infrastructure**
 
-He has take full responsibility to deploy rhel9 to the production environment. Tasks are done with Ansible and can be listed as
+Gang was responsible for deploying Red Hat 9 to the production environment, utilizing Ansible for automation. His tasks included:
 
-  1. Create customized Red Hat image and template for VMWare vSphere virtual machine.
 
-  2. Configure and deploy rhel9.
+  1. Creating a customized Red Hat image and a template for a VMware vSphere virtual machine
+  
+  3. Configuring and deploying RHEL9, including system configuration, subscription management, network configuration, and application integration
+  
+  5. Integrating the system with Windows Active Directory
 
-      1. Configure system, subscription, network, application.
-    
-      2. Integrate to Windows Active Directory
  
 `project`
 **Migrate Ansible Tower to Ansible Automation Platform**
 
-He has taken part in setting up and testing Ansible Automation Platform and migrating playbooks to new platform.
+Gang played a critical role in setting up and testing Ansible Automation Platform, as well as migrating playbooks to the new platform. His tasks included:
 
-  1. Install Ansible Automation Platform and configure with Bitbucket.
+  1. Installing Ansible Automation Platform and configure with Bitbucket.
 
   2. Migrate playbooks to new platform and troubleshooting errors
 
 `project`
 **Automate patching process for large scale of Red Hat machines**
 
-He has simplified and improved existing procedure of patching with Ansible and Satellite.
+Gang simplified and improved the existing patching procedure, utilizing Ansible and Satellite. His tasks included:
 
   1. Devide existing machines into different environment.
 
-  2. Set priorities on machines by criticality.
+  2. Prioritizing machines based on criticality.
 
-  3. Designed Ansible workflow to automate the process of patching.
+  3. Designing Ansible workflow to automate the process of patching.
 
 `project`
 **Deploy security application to infrastructure**
 
-He has taken full responsibility to deploy cloud-based security application to the whole infrastructure.
+Gang took full responsibility for deploying a cloud-based security application to the entire infrastructure. His tasks included:
 
-  1. Troubleshooting installing errors and tackle performance issue.
+  1. Troubleshooting installing errors and performance issue.
 
-  2. Customize security rules for machine for its functionality.
+  2. Customize security rules for each machine to ensure functionality.
 
-  3. Communicate between different parties including application provider, license provider, network group and security group.
+  3. Communicating between various parties including application provider, license provider, network group and security group.
 
 
 `2012-2022`
 ***<font size= "3">System Engineer at University of Oslo</font>***
 
-Gang started at UiO as master student and has taken responsiblity to deliver a reliable scientific computing infrastructure to researchers at Centre for Molecular Medicine Norway, University of Oslo. Main tasks include:
+At the University of Oslo, Gang was responsible for delivering a reliable scientific computing infrastructure to researchers at the Centre for Molecular Medicine Norway. His main tasks included:
 
-  1. Install, configure and maintain rhel server for a variety of services including computing, virtualization, database, web, Samba, NFS, inventory...
+  1. Installing, configuring, and maintaining RHEL servers for a variety of services, including computing, virtualization, database, web, Samba, NFS, and inventory
 
-  2. Deploy and manage Windows machines with SCCM.
+  2. Deploying and managing Windows machines with SCCM
 
-  3. Install and maintain complex scientific applications with increasing and unstable dependencies to function properly.
+  3. Installing and maintaining complex scientific applications with increasing and unstable dependencies.
 
   4. Maintain DNS, DHCP, NAT and FirewallD services for different networks.
 
-  5. Daily admin work including account management, storage management, security, monitoring and problem troubleshooting.
-
-  6. Purchase hardware, plan/design infrastructure, deploy new technology to accommodate researching needs.
+  5. Performing daily admin work, including account management, storage management, security, monitoring, and problem troubleshooting.
+  
+  7. Purchasing hardware, planning/designing infrastructure, and deploying new technology to accommodate research needs.
 
 ## Education
 `2010-2012`
@@ -94,11 +97,13 @@ University of Oslo: Master in Network and System Administration
 
 <a href="https://www.redhat.com/en/services/certification/rhcsa"> Red Hat 8 Certified System Administrator</a>
 
+<a href="https://www.credly.com/earner/earned/badge/ec0cd8f2-d4d4-472b-b143-1a93702989dd"> Microsoft Certified: Azure Fundamentals</a>
 
 <a href="https://www.redhat.com/en/services/certification/red-hat-certified-specialist-in-containers-and-kubernetes"> Red Hat Certified Specialist in Containers and Kubernetes</a>
 
 
 ## Courses
+
 <a href="https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/"> MicroSoft Azure Foundamentals </a>
 
 <a href="https://www.uio.no/studier/emner/matnat/ifi/INF5004NSA/index.html"> Intrusion detection and firewalls </a>
