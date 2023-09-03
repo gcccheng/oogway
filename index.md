@@ -88,6 +88,7 @@ At the University of Oslo, Gang was responsible for delivering a reliable scient
 `2010-2012`
 University of Oslo: Master in Network and System Administration
 ## Certificate
+<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified OpenShift Administrator</a>
 
 <a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Specialist in Deployment and Systems Management</a>
 
