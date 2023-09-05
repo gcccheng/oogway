@@ -11,7 +11,7 @@ Senior Engineer
 </div>
 
 ## Summary
-Gang Cheng is an experienced IT professional with over 10 years of experience working in complex and demanding IT infrastructure environments in the public sector in Norway. His expertise spans network and system administration, devops engineering, and site reliability engineering, with a focus on managing a mixed environment of local data centers, private/public clouds, and Windows-Linux systems.
+Gang Cheng is an experienced IT professional with over 10 years of experience working in complex and demanding IT infrastructure environments in large sectors in Norway. His expertise spans from network and system administration to DevOps engineering, and site reliability engineering, with a focus on managing a mixed environment of local data centers, private/public clouds, bare metal machines/container platforms, and Windows-Linux systems.
 
 Gang has a strong passion for staying up-to-date with emerging technologies and is skilled at communicating effectively with colleagues and clients. His technical proficiency, combined with his ability to collaborate effectively, has enabled him to successfully deliver high-quality IT solutions that meet business needs.
 
@@ -27,10 +27,10 @@ During past years, Gang has contributed to a variety of projects for clients, in
 `project`
 **Automate Infrastructure Workflow with Ansible Automation Platform(AAP)**
 
-Managing a modern infrastructure can be a challenging task, and implementing automation can greatly reduce maunal work. Gang participated in setting up Ansible Automation Platform(AAP) and integrating infrastructure workflow to AAP. 
+Managing a modern infrastructure can be a challenging task, and implementing automation can greatly reduce manual work. Gang participated in setting up Ansible Automation Platform(AAP) and integrating infrastructure workflow into AAP. 
   1. Installing Ansible Automation Platform and testing functionalities.
 
-  2. Communicating with various parties within infrastructure such as developing team, database team, security team to design workflow that can reduce errors, improve effeciency and enhance performnance.
+  2. Communicating with various parties within infrastructure such as the developing team, database team, and security team to design workflow that can reduce errors, improve efficiency and enhance performance.
 
 `project`
 **Deploy Red Hat 9 to production infrastructure**
@@ -45,11 +45,11 @@ Gang was responsible for deploying Red Hat 9 to the production environment, util
   5. Integrating the system with Windows Active Directory
   
 `project`
-**Automate patching process for large scale of Red Hat machines**
+**Automate patching process for large-scale of Red Hat machines**
 
 Gang simplified and improved the existing patching procedure, utilizing Ansible and Satellite. His tasks included:
 
-  1. Devide existing machines into different environment.
+  1. Divide existing machines into different environments.
 
   2. Prioritizing machines based on criticality.
 
@@ -60,35 +60,36 @@ Gang simplified and improved the existing patching procedure, utilizing Ansible 
 
 Gang took full responsibility for deploying a cloud-based security application to the entire infrastructure. His tasks included:
 
-  1. Troubleshooting installing errors and performance issue.
+  1. Troubleshooting installing errors and performance issues.
 
   2. Customize security rules for each machine to ensure functionality.
 
-  3. Communicating between various parties including application provider, license provider, network group and security group.
+  3. Communicating between various parties including application provider, license provider, network group, and security group.
 
 
 `2012-2022`
 ***<font size= "3">System Engineer at University of Oslo</font>***
 
-At the University of Oslo, Gang was responsible for delivering a reliable scientific computing infrastructure to researchers at the Centre for Molecular Medicine Norway. His main tasks included:
+At the University of Oslo, Gang was responsible for managing a local data center for delivering a reliable scientific computing infrastructure to researchers at the Centre for Molecular Medicine Norway. His main tasks included:
 
-  1. Installing, configuring, and maintaining RHEL servers for a variety of services, including computing, virtualization, database, web, Samba, NFS, and inventory
+  1. Installing, configuring, and maintaining Dell/HP/Red Hat servers for a variety of services, including computing, virtualization, database, web, Samba, NFS, and inventory
 
   2. Deploying and managing Windows machines with SCCM
 
   3. Installing and maintaining complex scientific applications with increasing and unstable dependencies.
 
-  4. Maintain DNS, DHCP, NAT and FirewallD services for different networks.
-
   5. Performing daily admin work, including account management, storage management, security, monitoring, and problem troubleshooting.
   
-  7. Purchasing hardware, planning/designing infrastructure, and deploying new technology to accommodate research needs.
+  7. Assisting researchers using the HPC system at the University of Oslo.
 
 ## Education
 `2010-2012`
 University of Oslo: Master in Network and System Administration
 ## Certificate
 <a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified OpenShift Administrator</a>
+
+<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Specialist in Managing Automation with Ansible Automation Platform
+</a>
 
 <a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Specialist in Deployment and Systems Management</a>
 
