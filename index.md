@@ -123,10 +123,12 @@ University of Oslo: Master in Network and System Administration
 <a href="https://www.edx.org/course/fundamentals-of-containers-kubernetes-and-red-hat">Red Hat: Fundamentals of Containers, Kubernetes, and Red Hat OpenShift</a>
 
 ## Workshops
-  
-  <a href="https://isovalent.com/isovalent-hands-on-workshop-oslo/"> Cilium Hands-On Workshop & Deep Dive Oslo </a>
-  
- <a href="https://docs.microsoft.com/en-us/system-center/vmm/manage-azure-vms?view=sc-vmm-2019"> Manage vm, virtul network, firewall on Azure </a>
+
+<a href="https://www.uio.no/english/services/it/research/hpc/fox/index.html"> Using the High Performance Computing cluster for Educloud Research users </a>
+    
+<a href="https://isovalent.com/isovalent-hands-on-workshop-oslo/"> Cilium Hands-On Workshop & Deep Dive Oslo </a>
+
+<a href="https://docs.microsoft.com/en-us/system-center/vmm/manage-azure-vms?view=sc-vmm-2019"> Manage vm, virtul network, firewall on Azure </a>
   
 <a href="http://modules.sourceforge.net/">Using Environment Modules to initialize shell and modify shell environment</a>
   
