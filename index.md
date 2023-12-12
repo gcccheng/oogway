@@ -86,6 +86,10 @@ At the University of Oslo, Gang was responsible for managing a local data center
 `2010-2012`
 University of Oslo: Master in Network and System Administration
 ## Certificate
+<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Architect</a>
+
+<a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Specialist in Containers</a>
+
 <a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified OpenShift Administrator</a>
 
 <a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Specialist in Managing Automation with Ansible Automation Platform
