@@ -4,7 +4,7 @@ title: Gang Cheng's CV
 ---
 # Gang Cheng 
 
-Senior Engineer
+Red Hat Certified Architect, Senior Infrastructure Engineer
 
 <div id="webaddress">
 <a href="https://www.med.uio.no/ncmm/personer/adm/gangch/index.html">My UiO page</a> | <a href="https://www.linkedin.com/in/gang-cheng-7170a521/">My Linkedin page</a>
