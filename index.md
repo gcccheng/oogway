@@ -181,7 +181,7 @@ English: Full Professional Working Proficiency
   
 Norwegian: Daily Conversation, Limited Professional Working Proficiency
 
-Mandarin: Native speaker
+
   
 
 <!-- ### Footer
