@@ -151,6 +151,8 @@ Cryptography and SSH remote logins
 <a href="https://www.uio.no/tjenester/it/forskning/kompetansehuber/uio-ai-hub-node-project/it-resources/"> AI at UiO </a>
 
 ## Projects
+
+Build Proxmox virtual infrastructure for complex IT system
   
 Build Foreman+Ansible+Smart Proxy and provision hosts for large infrastructure
   
