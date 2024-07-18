@@ -11,9 +11,15 @@ Red Hat Certified Architect, Senior Infrastructure Engineer
 </div>
 
 ## Summary
-Gang Cheng is an experienced IT professional with over 10 years of experience working in complex and demanding IT infrastructure environments in large sectors in Norway. His expertise spans from network and system administration to DevOps engineering, and site reliability engineering, with a focus on managing a mixed environment of local data centers, private/public clouds, bare metal machines/container platforms, and Windows-Linux systems.
+Gang Cheng is a dynamic and fast learner. He has obtained 7 certifications in 2 years, showcasing his commitment to continuous learning and professional development. His exceptional expertise was recognized when he received the honor of being named the Red Hat Certified Professional of the Year 2024. His full interview with Red Hat can be viewed on Red Hat website <a href="https://www.redhat.com/en/services/certification/rhcp/rhcp-of-the-year">here</a>.
 
-Gang has a strong passion for staying up-to-date with emerging technologies and is skilled at communicating effectively with colleagues and clients. His technical proficiency, combined with his ability to collaborate effectively, has enabled him to successfully deliver high-quality IT solutions that meet business needs.
+With over a decade of working experience in large-scale mixed IT infrastructure in the public sector, Gang has demonstrated strong expertise in managing complex infrastructure environments. His extensive experience with Red Hat products and technologies underscores his strong proficiency. He leverages automation tools like Ansible to enhance operational efficiency and ensure system reliability. 
+
+In addition to his expertise in Red Hat, Gang has expanded his skills to include a wide range of DevOps, Cloud and Site Reliability technologies. He has gained valuable experience in monitoring, logging, scripting, automation, version control, and CI/CD through both professional work and self-learning projects.
+
+Previously, Gang has been part of the managing role in a local data center for scientific computing, providing critical infrastructure services to researchers and demonstrating familiarity with the associated technologies. 
+
+Through years of working experience, Gang has effectively collaborated with researchers, application developers, and IT professionals alike, demonstrating his ability to conduct effective communication within organizations.
 
 ## Specialized in
 
