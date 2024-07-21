@@ -58,17 +58,17 @@ Gang took full responsibility for deploying a cloud-based security application t
 `2012-2022`
 ***<font size= "3">System Engineer at University of Oslo</font>***
 
-At the University of Oslo, Gang was responsible for managing a local data center for delivering a reliable scientific computing infrastructure to researchers at the Centre for Molecular Medicine Norway. His main tasks included:
+At the University of Oslo, Gang participated in managing a local data center to deliver a reliable scientific computing infrastructure to researchers at the Centre for Molecular Medicine Norway. His main tasks included:
 
-  1. Installing, configuring, and maintaining Dell/HP/Red Hat servers for a variety of services, including computing, virtualization, database, web, Samba, NFS, and inventory
+Installing, configuring, and maintaining Dell/HP/Red Hat servers for a variety of services, including computing, virtualization, database, web, Samba, NFS, and inventory.
 
-  2. Deploying and managing Windows machines with SCCM
+Deploying and managing Windows machines with SCCM.
 
-  3. Installing and maintaining complex scientific applications with increasing and unstable dependencies.
+Installing and maintaining complex scientific applications with increasing and unstable dependencies.
 
-  5. Performing daily admin work, including account management, storage management, security, monitoring, and problem troubleshooting.
-  
-  7. Assisting researchers using the HPC system at the University of Oslo.
+Performing daily admin work, including account management, storage management, security, monitoring, and problem troubleshooting.
+
+Assisting researchers using the HPC system at the University of Oslo.
 
 ## Education
 `2010-2012`
