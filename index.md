@@ -11,13 +11,13 @@ Red Hat Certified Architect, Senior Infrastructure Engineer
 </div>
 
 ## Summary
-Gang Cheng is a dynamic and fast learner. He has obtained 7 certifications in 2 years, showcasing his commitment to continuous learning and professional development. His exceptional expertise was recognized when he received the honor of being named the Red Hat Certified Professional of the Year 2024. His full interview with Red Hat can be viewed on Red Hat website <a href="https://www.redhat.com/en/services/certification/rhcp/rhcp-of-the-year">here</a>.
+Gang Cheng is a dynamic and fast learner. He has obtained 7 certifications in 2 years, showcasing his commitment to continuous learning and professional development. His exceptional expertise was recognized when he received the honor of being named the Red Hat Certified Professional of the Year 2024. His full interview with Red Hat can be viewed on the Red Hat website <a href="https://www.redhat.com/en/services/certification/rhcp/rhcp-of-the-year">here</a>.
 
 With over a decade of working experience in large-scale mixed IT infrastructure in the public sector, Gang has demonstrated strong expertise in managing complex infrastructure environments. His extensive experience with Red Hat products and technologies underscores his strong proficiency. He leverages automation tools like Ansible to enhance operational efficiency and ensure system reliability. 
 
-In addition to his expertise in Red Hat, Gang has expanded his skills to include a wide range of DevOps, Cloud and Site Reliability technologies. He has gained valuable experience in monitoring, logging, scripting, automation, version control, and CI/CD through both professional work and self-learning projects.
+In addition to his expertise in Red Hat, Gang has expanded his skills to include a wide range of DevOps, Cloud, and Site Reliability technologies. He has gained valuable experience in monitoring, logging, scripting, automation, version control, and CI/CD through both professional work and self-learning projects.
 
-Previously, Gang has been part of the managing role in a local data center for scientific computing, providing critical infrastructure services to researchers and demonstrating familiarity with the associated technologies. 
+Previously, Gang had a managing role in a local data center for scientific computing, providing critical infrastructure services to researchers and demonstrating familiarity with the associated technologies. 
 
 Through years of working experience, Gang has effectively collaborated with researchers, application developers, and IT professionals alike, demonstrating his ability to conduct effective communication within organizations.
 
@@ -43,18 +43,18 @@ Managing a modern infrastructure can be challenging, and implementing automation
 `project`
 **Deploy Red Hat 9 to production infrastructure**
 
-Gang was responsible for deploying Red Hat 9 to the production environment, utilizing Ansible for automation. He has created customized version of Red Hat image template for VMWare environment, configured system settings, and integrated in Windows AD.
+Gang was responsible for deploying Red Hat 9 to the production environment, utilizing Ansible for automation. He has created a customized version of the Red Hat image template for the VMWare environment, configured system settings, and integrated into Windows AD.
 
   
 `project`
-**Automate patching process for large-scale of Red Hat machines**
+**Automate patching process for large-scale Red Hat machines**
 
-Gang simplified and improved the existing patching procedure, utilizing Ansible and Satellite. His tasks included dividing existing machines into different environments, prioritizing machines based on criticality and designing Ansible workflow to automate the process of patching.
+Gang simplified and improved the existing patching procedure, utilizing Ansible and Satellite. His tasks included dividing existing machines into different environments, prioritizing machines based on criticality, and designing Ansible workflow to automate the process of patching.
 
 `project`
 **Deploy security application to infrastructure**
 
-Gang took full responsibility for deploying a cloud-based security application to the entire infrastructure. His tasks included troubleshooting installing errors and performance issues, customize security rules for each machine to ensure functionality, and communicating between various parties including application provider, license provider, network group, and security group.
+Gang took full responsibility for deploying a cloud-based security application to the entire infrastructure. His tasks included troubleshooting installing errors and performance issues, customizing security rules for each machine to ensure functionality, and communicating between various parties including the application provider, license provider, network group, and security group.
 
 
 `2012-2022`
@@ -154,7 +154,7 @@ Build Foreman+Ansible+Smart Proxy and provision hosts for large infrastructure
   
 Integrate Linux to Windows Domain
   
-Set up local directory service with Openldap
+Set up local directory service with OpenLDAP
   
 <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus"> Set up Windows Server Update Services for lab network </a>
 
@@ -163,12 +163,12 @@ Set up local directory service with Openldap
 Intrusion detection and monitoring with Snort and Munin
 
 ## Experienced tools or skills
-Red Hat Linux, Red Hat Satellite, Red Hat Openshift, Red Hat Ansible,  Atlassian Bitbucket, Atlassian Confluence, Atlssian Jira, Grafana, Prometheus, Dell PowerEdge, Windows Server 2016, Bash, Perl, Python
+Red Hat Linux, Red Hat Satellite, Red Hat Openshift, Red Hat Ansible,  Atlassian Bitbucket, Atlassian Confluence, Atlassian Jira, Grafana, Prometheus, Dell PowerEdge, Windows Server 2016, Bash, Perl, Python
 ## Exposure Skills
 AWS, MS Azure, Openstack, Terraform, Vagrant
   
 ## Hobbies 
-Blog writing, Skiing and hiking
+Blog writing, Skiing, and hiking
   
 ## Languages 
 English: Full Professional Working Proficiency
