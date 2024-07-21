@@ -21,9 +21,7 @@ Previously, Gang had a managing role in a local data center for scientific compu
 
 Through years of working experience, Gang has effectively collaborated with researchers, application developers, and IT professionals alike, demonstrating his ability to conduct effective communication within organizations.
 
-## Specialized in
 
-Red Hat Linux, Red Hat Satellite, Ansible, Red Hat Openshift, Red Hat Automation Platform, Microsoft Defender on Linux, Windows SCCM 
 ## Employment
 `2022-Now`
 ***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
