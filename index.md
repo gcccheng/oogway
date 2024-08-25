@@ -29,6 +29,11 @@ Through years of working experience, Gang has effectively collaborated with rese
 During past years, Gang has contributed to a variety of projects for clients, including:
  
 `project`
+
+**Custom Infrastructure Solutions**
+
+Developed and optimized self-host runner infrastructure for GitHub Actions, managing both VMs and containers. Created customized backend solutions using Terraform to meet specific client needs, improving the flexibility and scalability of infrastructure.
+
 **Automate upgrading rhel7 to rhel8 workflow**
 
 The project involves upgrading 340 production RHEL7 machines to RHEL8 for a client. This large-scale upgrade is essential to enhance system security, performance, and supportability. The upgrade process is primarily automated using Ansible, and it requires careful planning to minimize downtime and ensure business continuity. By automating the upgrading workflow, Gang has increased efficiency, reduced human error, and ensured consistency across all machines. 
