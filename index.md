@@ -32,7 +32,7 @@ During past years, Gang has contributed to a variety of projects for clients, in
 
 **Custom Infrastructure Solutions**
 
-Developed and optimized self-host runner infrastructure for GitHub Actions, managing both VMs and containers. Created customized backend solutions using Terraform to meet specific client needs, improving the flexibility and scalability of infrastructure.
+Developed and optimized self-host runner infrastructure for GitHub Actions, managing both VMs and containers. Created customized backend solutions for Terraform to meet specific client needs, improving the flexibility and scalability of infrastructure.
 
 **Automate upgrading rhel7 to rhel8 workflow**
 
