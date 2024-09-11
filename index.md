@@ -38,7 +38,7 @@ Contribution: Standardized operating systems, automated VM provisioning and mana
 
 Value Created: Improve infrastructure consistency, reduced manual errors, enhanced security and significantly sped up deployment times through automation.
 
-**Deploying GitHuB ARC on Kubernetes**
+**Deploying GitHub ARC on Kubernetes**
 
 Description: The current use of GitHub runners on VMs caused conflicts and scalability issues due to lack of isolation and standardized infrastructure management.
 
@@ -47,7 +47,7 @@ Contribution: Transitioned to GitHub ARC with containerized environments.
 Value Created: Improve isolation, scalability, and reliability, while reducing manual overhead through automated infrastructure management.
 
 
-**Automate upgrading rhel7 to rhel8 workflow**
+**Automate Upgrading RHEL7 to RHEL8**
 
 Description: RHEL7 was approaching the end of support, upgrading hundreds of RHEL7 was a high priority.
 
@@ -57,7 +57,7 @@ Value Created: Ensure systems are aligned with security compliance standards.
 
 
 `project`
-**Automate Infrastructure Workflow with Ansible Automation Platform(AAP)**
+**Automating Infrastructure Workflow with Ansible Automation Platform(AAP)**
 
 Description: Manually managing increasingly number of playbooks is challenging.
 
@@ -67,7 +67,7 @@ Value Created: Reduced manual tasks and errors while managing playbooks, invento
 
 
 `project`
-**Deploy Red Hat 9 to production infrastructure**
+**Deploying Red Hat 9 to Production Infrastructure**
 
 Description: Need to test RHEL9 and make it ready for production use.
 
@@ -77,7 +77,7 @@ Value Created: Enable seamless deployment, ensure system compatibility, and make
 
 
 `project`
-**Automate patching process for large-scale Red Hat machines**
+**Automating Patching for Large-Scale Red Hat VM**
 
 Description: The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
 
@@ -91,6 +91,7 @@ Value Created: Streamlined patching, reduced errors, and improved system uptime 
 
 Description: A critical cloud-based application must be deployed, configured and tested cross entire platform.
 Contribution: Solo responsibility to install, configure and trouble-shooting applications.
+
 Value Created: Ensure that system aligned with organization policies.
 
 
