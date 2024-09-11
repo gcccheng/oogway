@@ -36,7 +36,7 @@ Description: The current infrastructure management was manual, inconsistent, and
 
 Contribution: Standardized operating systems, automated VM provisioning and management.
 
-Value Created: Improved infrastructure consistency, reduced manual errors, enhanced security and significantly sped up deployment times through automation.
+Value Created: Improve infrastructure consistency, reduced manual errors, enhanced security and significantly sped up deployment times through automation.
 
 **Deploying GitHuB ARC on Kubernetes**
 
@@ -44,33 +44,54 @@ Description: The current use of GitHub runners on VMs caused conflicts and scala
 
 Contribution: Transitioned to GitHub ARC with containerized environments.
 
-Value Created: Improved isolation, scalability, and reliability, while reducing manual overhead through automated infrastructure management.
+Value Created: Improve isolation, scalability, and reliability, while reducing manual overhead through automated infrastructure management.
 
 
 **Automate upgrading rhel7 to rhel8 workflow**
 
-The project involves upgrading 340 production RHEL7 machines to RHEL8 for a client. This large-scale upgrade is essential to enhance system security, performance, and supportability. The upgrade process is primarily automated using Ansible, and it requires careful planning to minimize downtime and ensure business continuity. By automating the upgrading workflow, Gang has increased efficiency, reduced human error, and ensured consistency across all machines. 
+Description: RHEL7 was approaching the end of support, upgrading hundreds of RHEL7 was a high priority.
+
+Contribution: Designed upgrading plan with application owners and automated upgrading job with Ansible.
+
+Value Created: Ensure systems are aligned with security compliance standards.
+
 
 `project`
 **Automate Infrastructure Workflow with Ansible Automation Platform(AAP)**
 
-Managing a modern infrastructure can be challenging, and implementing automation can greatly reduce manual work. In this project, Gang participated in setting up Ansible Automation Platform(AAP) and integrating infrastructure workflow into AAP. The project has greatly reduced manual work, increased efficiency and enhanced security.
+Description: Manually managing increasingly number of playbooks is challenging.
+
+Contribution: Participated in setting up Ansible Automation Platform (AAP) and integrating infrastructure workflows into AAP for automation.
+
+Value Created: Reduced manual tasks and errors while managing playbooks, inventories and secret, improved operational efficiency, and enhanced security
+
 
 `project`
 **Deploy Red Hat 9 to production infrastructure**
 
-Gang was responsible for deploying Red Hat 9 to the production environment, utilizing Ansible for automation. He has created a customized version of the Red Hat image template for the VMWare environment, configured system settings, and integrated into Windows AD.
+Description: Need to test RHEL9 and make it ready for production use.
 
-  
+Contribution: Deployed Red Hat 9 using Ansible, created a customized Red Hat image template for the VMware, and integrated the system with Windows AD.
+
+Value Created: Enable seamless deployment, ensure system compatibility, and make new OS ready for production environment.
+
+
 `project`
 **Automate patching process for large-scale Red Hat machines**
 
-Gang simplified and improved the existing patching procedure, utilizing Ansible and Satellite. His tasks included dividing existing machines into different environments, prioritizing machines based on criticality, and designing Ansible workflow to automate the process of patching.
+Description: The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
+
+Contribution: Designed and implemented an Ansible-based workflow with Red Hat Satellite to automate patching.
+
+Value Created: Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
+
 
 `project`
-**Deploy security application to infrastructure**
+**Deploy critical application to infrastructure**
 
-Gang took full responsibility for deploying a cloud-based security application to the entire infrastructure. His tasks included troubleshooting installing errors and performance issues, customizing security rules for each machine to ensure functionality, and communicating between various parties including the application provider, license provider, network group, and security group.
+Description: A critical cloud-based application must be deployed, configured and tested cross entire platform.
+Contribution: Solo responsibility to install, configure and trouble-shooting applications.
+Value Created: Ensure that system aligned with organization policies.
 
 
 `2012-2022`
