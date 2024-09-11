@@ -31,12 +31,19 @@ During past years, Gang has contributed to a variety of projects for clients, in
 `project`
 
 **Infrastructure Standardization and Automation**
+
 Description: The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
+
 Contribution: Standardized operating systems, automated VM provisioning and management.
+
 Value Created: Improved infrastructure consistency, reduced manual errors, enhanced security and significantly sped up deployment times through automation.
+
 **Deploying GitHuB ARC on Kubernetes**
+
 Description: The current use of GitHub runners on VMs caused conflicts and scalability issues due to lack of isolation and standardized infrastructure management.
+
 Contribution: Transitioned to GitHub ARC with containerized environments.
+
 Value Created: Improved isolation, scalability, and reliability, while reducing manual overhead through automated infrastructure management.
 
 
