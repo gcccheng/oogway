@@ -7,20 +7,19 @@ title: Gang Cheng's CV
 Red Hat Certified Architect, Senior Infrastructure Engineer
 
 <div id="webaddress">
-<a href="https://www.med.uio.no/ncmm/personer/adm/gangch/index.html">My UiO page</a> | <a href="https://www.linkedin.com/in/gang-cheng-7170a521/">My Linkedin page</a>
+<a href="https://www.redhat.com/en/services/certification/rhcp/rhcp-of-the-year">Red Hat Bio</a> | <a href="https://www.linkedin.com/in/gang-cheng-7170a521/">Linkedin page</a>
 </div>
 
 ## Summary
-Gang Cheng believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, he has proactively equipped himself with the latest skills and knowledge through an ever-growing list of certifications, workshops, and courses. His exceptional expertise was recognized when he received the honor of being named the Red Hat Certified Professional of the Year 2024. His full interview with Red Hat can be viewed on the Red Hat website <a href="https://www.redhat.com/en/services/certification/rhcp/rhcp-of-the-year">here</a>.
+<div style="font-size: 18px;">
+Gang Cheng believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, he has proactively equipped himself with the latest skills and knowledge through an ever-growing list of certifications, workshops, and courses. His efforts and expertise were recognized when he received the honor of being named the Red Hat Certified Professional of the Year 2024. His full interview with Red Hat can be viewed on the Red Hat website <a href="https://www.redhat.com/en/services/certification/rhcp/rhcp-of-the-year">here</a>.
 
-With over a decade of working experience in large-scale mixed IT infrastructure in the public sector, Gang has demonstrated strong expertise in managing complex infrastructure environments. His extensive experience with Red Hat products and technologies underscores his strong proficiency. He leverages automation tools like Ansible to enhance operational efficiency and ensure system reliability. 
+With over a decade of working experience in various IT infrastructure environments, Gang has brought solutions and created values for stakeholders through different projects. Gang believes automation is key to managing infrastructure as automation can significantly improve efficiency, reduce manual errors, ensure reliability, and enhance security. 
 
-In addition to his expertise in Red Hat, Gang has expanded his skills to include a wide range of DevOps, Cloud, and Site Reliability technologies. He has gained valuable experience in monitoring, logging, scripting, automation, version control, and CI/CD through both professional work and self-learning projects.
-
-Previously, Gang had a managing role in a local data center for scientific computing, providing critical infrastructure services to researchers and demonstrating familiarity with the associated technologies. 
+In addition to his expertise in Red Hat, Gang has expanded his skills to include a wide range of DevOps, Cloud, and Site Reliability technologies. He has gained valuable experience in monitoring, logging, scripting,  version control, and CI/CD through both professional work and self-learning projects.
 
 Through years of working experience, Gang has effectively collaborated with researchers, application developers, and IT professionals alike, demonstrating his ability to conduct effective communication within organizations.
-
+</div>
 
 ## Employment
 `2022-Now`
