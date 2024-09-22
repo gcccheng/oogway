@@ -11,7 +11,7 @@ Red Hat Certified Architect, Senior Infrastructure Engineer
 </div>
 
 ## Summary
-Gang Cheng is a dynamic and fast learner. He has obtained 7 certifications in 2 years, showcasing his commitment to continuous learning and professional development. His exceptional expertise was recognized when he received the honor of being named the Red Hat Certified Professional of the Year 2024. His full interview with Red Hat can be viewed on the Red Hat website <a href="https://www.redhat.com/en/services/certification/rhcp/rhcp-of-the-year">here</a>.
+Gang Cheng believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, he has proactively equipped himself with the latest skills and knowledge through an ever-growing list of certifications, workshops, and courses. His exceptional expertise was recognized when he received the honor of being named the Red Hat Certified Professional of the Year 2024. His full interview with Red Hat can be viewed on the Red Hat website <a href="https://www.redhat.com/en/services/certification/rhcp/rhcp-of-the-year">here</a>.
 
 With over a decade of working experience in large-scale mixed IT infrastructure in the public sector, Gang has demonstrated strong expertise in managing complex infrastructure environments. His extensive experience with Red Hat products and technologies underscores his strong proficiency. He leverages automation tools like Ansible to enhance operational efficiency and ensure system reliability. 
 
