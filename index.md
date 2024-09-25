@@ -37,11 +37,11 @@ Contribution: Standardized operating systems, automated VM provisioning and mana
 
 Value Created: Improve infrastructure consistency, reduced manual errors, enhanced security and significantly sped up deployment times through automation.
 
-**Deploying GitHub ARC on Kubernetes**
+**Deploying Kubernetes and Github ARC**
 
-Description: The current use of GitHub runners on VMs caused conflicts and scalability issues due to lack of isolation and standardized infrastructure management.
+Description: The current use of GitHub runners on VMs caused conflicts and scalability issues due to lack of isolation and standardized infrastructure management. Container orchestration platform is needed to run, scale and manage github actions workflows.
 
-Contribution: Transitioned to GitHub ARC with containerized environments.
+Contribution: Build Kubernetes cluster, built github ARC, redesigned and transitioned workflows to containerized environments.
 
 Value Created: Improve isolation, scalability, and reliability, while reducing manual overhead through automated infrastructure management.
 
