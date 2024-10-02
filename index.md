@@ -221,7 +221,7 @@ Blog writing, Skiing, and hiking
 ## Languages 
 English: Full Professional Working Proficiency
   
-Norwegian: Daily Conversation, Limited Professional Working Proficiency
+Norwegian: Professional Working Proficiency
 
 
   
