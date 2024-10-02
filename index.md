@@ -46,7 +46,7 @@ Contribution: Build Kubernetes cluster, built GitHub ARC, redesigned and transit
 Value Created: Improve isolation, scalability, and reliability, while reducing manual overhead through automated infrastructure management.
 
 
-**Automate Upgrading RHEL7 to RHEL8**
+**Automating Upgrading RHEL7 to RHEL8**
 
 Description: RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority.
 
@@ -76,7 +76,7 @@ Value Created: Enable seamless deployment, ensure system compatibility, and make
 
 
 `project`
-**Automating Patching  Red Hat VM**
+**Automating Patching of Red Hat VM**
 
 Description: The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
 
@@ -95,7 +95,7 @@ Value Created: Streamlined installation, configuration, and management of VM.
 
 
 `project`
-**Deploy critical application to infrastructure**
+**Deploying critical application to infrastructure**
 
 Description: A critical cloud-based application must be deployed, configured, and tested across the entire platform.
 Contribution: Solo responsibility for installing, configuring, and troubleshooting applications.
