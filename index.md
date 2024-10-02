@@ -35,20 +35,20 @@ Description: The current infrastructure management was manual, inconsistent, and
 
 Contribution: Standardized operating systems, automated VM provisioning and management.
 
-Value Created: Improve infrastructure consistency, reduced manual errors, enhanced security and significantly sped up deployment times through automation.
+Value Created: Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
 
 **Deploying Kubernetes and Github ARC**
 
-Description: The current use of GitHub runners on VMs caused conflicts and scalability issues due to lack of isolation and standardized infrastructure management. Container orchestration platform is needed to run, scale and manage github actions workflows.
+Description: The current use of GitHub runners on VMs caused conflicts and scalability issues due to a lack of isolation and standardized infrastructure management. A container orchestration platform is needed to run, scale, and manage GitHub action workflows.
 
-Contribution: Build Kubernetes cluster, built github ARC, redesigned and transitioned workflows to containerized environments.
+Contribution: Build Kubernetes cluster, built GitHub ARC, redesigned and transitioned workflows to containerized environments.
 
 Value Created: Improve isolation, scalability, and reliability, while reducing manual overhead through automated infrastructure management.
 
 
 **Automate Upgrading RHEL7 to RHEL8**
 
-Description: RHEL7 was approaching the end of support, upgrading hundreds of RHEL7 was a high priority.
+Description: RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority.
 
 Contribution: Designed upgrading plan with application owners and automated upgrading job with Ansible.
 
@@ -58,11 +58,11 @@ Value Created: Ensure systems are aligned with security compliance standards.
 `project`
 **Automating Infrastructure Workflow with Ansible Automation Platform(AAP)**
 
-Description: Manually managing increasingly number of playbooks is challenging.
+Description: Manually managing an increasing number of playbooks is challenging.
 
-Contribution: Participated in setting up Ansible Automation Platform (AAP) and integrating infrastructure workflows into AAP for automation.
+Contribution: Participated in setting up the Ansible Automation Platform (AAP) and integrating infrastructure workflows into AAP for automation.
 
-Value Created: Reduced manual tasks and errors while managing playbooks, inventories and secret, improved operational efficiency, and enhanced security
+Value Created: Reduced manual tasks and errors while managing playbooks, inventories, and secrets, improved operational efficiency, and enhanced security
 
 
 `project`
@@ -70,13 +70,13 @@ Value Created: Reduced manual tasks and errors while managing playbooks, invento
 
 Description: Need to test RHEL9 and make it ready for production use.
 
-Contribution: Deployed Red Hat 9 using Ansible, created a customized Red Hat image template for the VMware, and integrated the system with Windows AD.
+Contribution: Deployed Red Hat 9 using Ansible, created a customized Red Hat image template for VMware, and integrated the system with Windows AD.
 
 Value Created: Enable seamless deployment, ensure system compatibility, and make new OS ready for production environment.
 
 
 `project`
-**Automating Patching for Large-Scale Red Hat VM**
+**Automating Patching  Red Hat VM**
 
 Description: The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
 
@@ -84,14 +84,23 @@ Contribution: Designed and implemented an Ansible-based workflow with Red Hat Sa
 
 Value Created: Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
 
+`project`
+**Automating the Provisioning of Red Hat VM**
+
+Description: The manual work of provisioning large-scale Red Hat VM was just impossible.
+
+Contribution: Designed and implemented an Ansible-based workflow that automated the process of provisioning VM into the production environment.
+
+Value Created: Streamlined installation, configuration, and management of VM.
+
 
 `project`
 **Deploy critical application to infrastructure**
 
-Description: A critical cloud-based application must be deployed, configured and tested cross entire platform.
-Contribution: Solo responsibility to install, configure and trouble-shooting applications.
+Description: A critical cloud-based application must be deployed, configured, and tested across the entire platform.
+Contribution: Solo responsibility for installing, configuring, and troubleshooting applications.
 
-Value Created: Ensure that system aligned with organization policies.
+Value Created: Ensure that the system is aligned with organization policies.
 
 
 `2012-2022`
