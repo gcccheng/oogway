@@ -25,7 +25,7 @@ Through years of working experience, Gang has effectively collaborated with rese
 `2022-Now`
 ***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
 
-During past years, Gang has contributed to a variety of projects for clients, including:
+During past years, Gang has led/contributed to a variety of projects for clients, including:
  
 `project`
 **Infrastructure Standardization and Automation**
