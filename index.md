@@ -56,11 +56,11 @@ Value Created: Ensure systems are aligned with security compliance standards.
 
 
 `project`
-**Automating Infrastructure Workflow with Ansible Automation Platform(AAP)**
+**Ansible Automation Platform on Openshift**
 
-Description: Manually managing an increasing number of playbooks is challenging.
+Description: With an ever-increasing number of playbooks, inventories, and workflows, manually managing them is challenging. A central platform is required to orchestrate all the elements related to Ansible.
 
-Contribution: Participated in setting up the Ansible Automation Platform (AAP) and integrating infrastructure workflows into AAP for automation.
+Contribution: Collaborated with teams on setting up the Openshift platform and deploying the Ansible Automation Platform on Openshift.
 
 Value Created: Reduced manual tasks and errors while managing playbooks, inventories, and secrets, improved operational efficiency, and enhanced security
 
