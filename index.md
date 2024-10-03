@@ -28,7 +28,6 @@ Through years of working experience, Gang has effectively collaborated with rese
 During past years, Gang has contributed to a variety of projects for clients, including:
  
 `project`
-
 **Infrastructure Standardization and Automation**
 
 Description: The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
@@ -37,6 +36,7 @@ Contribution: Standardized operating systems, automated VM provisioning and mana
 
 Value Created: Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
 
+`project`
 **Deploying Kubernetes and Github ARC**
 
 Description: The current use of GitHub runners on VMs caused conflicts and scalability issues due to a lack of isolation and standardized infrastructure management. A container orchestration platform is needed to run, scale, and manage GitHub action workflows.
@@ -45,7 +45,7 @@ Contribution: Build Kubernetes cluster, built GitHub ARC, redesigned and transit
 
 Value Created: Improve isolation, scalability, and reliability, while reducing manual overhead through automated infrastructure management.
 
-
+`project`
 **Automating Upgrading RHEL7 to RHEL8**
 
 Description: RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority.
