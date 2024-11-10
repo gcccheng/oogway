@@ -199,8 +199,6 @@ Cryptography and SSH remote logins
 
 ## Other Projects
 
-Test AWS RAG and Fine-tuned AI
-
 Build multi-model Generative AI experiences on Azure Openshift
 
 Configure CI/CD pipeline on Azure DevOps
