@@ -122,6 +122,8 @@ Assisting researchers using the HPC system at the University of Oslo.
 `2010-2012`
 University of Oslo: Master in Network and System Administration
 ## Certificate
+<a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng"> Red Hat Certified Professional of the Year 2024</a>
+
 <a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Architect</a>
 
 <a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Specialist in Containers</a>
@@ -144,6 +146,9 @@ University of Oslo: Master in Network and System Administration
 
 ## Courses
 
+<a href="https://www.nvidia.com/en-us/learn/certification/ai-infrastructure-operations-associate/"> Nvidia Academy: AI Infrastructure and Operations
+ </a>
+
 <a href="https://www.coursera.org/learn/genai-for-devops-practitioners"> GenAI for DevOps Practitioners </a>
  
 <a href="https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/"> MicroSoft Azure Foundamentals </a>
@@ -165,7 +170,10 @@ University of Oslo: Master in Network and System Administration
 <a href="https://www.edx.org/course/fundamentals-of-containers-kubernetes-and-red-hat">Red Hat: Fundamentals of Containers, Kubernetes, and Red Hat OpenShift</a>
 
 ## Workshops
+<a href="https://events.redhat.com/profile/form/index.cfm?PKformID=0x11991670001">Azure Red Hat OpenShift AI</a>
 
+<a href="https://aws-experience.com/emea/north/e/ddd34/aws-immersion-day-generative-ai"> AWS RAG and Fine-tuned AI</a>
+            
 <a href="https://www.uio.no/english/services/it/research/hpc/fox/index.html"> Using the High Performance Computing cluster for Educloud Research users </a>
     
 <a href="https://isovalent.com/isovalent-hands-on-workshop-oslo/"> Cilium Hands-On Workshop & Deep Dive Oslo </a>
