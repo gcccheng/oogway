@@ -178,7 +178,7 @@ University of Oslo: Master in Network and System Administration
     
 <a href="https://isovalent.com/isovalent-hands-on-workshop-oslo/"> Cilium Hands-On Workshop & Deep Dive Oslo </a>
 
-<a href="https://docs.microsoft.com/en-us/system-center/vmm/manage-azure-vms?view=sc-vmm-2019"> Manage vm, virtul network, firewall on Azure </a>
+Manage vm, virtul network, firewall on Azure
   
 <a href="http://modules.sourceforge.net/">Using Environment Modules to initialize shell and modify shell environment</a>
   
