@@ -30,7 +30,7 @@ During past years, Gang has been worked as DevOps engineer and infrastructure en
 
 Description: The current use of GitHub runners on VMs caused conflicts and scalability issues due to a lack of isolation and standardized infrastructure management. A container orchestration platform is needed to run, scale, and manage GitHub action workflows.
 
-Contribution: Build Kubernetes cluster, built GitHub ARC, redesigned and transitioned workflows to containerized environments.
+Contribution: Build high availability Kubernetes cluster and GitHub ARC, redesigned and migrated workflows to containerized environments.
 
 Value Created: Improve isolation, scalability, and reliability, while reducing manual overhead through automated infrastructure management.
  
@@ -47,7 +47,7 @@ Value Created: Release developers from troubleshooting errors so they can focus 
 
 Description: The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
 
-Contribution: Standardized operating systems, automated VM provisioning and management.
+Contribution: Standardized operating systems, simplified and automated VM provisioning and management.
 
 Value Created: Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
 
