@@ -13,19 +13,16 @@ Red Hat Certified Architect, Senior Infrastructure Engineer
 ## Summary
 
 Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, he has proactively equipped himself with the latest skills and knowledge through an ever-growing list of certifications, workshops, and courses. His efforts and expertise were recognized when he received the honor of being named the Red Hat Certified Professional of the Year 2024. His full interview with Red Hat can be viewed on the Red Hat website <a href="https://www.redhat.com/en/services/certification/rhcp/rhcp-of-the-year">here</a>.
-
-With over a decade of working experience in various IT infrastructure environments, Gang has brought solutions and created values for stakeholders through different projects. Gang believes automation is key to managing infrastructure as automation can significantly improve efficiency, reduce manual errors, ensure reliability, and enhance security. 
-
 In addition to his expertise in Red Hat, Gang has expanded his skills to include a wide range of DevOps, Azure Cloud, and Site Reliability technologies. He has gained valuable experience in monitoring, logging, version control, and CI/CD through both professional work and self-learning projects.
 
-Through years of working experience, Gang has effectively collaborated with researchers, application developers, and IT professionals alike, demonstrating his ability to conduct effective communication within organizations.
+With over a decade of working experience in various IT infrastructure environments, Gang has brought solutions, created values for stakeholders, and collaborated with researchers/developers, demonstrating his ability to conduct effective communication within organizations.
 
 
 ## Employment
 `2022-Now`
 ***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
 
-During past years, Gang has led/contributed to a variety of projects for clients, including:
+During past years, Gang has been worked as DevOps engineer and infrastructure engineer and led/contributed to a variety of projects for clients, including:
 
 
 `project`
