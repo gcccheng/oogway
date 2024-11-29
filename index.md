@@ -13,19 +13,16 @@ Red Hat Certified Architect, Senior Infrastructure Engineer
 ## Summary
 
 Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, he has proactively equipped himself with the latest skills and knowledge through an ever-growing list of certifications, workshops, and courses. His efforts and expertise were recognized when he received the honor of being named the Red Hat Certified Professional of the Year 2024. His full interview with Red Hat can be viewed on the Red Hat website <a href="https://www.redhat.com/en/services/certification/rhcp/rhcp-of-the-year">here</a>.
-
-With over a decade of working experience in various IT infrastructure environments, Gang has brought solutions and created values for stakeholders through different projects. Gang believes automation is key to managing infrastructure as automation can significantly improve efficiency, reduce manual errors, ensure reliability, and enhance security. 
-
 In addition to his expertise in Red Hat, Gang has expanded his skills to include a wide range of DevOps, Azure Cloud, and Site Reliability technologies. He has gained valuable experience in monitoring, logging, version control, and CI/CD through both professional work and self-learning projects.
 
-Through years of working experience, Gang has effectively collaborated with researchers, application developers, and IT professionals alike, demonstrating his ability to conduct effective communication within organizations.
+With over a decade of working experience in various IT infrastructure environments, Gang has brought solutions, created values for stakeholders, and collaborated with researchers/developers, demonstrating his ability to conduct effective communication within organizations.
 
 
 ## Employment
 `2022-Now`
 ***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
 
-During past years, Gang has led/contributed to a variety of projects for clients, including:
+During past years, Gang has been worked as DevOps engineer and infrastructure engineer and led/contributed to a variety of projects for clients, including:
 
 
 `project`
@@ -33,7 +30,7 @@ During past years, Gang has led/contributed to a variety of projects for clients
 
 Description: The current use of GitHub runners on VMs caused conflicts and scalability issues due to a lack of isolation and standardized infrastructure management. A container orchestration platform is needed to run, scale, and manage GitHub action workflows.
 
-Contribution: Build Kubernetes cluster, built GitHub ARC, redesigned and transitioned workflows to containerized environments.
+Contribution: Build high availability Kubernetes cluster and GitHub ARC, redesigned and migrated workflows to containerized environments.
 
 Value Created: Improve isolation, scalability, and reliability, while reducing manual overhead through automated infrastructure management.
  
@@ -50,7 +47,7 @@ Value Created: Release developers from troubleshooting errors so they can focus 
 
 Description: The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
 
-Contribution: Standardized operating systems, automated VM provisioning and management.
+Contribution: Standardized operating systems, simplified and automated VM provisioning and management.
 
 Value Created: Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
 
@@ -226,8 +223,8 @@ Set up local directory service with OpenLDAP
   
 Intrusion detection and monitoring with Snort and Munin
 
-## Experienced tools or skills
-Red Hat Linux, Red Hat Satellite, Red Hat Openshift, Red Hat Ansible,  Atlassian Bitbucket, Atlassian Confluence, Atlassian Jira, Grafana, Prometheus, Dell PowerEdge, Windows Server 2016, Bash, Perl, Python
+## Experienced tech stacks
+Kubernetes, Docker, Podman, GitHub Actions, GitHub Actions Runner Controller(ARC), Red Hat Linux, Red Hat Satellite, Red Hat Openshift, Red Hat Ansible,  Atlassian Bitbucket, Atlassian Confluence, Atlassian Jira, Grafana, Prometheus, Dell PowerEdge, Cisco SWitch, Windows Server 2016, Bash, Perl, Python Windows SCCM, Samba, NFS, FirewallD, Active Directory, Networking
 ## Exposure Skills
 AWS, MS Azure, Openstack, Terraform, Vagrant
   
