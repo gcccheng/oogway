@@ -16,7 +16,7 @@ Gang is a self-motivated person, and he believes that the mindset of continuous 
 
 With over a decade of working experience in various IT infrastructure environments, Gang has brought solutions and created values for stakeholders through different projects. Gang believes automation is key to managing infrastructure as automation can significantly improve efficiency, reduce manual errors, ensure reliability, and enhance security. 
 
-In addition to his expertise in Red Hat, Gang has expanded his skills to include a wide range of DevOps, Cloud, and Site Reliability technologies. He has gained valuable experience in monitoring, logging, scripting,  version control, and CI/CD through both professional work and self-learning projects.
+In addition to his expertise in Red Hat, Gang has expanded his skills to include a wide range of DevOps, Azure Cloud, and Site Reliability technologies. He has gained valuable experience in monitoring, logging, version control, and CI/CD through both professional work and self-learning projects.
 
 Through years of working experience, Gang has effectively collaborated with researchers, application developers, and IT professionals alike, demonstrating his ability to conduct effective communication within organizations.
 
@@ -26,7 +26,25 @@ Through years of working experience, Gang has effectively collaborated with rese
 ***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
 
 During past years, Gang has led/contributed to a variety of projects for clients, including:
+
+
+`project`
+**Building High Availability Kubernetes and Github ARC**
+
+Description: The current use of GitHub runners on VMs caused conflicts and scalability issues due to a lack of isolation and standardized infrastructure management. A container orchestration platform is needed to run, scale, and manage GitHub action workflows.
+
+Contribution: Build Kubernetes cluster, built GitHub ARC, redesigned and transitioned workflows to containerized environments.
+
+Value Created: Improve isolation, scalability, and reliability, while reducing manual overhead through automated infrastructure management.
  
+`project`
+**GitHub Actions Workflow Troubleshooting and Maintenance**
+
+Description: The current developing team encounters various errors when running pipelines on self-hosted runners.
+
+Contribution: Troubleshooting errors together with developing team and maintaining workflow organized.
+Value Created: Release developers from troubleshooting errors so they can focus on developing.
+
 `project`
 **Infrastructure Standardization and Automation**
 
@@ -35,15 +53,6 @@ Description: The current infrastructure management was manual, inconsistent, and
 Contribution: Standardized operating systems, automated VM provisioning and management.
 
 Value Created: Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
-
-`project`
-**Deploying Kubernetes and Github ARC**
-
-Description: The current use of GitHub runners on VMs caused conflicts and scalability issues due to a lack of isolation and standardized infrastructure management. A container orchestration platform is needed to run, scale, and manage GitHub action workflows.
-
-Contribution: Build Kubernetes cluster, built GitHub ARC, redesigned and transitioned workflows to containerized environments.
-
-Value Created: Improve isolation, scalability, and reliability, while reducing manual overhead through automated infrastructure management.
 
 `project`
 **Automating Upgrading RHEL7 to RHEL8**
