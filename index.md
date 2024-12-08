@@ -208,7 +208,7 @@ Cryptography and SSH remote logins
 
 Build multi-model Generative AI experiences on Azure Openshift
 
-Configure CI/CD pipeline on Azure DevOps
+Provision VM using Terraform and Configuring CI/CD pipeline on Azure
 
 Build Proxmox virtual infrastructure for complex IT system
   
