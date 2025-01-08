@@ -53,6 +53,15 @@ Contribution: Standardized operating systems, simplified and automated VM provis
 Value Created: Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
 
 `project`
+**Splunk Implementation**
+
+Description: Implemented Splunk to monitor and analyze logs and metrics across VMs and Kubernetes. The project involved centralized log collection, efficient indexing, and actionable insights to enhance system observability and operational efficiency.
+
+Contribution: Deployed and configured Splunk Enterprise for centralized log aggregation and real-time monitoring. Developed custom dashboards for infrastructure health monitoring, including CPU usage, memory consumption, disk I/O, and application performance metrics.
+
+Value Created: Enhanced system reliability and performance by proactively identifying incidents.
+
+`project`
 **Automating Upgrading RHEL7 to RHEL8**
 
 Description: RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority.
