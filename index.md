@@ -55,7 +55,7 @@ Value Created: Improve infrastructure consistency, reduce manual errors, enhance
 `project`
 **Splunk Implementation**
 
-Description: Implemented Splunk to monitor and analyze logs and metrics across VMs and Kubernetes. The project involved centralized log collection, efficient indexing, and actionable insights to enhance system observability and operational efficiency.
+Description: Implemented Splunk to monitor and analyze logs and metrics across infrastructure. The project involved centralized log collection, efficient indexing, and actionable insights to enhance system observability and operational efficiency.
 
 Contribution: Deployed and configured Splunk Enterprise for centralized log aggregation and real-time monitoring. Developed custom dashboards for infrastructure health monitoring, including CPU usage, memory consumption, disk I/O, and application performance metrics.
 
