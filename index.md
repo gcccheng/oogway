@@ -12,7 +12,7 @@ Red Hat Certified Architect, Infrastructure/DevOps/Platform Engineer
 
 ## Summary
 
-Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, he has proactively equipped himself with the latest skills and knowledge through an ever-growing list of certifications, workshops, and courses. His efforts and expertise were recognized when he received the honor of being titled as the Red Hat Certified Professional of the Year 2024. 
+Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, he has proactively equipped himself with the latest skills and knowledge through an ever-growing list of certifications, workshops, and courses. His efforts and expertise were recognized when he received the honor of being awarded and titled as the Red Hat Certified Professional of the Year 2024. 
 
 In addition to his expertise in Red Hat, Gang has expanded his skills to a wide range of DevOps, Cloud, and Site Reliability technologies. He has gained valuable experience through both professional work projects and self-learning projects.
 
