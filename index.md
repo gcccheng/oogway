@@ -12,22 +12,29 @@ Red Hat Certified Architect, Infrastructure/DevOps/Platform Engineer
 
 ## Summary
 
-Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, he has proactively equipped himself with the latest skills and knowledge through an ever-growing list of certifications, workshops, and courses. His efforts and expertise were recognized when he received the honor of being named the Red Hat Certified Professional of the Year 2024. 
+Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, he has proactively equipped himself with the latest skills and knowledge through an ever-growing list of certifications, workshops, and courses. His efforts and expertise were recognized when he received the honor of being titled as the Red Hat Certified Professional of the Year 2024. 
 
-In addition to his expertise in Red Hat, Gang has expanded his skills to include a wide range of DevOps, Azure Cloud, and Site Reliability technologies. He has gained valuable experience in monitoring, logging, version control, and CI/CD through both professional work and self-learning projects.
+In addition to his expertise in Red Hat, Gang has expanded his skills to a wide range of DevOps, Cloud, and Site Reliability technologies. He has gained valuable experience through both professional work projects and self-learning projects.
 
-With over a decade of working experience in various IT infrastructure environments, Gang has brought solutions, created values for stakeholders, and collaborated with researchers/developers, demonstrating his ability to conduct effective communication within organizations.
+With over a decade of working experience in various IT infrastructure environments, Gang has brought solutions to customers, created values for stakeholders, and collaborated with researchers/developers, demonstrating his ability to conduct effective communication within organizations.
 
 
 ## Employment
 `2022-Now`
 ***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
 
-During past years, Gang has been worked as DevOps engineer and infrastructure engineer and led/contributed to a variety of projects for clients, including:
-
+During past years, Gang has been worked as DevOps/infrastructure engineer and led/contributed to a variety of projects for customers, including:
 
 `project`
-**Building High Availability Kubernetes and Github ARC**
+**Building Complete Infrastructure Monitoring System(ongoing)**
+Description: With increasing number of containers, virtual machines, it is become critial to have one platform that can monitor everything.
+
+Contribution: Build Prometheus and Grafana on existing Kubernetes platform to monitor both containers and virtual machines.
+
+Value Created: Visualized the status of infrastructure, automated the alerting and improved stability of platform
+
+`project`
+**Building High Availability Kubernetes and Github Actions Runner Controller(ARC)**
 
 Description: The current use of GitHub runners on VMs caused conflicts and scalability issues due to a lack of isolation and standardized infrastructure management. A container orchestration platform is needed to run, scale, and manage GitHub action workflows.
 
@@ -36,30 +43,23 @@ Contribution: Build high availability Kubernetes cluster and GitHub ARC, redesig
 Value Created: Improve isolation, scalability, and reliability, while reducing manual overhead through automated infrastructure management.
  
 `project`
-**GitHub Actions Workflow Troubleshooting and Maintenance**
+**Troubleshooting and Improving CI/CD Pipelines**
 
 Description: The current developing team encounters various errors when running pipelines on self-hosted runners.
 
-Contribution: Troubleshooting errors together with developing team and maintaining workflow organized.
+Contribution: Troubleshooting errors, optimiziing performance, improving reliability and maintaining workflow organized together with developing team .
 Value Created: Release developers from troubleshooting errors so they can focus on developing.
+
 
 `project`
 **Infrastructure Standardization and Automation**
 
 Description: The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
 
-Contribution: Standardized operating systems, simplified and automated VM provisioning and management.
+Contribution: Standardized operating systems, simplified and automated VM provisioning and management process.
 
 Value Created: Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
 
-`project`
-**Splunk Implementation**
-
-Description: Implemented Splunk to monitor and analyze logs and metrics across infrastructure. The project involved centralized log collection, efficient indexing, and actionable insights to enhance system observability and operational efficiency.
-
-Contribution: Deployed and configured Splunk Enterprise for centralized log aggregation and real-time monitoring. Developed custom dashboards for infrastructure health monitoring, including CPU usage, memory consumption, disk I/O, and application performance metrics.
-
-Value Created: Enhanced system reliability and performance by proactively identifying incidents.
 
 `project`
 **Automating Upgrading RHEL7 to RHEL8**
@@ -101,7 +101,7 @@ Contribution: Designed and implemented an Ansible-based workflow with Red Hat Sa
 Value Created: Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
 
 `project`
-**Automating the Provisioning of Red Hat VM**
+**Automating the Provisioning of Red Hat VM on VMWare Private Cloud Platform**
 
 Description: The manual work of provisioning large-scale Red Hat VM was just impossible.
 
@@ -118,6 +118,15 @@ Contribution: Solo responsibility for installing, configuring, and troubleshooti
 
 Value Created: Ensure that the system is aligned with organization policies.
 
+`project`
+**Splunk Implementation**
+
+Description: Implemented Splunk to monitor and analyze logs and metrics across infrastructure. The project involved centralized log collection, efficient indexing, and actionable insights to enhance system observability and operational efficiency.
+
+Contribution: Deployed and configured Splunk Enterprise for centralized log aggregation and real-time monitoring. Developed custom dashboards for infrastructure health monitoring, including CPU usage, memory consumption, disk I/O, and application performance metrics.
+
+Value Created: Enhanced system reliability and performance by proactively identifying incidents.
+
 
 `2012-2022`
 ***<font size= "3">System Engineer at University of Oslo</font>***
@@ -127,6 +136,8 @@ At the University of Oslo, Gang participated in managing a local data center to 
 Installing, configuring, and maintaining Dell/HP/Red Hat servers for a variety of services, including computing, virtualization, database, web, Samba, NFS, and inventory.
 
 Deploying and managing Windows machines with SCCM.
+
+Managing and maintaining 1 public network and 1 private lab network with Cisco devices.
 
 Installing and maintaining complex scientific applications with increasing and unstable dependencies.
 
