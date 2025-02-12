@@ -26,7 +26,7 @@ With over a decade of working experience in various IT infrastructure environmen
 During past years, Gang has been worked as DevOps/infrastructure engineer and led/contributed to a variety of projects for customers, including:
 
 `project`
-**Building Complete Infrastructure Monitoring System(ongoing)**
+**Building Infrastructure Monitoring System(ongoing)**
 
 Description: With increasing number of containers, virtual machines, it is become critial to have one platform that can monitor everything.
 
