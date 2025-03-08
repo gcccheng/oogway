@@ -77,7 +77,7 @@ Value Created: Ensure systems are aligned with security compliance standards.
 
 Description: With an ever-increasing number of playbooks, inventories, and workflows, manually managing them is challenging. A central platform is required to orchestrate all the elements related to Ansible.
 
-Contribution: Collaborated with teams on setting up the Openshift platform and deploying the Ansible Automation Platform on Openshift.
+Contribution: Collaborated with teams on deploying the Ansible Automation Platform on Openshift.
 
 Value Created: Reduced manual tasks and errors while managing playbooks, inventories, and secrets, improved operational efficiency, and enhanced security
 
