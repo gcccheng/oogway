@@ -14,7 +14,7 @@ Red Hat Certified Architect, Infrastructure/DevOps/DevEx/Platform Engineer
 
 Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, Gang has proactively built expertise in modern infrastructure, automation, and platform engineering through an ever-growing list of certifications, workshops, conferences and courses. His efforts and expertise were recognized when he received the honor of being awarded and titled as the Red Hat Certified Professional of the Year 2024(if you are curious of what it is, click Red Hat Bio on top for more info). 
 
-In addition to his expertise in Red Hat, Gang has expanded his skills to a wide range of CD/CD, Cloud, platforms, and Site Reliability technologies. He has continuously moved between roles such as System Administrator, Infrastructure Engineer, DevOps, Developer Experience (DevEx), and Platform Engineer(or more along with the change of industry) — demonstrating the ability to adapt and acquire new skills as required. 
+In addition to his expertise in Red Hat, Gang has expanded his skills to a wide range of CD/CD, Cloud, platforms, and Site Reliability technologies. He has continuously shifted between roles such as System Administrator, Infrastructure Engineer, DevOps, Developer Experience (DevEx), and Platform Engineer(or more along with the change of industry) — demonstrating the ability to adapt and acquire new skills as required. 
 
 With over a decade of hands-on experience in various IT infrastructure environments, Gang has built his knowledge through professional projects, continuous self-learning, and most importantly, peers from industry. He has successfully delivered solutions to customers, created value for stakeholders, and worked closely with developers and researchers. Gang's strong communication skills and collaborative mindset have enabled him to effectively contribute to cross-functional teams and drive impactful results.
 
@@ -24,6 +24,16 @@ With over a decade of hands-on experience in various IT infrastructure environme
 ***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
 
 During past years, Gang has been worked as DevOps/infrastructure engineer and led/contributed to a variety of projects for customers, including:
+
+`project`
+**Implementing GitOps Deployment Workflow with Argo CD (Ongoing)**
+
+Description: With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
+
+Contribution: Design and implement a GitOps-based deployment workflow using Argo CD to synchronize application manifests in GitHub with Kubernetes environments. Integrated GitHub repositories with Argo CD to ensure that merging to specific branches (e.g., dev, stage, prod) automatically triggers deployment to the corresponding Kubernetes namespaces. Set up ApplicationSets and Helm templates to allow dynamic and reusable deployment configurations across multiple environments. Collaborated with development teams to define GitOps repository structure, environment naming conventions, and workflows. Implemented RBAC and Argo CD project isolation to ensure secure and controlled deployment processes.
+
+Value Created: Imrove efficiency, flexibility, and consistency in application deployment through Git-based change management. Empower developers of self-service application deployment with clear separation of concerns between platform and development teams.
+
 
 `project`
 **Building Infrastructure Monitoring System(ongoing)**
