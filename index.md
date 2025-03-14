@@ -38,9 +38,9 @@ Value Created: Improved isolation and security by running each GitHub Actions wo
 
 Description: With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
 
-Contribution: Design and implement a GitOps-based deployment workflow using Argo CD to synchronize application manifests in GitHub with Kubernetes environments. Integrated GitHub repositories with Argo CD to ensure that merging to specific branches (e.g., dev, stage, prod) automatically triggers deployment to the corresponding Kubernetes namespaces. Set up ApplicationSets and Helm templates to allow dynamic and reusable deployment configurations across multiple environments. Collaborated with development teams to define GitOps repository structure, environment naming conventions, and workflows. Implemented RBAC and Argo CD project isolation to ensure secure and controlled deployment processes.
+Contribution to be made: Design and implement a GitOps-based deployment workflow using Argo CD to synchronize application manifests in GitHub with Kubernetes environments. Integrated GitHub repositories with Argo CD to ensure that merging to specific branches (e.g., dev, stage, prod) automatically triggers deployment to the corresponding Kubernetes namespaces. Set up ApplicationSets and Helm templates to allow dynamic and reusable deployment configurations across multiple environments. Collaborated with development teams to define GitOps repository structure, environment naming conventions, and workflows. Implemented RBAC and Argo CD project isolation to ensure secure and controlled deployment processes.
 
-Value Created: Imrove efficiency, flexibility, and consistency in application deployment through Git-based change management. Empower developers of self-service application deployment with clear separation of concerns between platform and development teams.
+Value to be created: Imrove efficiency, flexibility, and consistency in application deployment through Git-based change management. Empower developers of self-service application deployment with clear separation of concerns between platform and development teams.
 
 
 `project`
@@ -48,9 +48,9 @@ Value Created: Imrove efficiency, flexibility, and consistency in application de
 
 Description: With increasing number of containers, virtual machines, it is become critial to have one platform that can monitor everything.
 
-Contribution: Build Prometheus and Grafana on existing Kubernetes platform to monitor both containers and virtual machines.
+Contribution to be made: Build Prometheus and Grafana on existing Kubernetes platform to monitor both containers and virtual machines.
 
-Value Created: Visualized the status of infrastructure, automated the alerting and improved stability of platform
+Value to be created: Visualized the status of infrastructure, automated the alerting and improved stability of platform
 
 `project`
 
