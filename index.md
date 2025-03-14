@@ -25,6 +25,14 @@ With over a decade of hands-on experience in various IT infrastructure environme
 
 During past years, Gang has been worked as DevOps/infrastructure engineer and led/contributed to a variety of projects for customers, including:
 
+**Building High Availability Kubernetes and Github Actions Runner Controller(ARC)**
+
+Description: The existing use of GitHub self-hosted runners on virtual machines (VMs) led to significant scalability issues, race conditions, and lack of workload isolation. As the number of CI/CD workflows grew, VM-based runners could no longer provide a flexible and manageable solution. To address this, a container orchestration platform was required to dynamically provision and scale runners on demand, ensuring standardized, isolated, and scalable infrastructure for GitHub Actions workflows.
+
+Contribution: Designed the architecture for a high-availability Kubernetes platform, enabling resilient and scalable hosting of self-hosted GitHub Actions Runners. Implemented GitHub Actions Runner Controller (ARC) on Kubernetes to manage dynamic provisioning and lifecycle of runners.Tested and validated Kubernetes cluster setup for high availability, including control plane redundancy, node failure resilience, and workload auto-scaling. Redesigned and migrated CI/CD workflows from static VM-based runners to dynamic container-based runners, ensuring compatibility and improved efficiency. Established automated scaling policies and custom GitHub Actions annotations to allocate runners per job needs, enhancing performance and isolation. Collaborated with developers to refactor pipeline steps for optimal use of containerized runners, improving CI/CD pipeline performance and developer experience. Took responsibility for ongoing maintenance, updates, and troubleshooting of the platform to ensure long-term stability and adaptability to evolving CI/CD needs.
+
+Value Created: Improved isolation and security by running each GitHub Actions workflow in a separate container, eliminating cross-pipeline interference. Achieved on-demand scaling of runners, significantly reducing wait time for jobs and optimizing resource utilization. Enhanced reliability and resilience through high-availability Kubernetes cluster, minimizing downtime and failures. Reduced manual effort and operational complexity with fully automated runner provisioning and decommissioning, freeing up platform team capacity. Provided developers with a faster, more reliable CI/CD pipeline, improving overall software delivery speed and quality. Standardized the CI/CD runner infrastructure, enabling consistent, repeatable, and scalable DevOps workflows.
+
 `project`
 **Implementing GitOps Deployment Workflow with Argo CD (Ongoing)**
 
@@ -45,13 +53,8 @@ Contribution: Build Prometheus and Grafana on existing Kubernetes platform to mo
 Value Created: Visualized the status of infrastructure, automated the alerting and improved stability of platform
 
 `project`
-**Building High Availability Kubernetes and Github Actions Runner Controller(ARC)**
 
-Description: The current use of GitHub runners on VMs caused conflicts and scalability issues due to a lack of isolation and standardized infrastructure management. A container orchestration platform is needed to run, scale, and manage GitHub action workflows.
 
-Contribution: Build high availability Kubernetes cluster and GitHub ARC, redesigned and migrated workflows to containerized environments.
-
-Value Created: Improve isolation, scalability, and reliability, while reducing manual overhead through automated infrastructure management.
  
 `project`
 **Troubleshooting and Improving CI/CD Pipelines**
