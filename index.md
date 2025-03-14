@@ -4,7 +4,7 @@ title: Gang Cheng's CV
 ---
 # Gang Cheng 
 
-Red Hat Certified Architect, Infrastructure/DevOps/Platform Engineer
+Red Hat Certified Architect, Infrastructure/DevOps/DevEx/Platform Engineer
 
 <div id="webaddress">
 <a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng">Red Hat Bio</a> | <a href="https://www.linkedin.com/in/gang-cheng-7170a521/">Linkedin page</a>
@@ -12,11 +12,11 @@ Red Hat Certified Architect, Infrastructure/DevOps/Platform Engineer
 
 ## Summary
 
-Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, he has proactively equipped himself with the latest skills and knowledge through an ever-growing list of certifications, workshops, and courses. His efforts and expertise were recognized when he received the honor of being awarded and titled as the Red Hat Certified Professional of the Year 2024(if you are curious of what it is, click Red Hat Bio on top for more info). 
+Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, Gang has proactively built expertise in modern infrastructure, automation, and platform engineering through an ever-growing list of certifications, workshops, conferences and courses. His efforts and expertise were recognized when he received the honor of being awarded and titled as the Red Hat Certified Professional of the Year 2024(if you are curious of what it is, click Red Hat Bio on top for more info). 
 
-In addition to his expertise in Red Hat, Gang has expanded his skills to a wide range of DevOps, Cloud, and Site Reliability technologies. He has gained valuable experience through both professional work projects and self-learning projects.
+In addition to his expertise in Red Hat, Gang has expanded his skills to a wide range of CD/CD, Cloud, platforms, and Site Reliability technologies. He has continuously moved between roles such as System Administrator, Infrastructure Engineer, DevOps, Developer Experience (DevEx), and Platform Engineer(or more along with the change of industry) — demonstrating the ability to adapt and acquire new skills as required. 
 
-With over a decade of working experience in various IT infrastructure environments, Gang has brought solutions to customers, created values for stakeholders, and collaborated with researchers/developers, demonstrating his ability to conduct effective communication within organizations.
+With over a decade of hands-on experience in various IT infrastructure environments, Gang has built his knowledge through professional projects, continuous self-learning, and most importantly, peers from industry. He has successfully delivered solutions to customers, created value for stakeholders, and worked closely with developers and researchers. Gang's strong communication skills and collaborative mindset have enabled him to effectively contribute to cross-functional teams and drive impactful results.
 
 
 ## Employment
