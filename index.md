@@ -12,9 +12,9 @@ Red Hat Certified Architect, Infrastructure/DevOps/DevEx/Platform Engineer
 
 ## Summary
 
-Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, Gang has proactively built expertise in modern infrastructure, automation, and platform engineering through an ever-growing list of certifications, workshops, conferences and courses. His efforts and expertise were recognized when he received the honor of being awarded and titled as the Red Hat Certified Professional of the Year 2024(if you are curious of what it is, click Red Hat Bio on top for more info). 
+Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, Gang has proactively built expertise in managing modern infrastructure and platform through an ever-growing list of certifications, workshops, conferences and courses. His efforts and expertise were recognized when he received the honor of being awarded and titled as the Red Hat Certified Professional of the Year 2024(if you are curious of what it is, click Red Hat Bio on top for more info). 
 
-In addition to his expertise in Red Hat, Gang has expanded his skills to a wide range of CD/CD, Cloud, platforms, and Site Reliability technologies. He has continuously shifted between roles such as System Administrator, Infrastructure Engineer, DevOps, Developer Experience (DevEx), and Platform Engineer(or more along with the change of industry) — demonstrating the ability to adapt and acquire new skills as required. 
+In addition to his expertise in Red Hat, Gang has expanded his skills across CI/CD, automation, platform engineering, and site reliability technologies. He has worked in both small and large teams, taking on roles such as System Administrator, Infrastructure Engineer, DevOps, Developer Experience (DevEx), and Platform Engineer — or a combination of them all, depending on project requirements. No matter what title it could be, Gang adapts to what is needed for the team.
 
 With over a decade of hands-on experience in various IT infrastructure environments, Gang has built his knowledge through professional projects, continuous self-learning, and most importantly, peers from industry. He has successfully delivered solutions to customers, created value for stakeholders, and worked closely with developers and researchers. Gang's strong communication skills and collaborative mindset have enabled him to effectively contribute to cross-functional teams and drive impactful results.
 
@@ -25,11 +25,11 @@ With over a decade of hands-on experience in various IT infrastructure environme
 
 During past years, Gang has been worked as DevOps/infrastructure engineer and led/contributed to a variety of projects for customers, including:
 
-**Building High Availability Kubernetes and Github Actions Runner Controller(ARC)**
+**Building High Availability Kubernetes and Github Actions Runner Controller(ARC)(sole role)**
 
 Description: The existing use of GitHub self-hosted runners on virtual machines (VMs) led to significant scalability issues, race conditions, and lack of workload isolation. As the number of CI/CD workflows grew, VM-based runners could no longer provide a flexible and manageable solution. To address this, a container orchestration platform was required to dynamically provision and scale runners on demand, ensuring standardized, isolated, and scalable infrastructure for GitHub Actions workflows.
 
-Contribution: Designed the architecture for a high-availability Kubernetes platform, enabling resilient and scalable hosting of self-hosted GitHub Actions Runners. Implemented GitHub Actions Runner Controller (ARC) on Kubernetes to manage dynamic provisioning and lifecycle of runners.Tested and validated Kubernetes cluster setup for high availability, including control plane redundancy, node failure resilience, and workload auto-scaling. Redesigned and migrated CI/CD workflows from static VM-based runners to dynamic container-based runners, ensuring compatibility and improved efficiency. Established automated scaling policies and custom GitHub Actions annotations to allocate runners per job needs, enhancing performance and isolation. Collaborated with developers to refactor pipeline steps for optimal use of containerized runners, improving CI/CD pipeline performance and developer experience. Took responsibility for ongoing maintenance, updates, and troubleshooting of the platform to ensure long-term stability and adaptability to evolving CI/CD needs.
+Contribution: Designed the architecture for a high-availability Kubernetes platform, enabling resilient and scalable hosting of self-hosted GitHub Actions Runners. Implemented GitHub Actions Runner Controller (ARC) on Kubernetes to manage dynamic provisioning and lifecycle of runners.Tested and validated Kubernetes cluster setup for high availability, including control plane redundancy, node failure resilience, and workload auto-scaling. Redesigned and migrated CI/CD workflows from static VM-based runners to dynamic container-based runners, ensuring compatibility and improved efficiency. Established automated scaling policies and custom GitHub Actions to allocate runners per job needs, enhancing performance and isolation. Collaborated with developers to refactor pipeline steps for optimal use of containerized runners, improving CI/CD pipeline performance and developer experience. Took responsibility for ongoing maintenance, updates, and troubleshooting of the platform to ensure long-term stability and adaptability to evolving CI/CD needs.
 
 Value Created: Improved isolation and security by running each GitHub Actions workflow in a separate container, eliminating cross-pipeline interference. Achieved on-demand scaling of runners, significantly reducing wait time for jobs and optimizing resource utilization. Enhanced reliability and resilience through high-availability Kubernetes cluster, minimizing downtime and failures. Reduced manual effort and operational complexity with fully automated runner provisioning and decommissioning, freeing up platform team capacity. Provided developers with a faster, more reliable CI/CD pipeline, improving overall software delivery speed and quality. Standardized the CI/CD runner infrastructure, enabling consistent, repeatable, and scalable DevOps workflows.
 
@@ -38,7 +38,7 @@ Value Created: Improved isolation and security by running each GitHub Actions wo
 
 Description: With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
 
-Contribution to be made: Design and implement a GitOps-based deployment workflow using Argo CD to synchronize application manifests in GitHub with Kubernetes environments. Integrated GitHub repositories with Argo CD to ensure that merging to specific branches (e.g., dev, stage, prod) automatically triggers deployment to the corresponding Kubernetes namespaces. Set up ApplicationSets and Helm templates to allow dynamic and reusable deployment configurations across multiple environments. Collaborated with development teams to define GitOps repository structure, environment naming conventions, and workflows. Implemented RBAC and Argo CD project isolation to ensure secure and controlled deployment processes.
+Contribution to be made: Design and implement a GitOps-based deployment workflow using Argo CD to synchronize application manifests in GitHub with Kubernetes environments. Integrated GitHub repositories with Argo CD to ensure that merging to specific branches automatically triggers deployment to the corresponding Kubernetes namespaces. Set up Helm templates to allow dynamic and reusable deployment configurations across multiple environments. Collaborated with development teams to define GitOps repository structure, environment naming conventions, and workflows. Implemented RBAC and Argo CD project isolation to ensure secure and controlled deployment processes.
 
 Value to be created: Imrove efficiency, flexibility, and consistency in application deployment through Git-based change management. Empower developers of self-service application deployment with clear separation of concerns between platform and development teams.
 
@@ -46,24 +46,20 @@ Value to be created: Imrove efficiency, flexibility, and consistency in applicat
 `project`
 **Building Infrastructure Monitoring System(ongoing)**
 
-Description: With increasing number of containers, virtual machines, it is become critial to have one platform that can monitor everything.
+Description: With the increasing number of containers and virtual machines, it became critical to have a unified platform to monitor the entire infrastructure.
 
-Contribution to be made: Build Prometheus and Grafana on existing Kubernetes platform to monitor both containers and virtual machines.
+Contribution: Building Prometheus and Grafana on an existing Kubernetes platform to monitor both containers and VMs, integrating alerting and visualization.
 
-Value to be created: Visualized the status of infrastructure, automated the alerting and improved stability of platform
-
-`project`
-
-
+Value Created: Provided real-time infrastructure visibility, automated alerting, and improved platform stability.
  
 `project`
 **Troubleshooting and Improving CI/CD Pipelines**
 
-Description: The current developing team encounters various errors when running pipelines on self-hosted runners.
+Description: The development team encountered various errors and instability when running pipelines on self-hosted runners.
 
-Contribution: Troubleshooting errors, optimiziing performance, improving reliability and maintaining workflow organized together with developing team .
-Value Created: Release developers from troubleshooting errors so they can focus on developing.
+Contribution: Troubleshot pipeline errors, optimized performance, improved reliability, and worked closely with developers to maintain organized workflows.
 
+Value Created: Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
 
 `project`
 **Infrastructure Standardization and Automation**
