@@ -181,7 +181,7 @@ Assisting researchers using the HPC system at the University of Oslo.
 
 ## Events & Conference
 
-<a href="https://cloud-native-day-oslo-2025.sessionize.com/schedule"> Cloud Native Day 2025 </a>
+<a href="https://cloud-native-day-oslo-2025.sessionize.com/schedule"> Cloud Native Day Oslo 2025 </a>
 
 <a href="https://www.redhat.com/en/summit?sc_cid=7013a000003SgNoAAK&gad_source=1&gclid=Cj0KCQjwkN--BhDkARIsAD_mnIrWsK8FpcovhjhNkmFLjS6y1CHJ86KXi1ZhIma1cS59K3BK2zOzx9QaAp_EEALw_wcB&gclsrc=aw.ds"> Red Hat Summit - Red Hat Ansible Fest </a>
 
