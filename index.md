@@ -25,23 +25,24 @@ With over a decade of hands-on experience in various IT infrastructure environme
 
 During past years, Gang has been worked as DevOps/infrastructure engineer and led/contributed to a variety of projects for customers, including:
 
+`project`
 **Building High Availability Kubernetes and Github Actions Runner Controller(ARC)(sole role)**
 
 Description: The existing use of GitHub self-hosted runners on virtual machines (VMs) led to significant scalability issues, race conditions, and lack of workload isolation. As the number of CI/CD workflows grew, VM-based runners could no longer provide a flexible and manageable solution. To address this, a container orchestration platform was required to dynamically provision and scale runners on demand, ensuring standardized, isolated, and scalable infrastructure for GitHub Actions workflows.
 
-Contribution: Designed the architecture for a high-availability Kubernetes platform, enabling resilient and scalable hosting of self-hosted GitHub Actions Runners. Implemented GitHub Actions Runner Controller (ARC) on Kubernetes to manage dynamic provisioning and lifecycle of runners.Tested and validated Kubernetes cluster setup for high availability, including control plane redundancy, node failure resilience, and workload auto-scaling. Redesigned and migrated CI/CD workflows from static VM-based runners to dynamic container-based runners, ensuring compatibility and improved efficiency. Established automated scaling policies and custom GitHub Actions to allocate runners per job needs, enhancing performance and isolation. Collaborated with developers to refactor pipeline steps for optimal use of containerized runners, improving CI/CD pipeline performance and developer experience. Took responsibility for ongoing maintenance, updates, and troubleshooting of the platform to ensure long-term stability and adaptability to evolving CI/CD needs.
+Contribution: Took sole role in designing and implementing a high-availability Kubernetes cluster with GitHub Actions Runner Controller (ARC) to manage dynamic runner provisioning. Migrated CI/CD workflows from VM-based runners to Kubernetes, implemented automated scaling and isolation, and collaborated with developers to refactor pipelines. Established platform monitoring and ongoing maintenance processes.
 
-Value Created: Improved isolation and security by running each GitHub Actions workflow in a separate container, eliminating cross-pipeline interference. Achieved on-demand scaling of runners, significantly reducing wait time for jobs and optimizing resource utilization. Enhanced reliability and resilience through high-availability Kubernetes cluster, minimizing downtime and failures. Reduced manual effort and operational complexity with fully automated runner provisioning and decommissioning, freeing up platform team capacity. Provided developers with a faster, more reliable CI/CD pipeline, improving overall software delivery speed and quality. Standardized the CI/CD runner infrastructure, enabling consistent, repeatable, and scalable DevOps workflows.
+Value Created: Delivered a secure, scalable, and automated CI/CD runner platform, reducing manual overhead and improving isolation, reliability, and developer productivity. Standardized the CI/CD pipeline infrastructure for consistency and scalability, while enabling on-demand scaling to meet workload peaks.
+
 
 `project`
 **Implementing GitOps Deployment Workflow with Argo CD (Ongoing)**
 
 Description: With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
 
-Contribution to be made: Design and implement a GitOps-based deployment workflow using Argo CD to synchronize application manifests in GitHub with Kubernetes environments. Integrated GitHub repositories with Argo CD to ensure that merging to specific branches automatically triggers deployment to the corresponding Kubernetes namespaces. Set up Helm templates to allow dynamic and reusable deployment configurations across multiple environments. Collaborated with development teams to define GitOps repository structure, environment naming conventions, and workflows. Implemented RBAC and Argo CD project isolation to ensure secure and controlled deployment processes.
+Contribution: Designed and implemented GitOps workflows using Argo CD, connecting GitHub branches to Kubernetes namespaces for automated deployments. Built Helm-based reusable templates and structured repositories for dynamic environments, and implemented RBAC and project isolation for security. Worked with development teams to define deployment flows and ensure smooth integration.
 
-Value to be created: Imrove efficiency, flexibility, and consistency in application deployment through Git-based change management. Empower developers of self-service application deployment with clear separation of concerns between platform and development teams.
-
+Value Created: Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
 
 `project`
 **Building Infrastructure Monitoring System(ongoing)**
@@ -155,9 +156,7 @@ Performing daily admin work, including account management, storage management, s
 
 Assisting researchers using the HPC system at the University of Oslo.
 
-## Education
-`2010-2012`
-University of Oslo: Master in Network and System Administration
+
 ## Certificate
 <a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng"> Red Hat Certified Professional of the Year 2024</a>
 
@@ -180,6 +179,16 @@ University of Oslo: Master in Network and System Administration
 
 <a href="https://www.redhat.com/en/services/certification/red-hat-certified-specialist-in-containers-and-kubernetes"> Red Hat Certified Specialist in Containers and Kubernetes</a>
 
+## Events & Conference
+
+<a href="https://cloud-native-day-oslo-2025.sessionize.com/schedule"> Cloud Native Day 2025 </a>
+<a href="https://www.redhat.com/en/summit?sc_cid=7013a000003SgNoAAK&gad_source=1&gclid=Cj0KCQjwkN--BhDkARIsAD_mnIrWsK8FpcovhjhNkmFLjS6y1CHJ86KXi1ZhIma1cS59K3BK2zOzx9QaAp_EEALw_wcB&gclsrc=aw.ds"> Red Hat Summit - Red Hat Ansible Fest </a>
+
+## Articles
+
+<a href="https://medium.com/@gcccheng/lets-talk-about-troubleshooting-090ab6cbb95c"> Let´s talk about troubleshooting </a>
+<a href="https://medium.com/@gcccheng/challenges-tips-and-rewards-working-as-a-consultant-in-norway-4b6ddce2ff3b"> Challenges, tips, and rewards: working as a consultant in Norway </a>
+<a href="https://www.linkedin.com/pulse/cloud-native-day-oslo-reflections-highlights-gang-cheng-ripaf/?trackingId=rpGDQr2us8CpWZiuR3Sx%2FA%3D%3D"> Cloud Native Day Oslo — Reflections and Highlights </a>
 
 ## Courses
 
@@ -256,8 +265,13 @@ Intrusion detection and monitoring with Snort and Munin
 
 ## Experienced tech stacks
 Kubernetes, Docker, Podman, GitHub Actions, GitHub Actions Runner Controller(ARC), Red Hat Linux, Red Hat Satellite, Red Hat Openshift, Red Hat Ansible,  Atlassian Bitbucket, Atlassian Confluence, Atlassian Jira, Grafana, Prometheus, Dell PowerEdge, Cisco SWitch, Windows Server 2016, Bash, Perl, Python Windows SCCM, Samba, NFS, FirewallD, Active Directory, Networking
+
 ## Exposure Skills
 AWS, MS Azure, Openstack, Terraform, Vagrant
+
+## Education
+`2010-2012`
+University of Oslo: Master in Network and System Administration
   
 ## Hobbies 
 Blog writing, Skiing, and hiking
