@@ -142,20 +142,19 @@ Value Created: Enhanced system reliability and performance by proactively identi
 `2012-2022`
 ***<font size= "3">System Engineer at University of Oslo</font>***
 
-At the University of Oslo, Gang participated in managing a local data center to deliver a reliable scientific computing infrastructure to researchers at the Centre for Molecular Medicine Norway. His main tasks included:
+At the University of Oslo, Gang played a key role in managing and operating a local data center dedicated to delivering robust and reliable scientific computing infrastructure for researchers at the Centre for Molecular Medicine Norway (NCMM). His responsibilities includes comprehensive IT operations management, technical infrastructure support, and close collaboration with scientific researchers. Key activities included:
 
-Installing, configuring, and maintaining Dell/HP/Red Hat servers for a variety of services, including computing, virtualization, database, web, Samba, NFS, and inventory.
+Server Infrastructure Management: Purchased, installed, configured, and maintained enterprise-grade Dell, HP, and Red Hat servers. Managed diverse services such as scientific computing, virtualization (VMware/KVM), databases, web servers, and storage services (RAID, Samba, NFS). Ensured high reliability, scalability, and performance optimization.
 
-Deploying and managing Windows machines with SCCM.
+Windows Deployment and Administration: Provision Windows with PXE, configuration, and continuous management of Windows-based client utilizing SCCM (System Center Configuration Manager). Streamlined software distribution, security patching, and policy enforcement to ensure compliance and reliability.
 
-Managing and maintaining 1 public network and 1 private lab network with Cisco devices.
+Network Operations: Administered and maintained both public and private lab networks using Cisco network hardware(switches, routers) and NAT. Performed routine network cabling, port-forwarding, and troubleshooting to maintain seamless connectivity and data security.
 
-Installing and maintaining complex scientific applications with increasing and unstable dependencies.
+Complex Scientific Software Management: Specialized in installing, configuring, and maintaining sophisticated scientific software with unclear and unstable dependencies. Regularly coordinated with researchers to adapt and optimize computing environments for advanced scientific analyses.
 
-Performing daily admin work, including account management, storage management, security, monitoring, and problem troubleshooting.
+Daily IT Operational Support: Conducted daily operational responsibilities, including user account provisioning, access control, storage administration, security assessments, and proactive system monitoring (Nagios, Zabbix). Ensured timely troubleshooting and resolution of technical issues, significantly minimizing system downtime.
 
-Assisting researchers using the HPC system at the University of Oslo.
-
+High-Performance Computing (HPC) Support: Provided hands-on support and user training for researchers accessing the university's HPC infrastructure, assisting in job submission, parallel computing optimization, and data-intensive computational workflows.
 
 ## Certificate
 <a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng"> Red Hat Certified Professional of the Year 2024</a>
@@ -257,6 +256,8 @@ Build Proxmox virtual infrastructure for complex IT system
 Build Foreman+Ansible+Smart Proxy and provision hosts for large infrastructure
   
 Integrate Linux to Windows Domain
+
+Build modern inventory system with OCS inventory
   
 Set up local directory service with OpenLDAP
   
