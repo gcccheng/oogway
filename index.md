@@ -267,10 +267,10 @@ Set up local directory service with OpenLDAP
 Intrusion detection and monitoring with Snort and Munin
 
 ## Experienced tech stacks
-Kubernetes, Docker, Podman, GitHub Actions, GitHub Actions Runner Controller(ARC), Red Hat Linux, Red Hat Satellite, Red Hat Openshift, Red Hat Ansible,  Atlassian Bitbucket, Atlassian Confluence, Atlassian Jira, Grafana, Prometheus, Dell PowerEdge, Cisco SWitch, Windows Server 2016, Bash, Perl, Python Windows SCCM, Samba, NFS, FirewallD, Active Directory, Networking
+Kubernetes, Docker, Podman, GitHub Actions, GitHub Actions Runner Controller(ARC), Red Hat Linux, Red Hat Satellite, Red Hat Openshift, Red Hat Ansible,  Atlassian Bitbucket, Atlassian Confluence, Atlassian Jira, Grafana, Prometheus, Dell PowerEdge, Cisco SWitch, Windows Server 2016, Ansible, Terrafform, Bash, Perl, Python Windows SCCM, Samba, NFS, FirewallD, Active Directory, Networking
 
 ## Exposure Skills
-AWS, MS Azure, Openstack, Terraform, Vagrant
+AWS, MS Azure, Openstack, Vagrant
 
 ## Education
 `2010-2012`
