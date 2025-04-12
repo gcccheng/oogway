@@ -36,6 +36,15 @@ Value Created: Delivered a secure, scalable, and automated CI/CD runner platform
 
 
 `project`
+**Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes**
+
+Description: Terraform state files were previously stored on local disks, causing issues like lack of version control and collaboration challenges. Public cloud storage (e.g., AWS S3) was not an option due to policy constraints.
+
+Contribution: Designed and deployed a MinIO-based S3-compatible backend on an internal Kubernetes platform. Integrated it with GitHub Actions pipelines to enable secure and versioned Terraform state storage within the CI/CD workflow.
+
+Value Created: Established a reliable, centralized, and versioned Terraform state backend, improving collaboration, auditability, and infrastructure stability—without relying on public cloud services.
+
+`project`
 **Implementing GitOps Deployment Workflow with Argo CD (Ongoing)**
 
 Description: With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
@@ -193,6 +202,8 @@ High-Performance Computing (HPC) Support: Provided hands-on support and user tra
 <a href="https://www.linkedin.com/pulse/cloud-native-day-oslo-reflections-highlights-gang-cheng-ripaf/?trackingId=rpGDQr2us8CpWZiuR3Sx%2FA%3D%3D"> Cloud Native Day Oslo — From DevOps to DevEx </a>
 
 ## Courses
+
+<a href="https://www.coursera.org/learn/gcp-fundamentals"> Google Cloud Foundamentals </a>
 
 <a href="https://www.nvidia.com/en-us/learn/certification/ai-infrastructure-operations-associate/"> Nvidia Academy: AI Infrastructure and Operations
  </a>
