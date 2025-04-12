@@ -12,11 +12,12 @@ Red Hat Certified Architect, Infrastructure/DevOps/DevEx/Platform Engineer
 
 ## Summary
 
-Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, Gang has proactively built expertise in managing modern infrastructure and platform through an ever-growing list of certifications, workshops, conferences and courses. His efforts and expertise were recognized when he received the honor of being awarded and titled as the Red Hat Certified Professional of the Year 2024(if you are curious of what it is, click Red Hat Bio on top for more info). 
+Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, Gang has proactively built expertise in managing modern infrastructure and platform through an ever-growing list of projects, certifications, workshops, conferences, courses, and most importantly, through industry peers. His efforts and expertise were recognized when he received the honor of being awarded and titled as the Red Hat Certified Professional of the Year 2024(if you are curious of what it is, click Red Hat Bio on top for more info). 
 
-In addition to his expertise in Red Hat, Gang has expanded his skills across CI/CD, automation, platform engineering, and site reliability technologies. He has worked in both small and large teams, taking on roles such as System Administrator, Infrastructure Engineer, DevOps, Developer Experience (DevEx), and Platform Engineer — or a combination of them all, depending on project requirements. No matter what title it could be, Gang adapts to what is needed for the team.
+In addition to his expertise in Red Hat, Gang has expanded his skills across DevOps engineering, platform engineering, and site reliability engineering. He has worked in both small and large teams, taking on roles such as System Administrator, Infrastructure Engineer, DevOps Engineer, Developer Experience (DevEx) 
+ Engineer, and Platform Engineer — or a combination of them all, depending on project requirements. No matter what title it could be, Gang adapts to what is needed for the team.
 
-With over a decade of hands-on experience in various IT infrastructure environments, Gang has built his knowledge through professional projects, continuous self-learning, and most importantly, peers from industry. He has successfully delivered solutions to customers, created value for stakeholders, and worked closely with developers and researchers. Gang's strong communication skills and collaborative mindset have enabled him to effectively contribute to cross-functional teams and drive impactful results.
+With over a decade of hands-on experience in various IT infrastructure environments, he successfully delivered solutions to customers, created value for stakeholders, and worked closely with developers and researchers. Gang's strong communication skills and collaborative mindset have enabled him to effectively contribute to cross-functional teams and create values.
 
 
 ## Employment
@@ -36,7 +37,7 @@ Value Created: Delivered a secure, scalable, and automated CI/CD runner platform
 
 
 `project`
-**Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes**
+**Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)**
 
 Description: Terraform state files were previously stored on local disks, causing issues like lack of version control and collaboration challenges. Public cloud storage (e.g., AWS S3) was not an option due to policy constraints.
 
@@ -45,7 +46,7 @@ Contribution: Designed and deployed a MinIO-based S3-compatible backend on an in
 Value Created: Established a reliable, centralized, and versioned Terraform state backend, improving collaboration, auditability, and infrastructure stability—without relying on public cloud services.
 
 `project`
-**Implementing GitOps Deployment Workflow with Argo CD (Ongoing)**
+**Implementing GitOps Deployment Workflow with Argo CD (Ongoing)(sole role)**
 
 Description: With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
 
@@ -54,7 +55,7 @@ Contribution: Designed and implemented GitOps workflows using Argo CD, connectin
 Value Created: Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
 
 `project`
-**Building Infrastructure Monitoring System(ongoing)**
+**Building Infrastructure Monitoring System(ongoing)(sole role)**
 
 Description: With the increasing number of containers and virtual machines, it became critical to have a unified platform to monitor the entire infrastructure.
 
@@ -72,7 +73,7 @@ Contribution: Troubleshot pipeline errors, optimized performance, improved relia
 Value Created: Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
 
 `project`
-**Infrastructure Standardization and Automation**
+**Infrastructure Standardization and Automation(sole role)**
 
 Description: The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
 
@@ -131,7 +132,7 @@ Value Created: Streamlined installation, configuration, and management of VM.
 
 
 `project`
-**Deploying critical application to infrastructure**
+**Deploying critical application to infrastructure(sole role)**
 
 Description: A critical cloud-based application must be deployed, configured, and tested across the entire platform.
 Contribution: Solo responsibility for installing, configuring, and troubleshooting applications.
