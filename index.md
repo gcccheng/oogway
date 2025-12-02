@@ -21,7 +21,25 @@ With over a decade of hands-on experience in various IT infrastructure environme
 
 
 ## Employment
-`2022-Now`
+`2025-Now`  
+***<font size="3">Senior Platform Engineer — Appear TV, Oslo</font>***
+
+At Appear, Gang works on building and maintaining a modern, scalable infrastructure powering developer productivity and high-performance applications. His work focuses on bare-metal Kubernetes, GitOps, observability, storage, CI/CD automation, and platform security.
+
+**Key Responsibilities & Achievements**
+
+- Built and maintained **bare-metal Kubernetes clusters** managed by Rancher, running on Flatcar (immutable OS), supporting internal R&D teams working with Rust, C++, Python, Yocto, and TypeScript.
+- Designed end-to-end **GitOps workflows** using GitLab + ArgoCD with Kustomize, enabling automated deployments, consistent environment management, and reduced operational overhead.
+- Automated infrastructure provisioning using **Terraform**, with GitLab pipelines triggering Terraform apply for predictable and auditable changes.
+- Integrated **TrueNAS NFS backend** to support stateless workloads with decoupled persistent storage.
+- Managed and optimized internal platform components: **Harbor registry, VMware VM lifecycle, ExternalDNS, Bind9, MetalLB, Replicator, GitLab Runners**.
+- Built observability stack using **Prometheus + Grafana**, providing system health metrics, dashboards, and alerting.
+- Collaborated directly with the **CISO** to ensure that CI/CD pipelines, Kubernetes cluster settings, and deployment workflows comply with security requirements and internal governance.
+- Improved reliability of the development workflow, reduced deployment friction, and enhanced the entire software delivery lifecycle through automation and platform standardization.
+- Participated in the project of building Appear Hub, a customer-facing delivery platform for firmware, documentation, and license distribution. Implemented the solution on Azure using Container Apps for scalable backend services and Azure Front Door for global routing.
+
+
+`2022-2025`
 ***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
 
 During past years, Gang has been worked as DevOps/infrastructure engineer and led/contributed to a variety of projects for customers, including:
