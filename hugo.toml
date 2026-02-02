@@ -1,0 +1,7 @@
+baseURL = "https://gcccheng.github.io/oogway/"
+languageCode = "en-us"
+title = "Gang Cheng"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
+
+[params]
+  description = "Platform, DevOps, and Infrastructure Engineer"
