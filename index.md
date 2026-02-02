@@ -16,7 +16,7 @@ title: Gang Cheng
   <section class="hero">
     <div>
       <h1>Hi, I'm Gang.
-        <span>I build dependable platforms.</span>
+        <span>I build dependable platforms .</span>
       </h1>
       <p class="tagline">
         Senior Platform Engineer specializing in bare-metal Kubernetes, GitOps delivery, observability,
