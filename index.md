@@ -12,21 +12,103 @@ Red Hat Certified Architect, Infrastructure/DevOps/DevEx/Platform Engineer
 
 ## Summary
 
-Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, Gang has proactively built expertise in managing modern infrastructure and platform through an ever-growing list of projects, certifications, workshops, conferences, courses, and most importantly, through industry peers. His efforts and expertise were recognized when he received the honor of being awarded and titled as the Red Hat Certified Professional of the Year 2024(if you are curious of what it is, click Red Hat Bio on top for more info). 
+Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, Gang has proactively built expertise in managing modern infrastructure and platform through an ever-growing list of projects, certifications, workshops, conferences, courses, industry peers and through AI. His efforts and expertise were recognized when he received the honor of being awarded and titled as the Red Hat Certified Professional of the Year 2024(if you are curious of what it is, click Red Hat Bio on top for more info). 
 
 In addition to his expertise in Red Hat, Gang has expanded his skills across DevOps engineering, platform engineering, and site reliability engineering. He has worked in both small and large teams, taking on roles such as System Administrator, Infrastructure Engineer, DevOps Engineer, Developer Experience (DevEx) 
- Engineer, and Platform Engineer — or a combination of them all, depending on project requirements. No matter what title it could be, Gang adapts to what is needed for the team.
+ Engineer, and Platform Engineer — or a combination of them all, depending on project requirements. In the era of AI-driven engineering, Gang is also actively exploring how artificial intelligence can assist platform and infrastructure work. This includes AI-assisted troubleshooting, automation generation, infrastructure documentation, and improving developer productivity through intelligent tooling. Rather than viewing AI as a replacement for engineers, he sees it as a powerful collaborator that enhances decision-making, accelerates problem-solving, and helps engineers focus on higher-level architectural thinking.
 
-With over a decade of hands-on experience in various IT infrastructure environments, he successfully delivered solutions to customers, created value for stakeholders, and worked closely with developers and researchers. Gang's strong communication skills and collaborative mindset have enabled him to effectively contribute to cross-functional teams and create values.
+No matter what title or environment, Gang adapts quickly to create value for the business through strong communication skills and a collaborative mindset.
 
 
 ## Employment
+
 `2025-Now`  
 ***<font size="3">Senior Platform Engineer — Appear TV, Oslo</font>***
 
 At Appear, Gang works on building and maintaining a modern, scalable infrastructure powering developer productivity and high-performance applications. His work focuses on bare-metal Kubernetes, GitOps, observability, storage, CI/CD automation, and platform security.
 
+### ★ NVIDIA GPU Cluster & Model Serving Platform
+
+##### Responsibilities
+
+- Designed and delivered **platformised NVIDIA GPU cluster capabilities**, defining GPU resource governance and service‑oriented delivery paths.
+- Standardised GPU foundations using **GPU Operator**, establishing reusable cluster baselines.
+- Introduced **Time Slicing** and **MPS** to enable fine‑grained GPU sharing and multi‑tenant concurrency.
+- Brought **GitLab Runner** GPU workloads into platform scheduling with defined policies for GPU pipelines.
+- Integrated GPU observability into the platform stack, covering **utilisation, inference latency, and throughput**.
+- Enforced access control and policy guardrails for GPU workloads via **Kyverno**.
+- Coordinated R&D and platform teams to operationalise model serving and inference workflows.
+
+##### Value Created
+
+- Delivered a governable, observable, and rollback‑safe GPU platform for reliable model serving.
+- Improved GPU utilisation and delivery efficiency through multi‑tenant optimisation and elastic scaling.
+
+---
+
+### ★ Autonomous Platform SRE Agent (AI-Driven Operations MVP)
+
+#### Responsibilities
+- Designed and built a modular autonomous SRE agent to reduce operational toil and automate repetitive platform engineering tasks, enabling a shift from reactive alerting to proactive remediation.
+- Architected a Python-based orchestrator framework with pluggable expert modules (Kubernetes, Vsphere, and supply-chain intelligence) to handle multi-domain infrastructure operations.
+- Implemented a “Brain + Tools” architecture, where the agent scans infrastructure APIs (Kubernetes and Vsphere), detects operational violations, and leverages LLM reasoning (GPT-4o) to analyse root causes and generate remediation strategies rather than simply reporting errors.
+- Built a Safety Engine & Policy Gatekeeper to constrain AI autonomy: the agent can automatically remediate low-risk issues (e.g., restarting stalled VMs or resolving policy violations), while high-risk changes require human approval.
+- Developed a Mission Control Dashboard using Flask and HTMX, providing visibility into the agent’s reasoning process and enabling engineers to review and approve remediation actions with one-click execution.
+- Solved the immutable pod remediation challenge by enabling semantic reasoning to identify and patch the parent controllers (Deployments/StatefulSets) instead of transient pods.
+- Integrated a software supply-chain intelligence module capable of scanning Terraform and Ansible repositories, analysing GitHub release notes, and performing semantic risk analysis before recommending dependency upgrades.
+
+##### Value Created
+
+- Reduced operational toil by automating classification and remediation of hundreds of infrastructure and security policy violations (e.g., Kyverno alerts and platform health checks).
+- Shifted maintenance left by transforming routine dependency updates into a structured review-and-approval workflow, accelerating platform upgrade cycles.
+- Demonstrated safe AI-assisted operations, enabling autonomous execution of L1-level SRE tasks while freeing senior engineers to focus on architecture and platform evolution.
+- Established a foundation for AI-augmented platform operations, lowering the barrier for engineers to leverage LLM capabilities while maintaining governance and operational safety.
+
+
+#### ★ CISO Partnership & Platform Security Governance
+
+##### Responsibilities
+
+- Built and implemented **Kyverno Policy‑as‑Code** as the core platform security governance mechanism.
+- Led security governance reviews and implementation paths, aligning security controls with business requirements.
+- Reviewed platform baselines to identify key risks and vulnerabilities.
+- Designed and maintained **Validating** and **Mutation** policies, continuously iterating the policy library.
+- Delivered GitOps‑driven security policies for auditability, traceability and rollback.
+- Worked closely with the CISO and security architects to implement security and compliance controls across Kubernetes and DevOps environments, supporting IPO readiness and ISO 27001 certification.
+- Delivered platform‑level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply‑chain security (SBOM/signing), and audit logging.
+
+##### Value Created
+
+- Established a platform‑level security governance system with auditable controls and compliance readiness.
+- Balanced security requirements with delivery efficiency by aligning policies to business needs.
+
+---
+
+#### ★ Internal Self-Hosted AI Platform
+
+Delivered an internal AI/LLM enablement platform to support engineering use-cases such as log and telemetry analysis, documentation generation, incident explanation and code assistance.
+
+##### Responsibilities
+
+- Acted as technical owner, leading **platform architecture, capability layering and governance model**.
+- Defined roadmap and delivery standards, ran architecture reviews, and coordinated cross‑team execution.
+- Mentored junior engineers through task decomposition and peer reviews to improve delivery quality.
+- Evaluated multiple LLM backends and tools (hosted APIs and local inference) with a focus on **latency, concurrency characteristics, token cost and model behaviour**.
+- Designed a containerised deployment model on Kubernetes, including access control, team isolation and integration with existing SSO / developer tooling.
+- Explored model‑selection strategies by comparing latency, output quality and token usage across different LLM providers (OpenAI, RequestyAI, local Llama variants), identifying which models were most suitable for specific request types.
+- Implemented basic prompt governance, usage logging and cost visibility, laying groundwork for **responsible AI and auditability**.
+- Worked with several R&D teams to promote AI‑assisted engineering practices and capture feedback for future platform evolution (e.g. RAG, code search, knowledge base integration).
+  
+##### Value Created
+
+- Established the company’s first **unified internal AI entry point and platform capability layer**, significantly lowering the barrier for engineers to use LLMs in daily work.
+- Shifted AI usage from ad‑hoc, individual experimentation to **systematic, policy‑aware consumption**.
+- Created a practical foundation for future **AI Gateway‑style capabilities** such as multi‑tenant routing, cost/observability and governance.
+
+
 **Key Responsibilities & Achievements**
+
+
 
 Built and maintained **bare-metal Kubernetes clusters** managed by Rancher, running on Flatcar (immutable OS), supporting internal R&D teams working with Rust, C++, Python, Yocto, and TypeScript.
 
