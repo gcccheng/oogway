@@ -45,8 +45,6 @@ Value Created：
 - Delivered a governable, observable, and rollback‑safe GPU platform for reliable model serving.
 - Improved GPU utilisation and delivery efficiency through multi‑tenant optimisation and elastic scaling.
 
----
-
 `project`
 **Autonomous Platform SRE Agent (AI-Driven Operations MVP)**
 
