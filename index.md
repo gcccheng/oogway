@@ -27,7 +27,7 @@ No matter what title or environment, Gang adapts quickly to create value for the
 
 At Appear, Gang works on building and maintaining a modern, scalable infrastructure powering developer productivity and high-performance applications. His work focuses on bare-metal Kubernetes, GitOps, observability, storage, CI/CD automation, and platform security.
 
-### ★ NVIDIA GPU Cluster & Model Serving Platform
+### NVIDIA GPU Cluster & Model Serving Platform
 
 ##### Responsibilities
 
@@ -46,7 +46,7 @@ At Appear, Gang works on building and maintaining a modern, scalable infrastruct
 
 ---
 
-### ★ Autonomous Platform SRE Agent (AI-Driven Operations MVP)
+### Autonomous Platform SRE Agent (AI-Driven Operations MVP)
 
 #### Responsibilities
 - Designed and built a modular autonomous SRE agent to reduce operational toil and automate repetitive platform engineering tasks, enabling a shift from reactive alerting to proactive remediation.
@@ -65,7 +65,7 @@ At Appear, Gang works on building and maintaining a modern, scalable infrastruct
 - Established a foundation for AI-augmented platform operations, lowering the barrier for engineers to leverage LLM capabilities while maintaining governance and operational safety.
 
 
-#### ★ CISO Partnership & Platform Security Governance
+#### CISO Partnership & Platform Security Governance
 
 ##### Responsibilities
 
