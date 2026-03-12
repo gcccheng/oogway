@@ -83,7 +83,6 @@ Value Created：
 - Established a platform‑level security governance system with auditable controls and compliance readiness.
 - Balanced security requirements with delivery efficiency by aligning policies to business needs.
 
----
 
 `project`
 **Internal Self-Hosted AI Platform**
