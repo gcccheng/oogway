@@ -50,38 +50,38 @@ Value Created：
 
 Responsibilities：
 
-- Designed and built a modular autonomous SRE agent to reduce operational toil and automate repetitive platform engineering tasks, enabling a shift from reactive alerting to proactive remediation.
-- Architected a Python-based orchestrator framework with pluggable expert modules (Kubernetes, Vsphere, and supply-chain intelligence) to handle multi-domain infrastructure operations.
-- Implemented a “Brain + Tools” architecture, where the agent scans infrastructure APIs (Kubernetes and Vsphere), detects operational violations, and leverages LLM reasoning (GPT-4o) to analyse root causes and generate remediation strategies rather than simply reporting errors.
-- Built a Safety Engine & Policy Gatekeeper to constrain AI autonomy: the agent can automatically remediate low-risk issues (e.g., restarting stalled VMs or resolving policy violations), while high-risk changes require human approval.
-- Developed a Mission Control Dashboard using Flask and HTMX, providing visibility into the agent’s reasoning process and enabling engineers to review and approve remediation actions with one-click execution.
-- Solved the immutable pod remediation challenge by enabling semantic reasoning to identify and patch the parent controllers (Deployments/StatefulSets) instead of transient pods.
-- Integrated a software supply-chain intelligence module capable of scanning Terraform and Ansible repositories, analysing GitHub release notes, and performing semantic risk analysis before recommending dependency upgrades.
+Designed and built a modular autonomous SRE agent to reduce operational toil and automate repetitive platform engineering tasks, enabling a shift from reactive alerting to proactive remediation.
+Architected a Python-based orchestrator framework with pluggable expert modules (Kubernetes, Vsphere, and supply-chain intelligence) to handle multi-domain infrastructure operations.
+Implemented a “Brain + Tools” architecture, where the agent scans infrastructure APIs (Kubernetes and Vsphere), detects operational violations, and leverages LLM reasoning (GPT-4o) to analyse root causes and generate remediation strategies rather than simply reporting errors.
+Built a Safety Engine & Policy Gatekeeper to constrain AI autonomy: the agent can automatically remediate low-risk issues (e.g., restarting stalled VMs or resolving policy violations), while high-risk changes require human approval.
+Developed a Mission Control Dashboard using Flask and HTMX, providing visibility into the agent’s reasoning process and enabling engineers to review and approve remediation actions with one-click execution.
+Solved the immutable pod remediation challenge by enabling semantic reasoning to identify and patch the parent controllers (Deployments/StatefulSets) instead of transient pods.
+Integrated a software supply-chain intelligence module capable of scanning Terraform and Ansible repositories, analysing GitHub release notes, and performing semantic risk analysis before recommending dependency upgrades.
 
 Value Created：
 
-- Reduced operational toil by automating classification and remediation of hundreds of infrastructure and security policy violations (e.g., Kyverno alerts and platform health checks).
-- Shifted maintenance left by transforming routine dependency updates into a structured review-and-approval workflow, accelerating platform upgrade cycles.
-- Demonstrated safe AI-assisted operations, enabling autonomous execution of L1-level SRE tasks while freeing senior engineers to focus on architecture and platform evolution.
-- Established a foundation for AI-augmented platform operations, lowering the barrier for engineers to leverage LLM capabilities while maintaining governance and operational safety.
+Reduced operational toil by automating classification and remediation of hundreds of infrastructure and security policy violations (e.g., Kyverno alerts and platform health checks).
+Shifted maintenance left by transforming routine dependency updates into a structured review-and-approval workflow, accelerating platform upgrade cycles.
+Demonstrated safe AI-assisted operations, enabling autonomous execution of L1-level SRE tasks while freeing senior engineers to focus on architecture and platform evolution.
+Established a foundation for AI-augmented platform operations, lowering the barrier for engineers to leverage LLM capabilities while maintaining governance and operational safety.
 
 `project`
 **CISO Partnership & Platform Security Governance**
 
 Responsibilities：
 
-- Built and implemented **Kyverno Policy‑as‑Code** as the core platform security governance mechanism.
-- Led security governance reviews and implementation paths, aligning security controls with business requirements.
-- Reviewed platform baselines to identify key risks and vulnerabilities.
-- Designed and maintained **Validating** and **Mutation** policies, continuously iterating the policy library.
-- Delivered GitOps‑driven security policies for auditability, traceability and rollback.
-- Worked closely with the CISO and security architects to implement security and compliance controls across Kubernetes and DevOps environments, supporting IPO readiness and ISO 27001 certification.
-- Delivered platform‑level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply‑chain security (SBOM/signing), and audit logging.
+Built and implemented **Kyverno Policy‑as‑Code** as the core platform security governance mechanism.
+Led security governance reviews and implementation paths, aligning security controls with business requirements.
+Reviewed platform baselines to identify key risks and vulnerabilities.
+Designed and maintained **Validating** and **Mutation** policies, continuously iterating the policy library.
+Delivered GitOps‑driven security policies for auditability, traceability and rollback.
+Worked closely with the CISO and security architects to implement security and compliance controls across Kubernetes and DevOps environments, supporting IPO readiness and ISO 27001 certification.
+Delivered platform‑level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply‑chain security (SBOM/signing), and audit logging.
 
 Value Created：
 
-- Established a platform‑level security governance system with auditable controls and compliance readiness.
-- Balanced security requirements with delivery efficiency by aligning policies to business needs.
+Established a platform‑level security governance system with auditable controls and compliance readiness.
+Balanced security requirements with delivery efficiency by aligning policies to business needs.
 
 
 `project`
@@ -91,20 +91,20 @@ Delivered an internal AI/LLM enablement platform to support engineering use-case
 
 Responsibilities：
 
-- Acted as technical owner, leading **platform architecture, capability layering and governance model**.
-- Defined roadmap and delivery standards, ran architecture reviews, and coordinated cross‑team execution.
-- Mentored junior engineers through task decomposition and peer reviews to improve delivery quality.
-- Evaluated multiple LLM backends and tools (hosted APIs and local inference) with a focus on **latency, concurrency characteristics, token cost and model behaviour**.
-- Designed a containerised deployment model on Kubernetes, including access control, team isolation and integration with existing SSO / developer tooling.
-- Explored model‑selection strategies by comparing latency, output quality and token usage across different LLM providers (OpenAI, RequestyAI, local Llama variants), identifying which models were most suitable for specific request types.
-- Implemented basic prompt governance, usage logging and cost visibility, laying groundwork for **responsible AI and auditability**.
-- Worked with several R&D teams to promote AI‑assisted engineering practices and capture feedback for future platform evolution (e.g. RAG, code search, knowledge base integration).
+Acted as technical owner, leading **platform architecture, capability layering and governance model**.
+Defined roadmap and delivery standards, ran architecture reviews, and coordinated cross‑team execution.
+Mentored junior engineers through task decomposition and peer reviews to improve delivery quality.
+Evaluated multiple LLM backends and tools (hosted APIs and local inference) with a focus on **latency, concurrency characteristics, token cost and model behaviour**.
+Designed a containerised deployment model on Kubernetes, including access control, team isolation and integration with existing SSO / developer tooling.
+Explored model‑selection strategies by comparing latency, output quality and token usage across different LLM providers (OpenAI, RequestyAI, local Llama variants), identifying which models were most suitable for specific request types.
+Implemented basic prompt governance, usage logging and cost visibility, laying groundwork for **responsible AI and auditability**.
+Worked with several R&D teams to promote AI‑assisted engineering practices and capture feedback for future platform evolution (e.g. RAG, code search, knowledge base integration).
   
 Value Created：
 
-- Established the company’s first **unified internal AI entry point and platform capability layer**, significantly lowering the barrier for engineers to use LLMs in daily work.
-- Shifted AI usage from ad‑hoc, individual experimentation to **systematic, policy‑aware consumption**.
-- Created a practical foundation for future **AI Gateway‑style capabilities** such as multi‑tenant routing, cost/observability and governance.
+Established the company’s first **unified internal AI entry point and platform capability layer**, significantly lowering the barrier for engineers to use LLMs in daily work.
+Shifted AI usage from ad‑hoc, individual experimentation to **systematic, policy‑aware consumption**.
+Created a practical foundation for future **AI Gateway‑style capabilities** such as multi‑tenant routing, cost/observability and governance.
 
 
 `project`
