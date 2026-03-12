@@ -121,7 +121,7 @@ Automated infrastructure provisioning using **Terraform**, with GitLab pipelines
 
 Integrated **TrueNAS NFS backend** to support stateless workloads with decoupled persistent storage.
 
-Managed and optimized internal platform components: **Harbor registry, VMware VM lifecycle, ExternalDNS, Bind9, MetalLB, Replicator, GitLab Runners**.
+Managed and optimized internal platform components: **Harbor registry, PXE bootstrap node, VMware VM lifecycle, ExternalDNS, Bind9, MetalLB, Replicator, GitLab Runners**.
 
 Built observability stack using **Prometheus + Grafana**, providing system health metrics, dashboards, and alerting.
 
@@ -164,6 +164,16 @@ Description: With increasing demands from developers for faster and more flexibl
 Contribution: Designed and implemented GitOps workflows using Argo CD, connecting GitHub branches to Kubernetes namespaces for automated deployments. Built Helm-based reusable templates and structured repositories for dynamic environments, and implemented RBAC and project isolation for security. Worked with development teams to define deployment flows and ensure smooth integration.
 
 Value Created: Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
+
+`project`
+**Implementing Ceph Storage Integration for OpenShift**
+
+Description: The client required a scalable and highly available storage backend to support stateful workloads running on OpenShift. I worked on deploying and integrating a Ceph-based storage solution to provide reliable Persistent Volume provisioning for the platform.
+
+Contribution: Deployed and configured a Ceph cluster to serve as the storage backend for OpenShift, ensuring high availability and replication across nodes. Integrated Ceph with OpenShift via StorageClasses and dynamic PVC provisioning to support stateful applications. Performed validation of read/write performance, redundancy, and failure recovery scenarios. Documented operational procedures, including node replacement, OSD recovery, monitoring, and capacity planning.
+
+Value Created: Dlivered a production-ready storage foundation for OpenShift workloads, enabling the platform to run databases, message queues, and other stateful services reliably. Improved resilience and reduced operational risk through automated failover and self-healing storage capabilities.
+
 
 `project`
 **Building Infrastructure Monitoring System(ongoing)(sole role)**
@@ -263,19 +273,17 @@ Value Created: Enhanced system reliability and performance by proactively identi
 `2012-2022`
 ***<font size= "3">System Engineer at University of Oslo</font>***
 
-At the University of Oslo, Gang played a key role in managing and operating a local data center dedicated to delivering robust and reliable scientific computing infrastructure for researchers at the Centre for Molecular Medicine Norway (NCMM). His responsibilities includes comprehensive IT operations management, technical infrastructure support, and close collaboration with scientific researchers. Key activities included:
+At the University of Oslo, Gang worked as system engineer in managing and operating a local data center dedicated to delivering robust and reliable scientific computing infrastructure for researchers at the Centre for Molecular Medicine Norway (NCMM). His responsibilities spanned core IT operations, distributed systems engineering, and close collaboration with scientific researchers.
 
-Server Infrastructure Management: Purchased, installed, configured, and maintained enterprise-grade Dell, HP, and Red Hat servers. Managed diverse services such as scientific computing, virtualization (VMware/KVM), databases, web servers, and storage services (RAID, Samba, NFS). Ensured high reliability, scalability, and performance optimization.
+**Responsibilities**
 
-Windows Deployment and Administration: Provision Windows with PXE, configuration, and continuous management of Windows-based client utilizing SCCM (System Center Configuration Manager). Streamlined software distribution, security patching, and policy enforcement to ensure compliance and reliability.
+- Server & Infrastructure Management: Installed, configured, and maintained compute systems for scientific workloads, including Linux-based compute nodes, distributed HPC servers, and NVIDIA GPU-accelerated machines. Built and operated foundational components of the university’s high-performance computing environment, ensuring system reliability, performance, and scalability across research workloads.
+- Windows Deployment and Administration: Automated provisioning and lifecycle management of Windows clients using PXE and SCCM (System Center Configuration Manager). Streamlined software distribution, security patching, and policy compliance for stable operation.
+- Network Operations: Administered public and private research networks using Cisco switches and routers, including NAT, VLAN segmentation, private dns domain and dhcp zone, firewall rules, port assignments, and connectivity troubleshooting to support secure, high-availability access to computing resources.
+- Scientific Software & Distributed Computing Environment: Installed and maintained complex scientific software stacks with unstable dependencies. Optimized computational environments for bioinformatics, molecular modeling, and large-scale data analysis, providing technical guidance for advanced distributed workloads.
+- Daily IT Operations: Performed daily responsibilities including user provisioning, access control, storage management, system monitoring (Nagios, Zabbix), and incident troubleshooting, minimizing downtime for critical research systems.
+- High-Performance Computing (HPC) Engineering & Parallel Workload Support: Contributed to the build-out and ongoing operation of the university’s HPC cluster, including configuration of distributed compute nodes with NVIDIA GPU nodes, shared storage, and Slurm scheduling services. Supported researchers in running parallel and GPU-accelerated jobs, optimized workload performance, and troubleshot issues across multi-node and high-throughput workflows.
 
-Network Operations: Administered and maintained both public and private lab networks using Cisco network hardware(switches, routers) and NAT. Performed routine network cabling, port-forwarding, and troubleshooting to maintain seamless connectivity and data security.
-
-Complex Scientific Software Management: Specialized in installing, configuring, and maintaining sophisticated scientific software with unclear and unstable dependencies. Regularly coordinated with researchers to adapt and optimize computing environments for advanced scientific analyses.
-
-Daily IT Operational Support: Conducted daily operational responsibilities, including user account provisioning, access control, storage administration, security assessments, and proactive system monitoring (Nagios, Zabbix). Ensured timely troubleshooting and resolution of technical issues, significantly minimizing system downtime.
-
-High-Performance Computing (HPC) Support: Provided hands-on support and user training for researchers accessing the university's HPC infrastructure, assisting in job submission, parallel computing optimization, and data-intensive computational workflows.
 
 ## Certificate
 <a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng"> Red Hat Certified Professional of the Year 2024</a>
