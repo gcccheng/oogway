@@ -32,18 +32,18 @@ At Appear, Gang works on building and maintaining a modern, scalable infrastruct
 
 Responsibilities：
 
-- Designed and delivered **platformised NVIDIA GPU cluster capabilities**, defining GPU resource governance and service‑oriented delivery paths.
-- Standardised GPU foundations using **GPU Operator**, establishing reusable cluster baselines.
-- Introduced **Time Slicing** and **MPS** to enable fine‑grained GPU sharing and multi‑tenant concurrency.
-- Brought **GitLab Runner** GPU workloads into platform scheduling with defined policies for GPU pipelines.
-- Integrated GPU observability into the platform stack, covering **utilisation, inference latency, and throughput**.
-- Enforced access control and policy guardrails for GPU workloads via **Kyverno**.
-- Coordinated R&D and platform teams to operationalise model serving and inference workflows.
+Designed and delivered **platformised NVIDIA GPU cluster capabilities**, defining GPU resource governance and service‑oriented delivery paths.
+Standardised GPU foundations using **GPU Operator**, establishing reusable cluster baselines.
+Introduced **Time Slicing** and **MPS** to enable fine‑grained GPU sharing and multi‑tenant concurrency.
+Brought **GitLab Runner** GPU workloads into platform scheduling with defined policies for GPU pipelines.
+Integrated GPU observability into the platform stack, covering **utilisation, inference latency, and throughput**.
+Enforced access control and policy guardrails for GPU workloads via **Kyverno**.
+Coordinated R&D and platform teams to operationalise model serving and inference workflows.
 
 Value Created：
 
-- Delivered a governable, observable, and rollback‑safe GPU platform for reliable model serving.
-- Improved GPU utilisation and delivery efficiency through multi‑tenant optimisation and elastic scaling.
+Delivered a governable, observable, and rollback‑safe GPU platform for reliable model serving.
+Improved GPU utilisation and delivery efficiency through multi‑tenant optimisation and elastic scaling.
 
 `project`
 **Autonomous Platform SRE Agent (AI-Driven Operations MVP)**
