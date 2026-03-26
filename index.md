@@ -85,6 +85,25 @@ Balanced security requirements with delivery efficiency by aligning policies to 
 
 
 `project`
+**Migrating VMware vSphere Virtual Machines to OpenShift Virtualization**
+
+Responsibilities：
+
+- Led the platform migration approach for moving selected workloads from **VMware vSphere** to **OpenShift Virtualization**, with the goal of reducing infrastructure cost and consolidating VM and container operations onto a single platform.
+- Defined upfront mappings for **networking, storage, operating system dependencies, namespaces, and target landing zones** to reduce migration uncertainty and improve execution consistency.
+- Assessed workload suitability, performance characteristics, and operational constraints to determine which systems should remain virtual machines, which could be containerised later, and which required phased treatment.
+- Designed a phased rollout plan from **non-production to production**, with rollback paths, change control, and clear business impact assessment for each migration wave.
+- Applied a **platform engineering methodology** rather than a tool-only migration approach, focusing on standardisation, reusable patterns, automation, Infrastructure as Code, self-service guardrails, observability, and governance.
+- Worked across infrastructure and application stakeholders to balance downtime expectations, performance risk, compliance requirements, and delivery timelines.
+
+Value Created：
+
+- Created a pragmatic migration path that supports both **cost reduction** and long-term **platform convergence**, using OpenShift as a foundation for both virtual machines and container workloads.
+- Reduced migration risk by defining mappings and trade-offs early, improving predictability around storage, networking, performance, and operational ownership.
+- Established reusable migration patterns and governance controls that make future workload onboarding faster, safer, and more auditable.
+
+
+`project`
 **Internal Self-Hosted AI Platform**
 
 Delivered an internal AI/LLM enablement platform to support engineering use-cases such as log and telemetry analysis, documentation generation, incident explanation and code assistance.
@@ -421,4 +440,3 @@ Norwegian: Professional Working Proficiency
 <!-- ### Footer
 
 Last updated: May 2013 -->
-
