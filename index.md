@@ -14,8 +14,7 @@ Red Hat Certified Architect, Infrastructure/DevOps/DevEx/Platform Engineer
 
 Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, Gang has proactively built expertise in managing modern infrastructure and platform through an ever-growing list of projects, certifications, workshops, conferences, courses, industry peers and through AI. His efforts and expertise were recognized when he received the honor of being awarded and titled as the Red Hat Certified Professional of the Year 2024(if you are curious of what it is, click Red Hat Bio on top for more info). 
 
-In addition to his expertise in Red Hat, Gang has expanded his skills across DevOps engineering, platform engineering, and site reliability engineering. He has worked in both small and large teams, taking on roles such as System Administrator, Infrastructure Engineer, DevOps Engineer, Developer Experience (DevEx) 
- Engineer, and Platform Engineer — or a combination of them all, depending on project requirements. In the era of AI-driven engineering, Gang is also actively exploring how artificial intelligence can assist platform and infrastructure work. This includes AI-assisted troubleshooting, automation generation, infrastructure documentation, and improving developer productivity through intelligent tooling. Rather than viewing AI as a replacement for engineers, he sees it as a powerful collaborator that enhances decision-making, accelerates problem-solving, and helps engineers focus on higher-level architectural thinking.
+In addition to his expertise in Red Hat, Gang has expanded his skills across DevOps engineering, platform engineering, and site reliability engineering. He has worked in both small and large teams, taking on roles such as System Administrator, Infrastructure Engineer, DevOps Engineer, Developer Experience (DevEx) Engineer, and Platform Engineer — or a combination of them all, depending on project requirements. In the era of AI-driven engineering, Gang is also actively exploring how artificial intelligence can assist platform and infrastructure work. This includes AI-assisted troubleshooting, automation generation, infrastructure documentation, and improving developer productivity through intelligent tooling. Rather than viewing AI as a replacement for engineers, he sees it as a powerful collaborator that enhances decision-making, accelerates problem-solving, and helps engineers focus on higher-level architectural thinking.
 
 No matter what title or environment, Gang adapts quickly to create value for the business through strong communication skills and a collaborative mindset.
 
@@ -33,11 +32,17 @@ At Appear, Gang works on building and maintaining a modern, scalable infrastruct
 Responsibilities：
 
 Designed and delivered **platformised NVIDIA GPU cluster capabilities**, defining GPU resource governance and service‑oriented delivery paths.
+
 Standardised GPU foundations using **GPU Operator**, establishing reusable cluster baselines.
+
 Introduced **Time Slicing** and **MPS** to enable fine‑grained GPU sharing and multi‑tenant concurrency.
+
 Brought **GitLab Runner** GPU workloads into platform scheduling with defined policies for GPU pipelines.
+
 Integrated GPU observability into the platform stack, covering **utilisation, inference latency, and throughput**.
+
 Enforced access control and policy guardrails for GPU workloads via **Kyverno**.
+
 Coordinated R&D and platform teams to operationalise model serving and inference workflows.
 
 Value Created：
@@ -51,18 +56,27 @@ Improved GPU utilisation and delivery efficiency through multi‑tenant optimisa
 Responsibilities：
 
 Designed and built a modular autonomous SRE agent to reduce operational toil and automate repetitive platform engineering tasks, enabling a shift from reactive alerting to proactive remediation.
+
 Architected a Python-based orchestrator framework with pluggable expert modules (Kubernetes, Vsphere, and supply-chain intelligence) to handle multi-domain infrastructure operations.
+
 Implemented a “Brain + Tools” architecture, where the agent scans infrastructure APIs (Kubernetes and Vsphere), detects operational violations, and leverages LLM reasoning (GPT-4o) to analyse root causes and generate remediation strategies rather than simply reporting errors.
+
 Built a Safety Engine & Policy Gatekeeper to constrain AI autonomy: the agent can automatically remediate low-risk issues (e.g., restarting stalled VMs or resolving policy violations), while high-risk changes require human approval.
+
 Developed a Mission Control Dashboard using Flask and HTMX, providing visibility into the agent’s reasoning process and enabling engineers to review and approve remediation actions with one-click execution.
+
 Solved the immutable pod remediation challenge by enabling semantic reasoning to identify and patch the parent controllers (Deployments/StatefulSets) instead of transient pods.
+
 Integrated a software supply-chain intelligence module capable of scanning Terraform and Ansible repositories, analysing GitHub release notes, and performing semantic risk analysis before recommending dependency upgrades.
 
 Value Created：
 
 Reduced operational toil by automating classification and remediation of hundreds of infrastructure and security policy violations (e.g., Kyverno alerts and platform health checks).
+
 Shifted maintenance left by transforming routine dependency updates into a structured review-and-approval workflow, accelerating platform upgrade cycles.
+
 Demonstrated safe AI-assisted operations, enabling autonomous execution of L1-level SRE tasks while freeing senior engineers to focus on architecture and platform evolution.
+
 Established a foundation for AI-augmented platform operations, lowering the barrier for engineers to leverage LLM capabilities while maintaining governance and operational safety.
 
 `project`
@@ -71,11 +85,17 @@ Established a foundation for AI-augmented platform operations, lowering the barr
 Responsibilities：
 
 Built and implemented **Kyverno Policy‑as‑Code** as the core platform security governance mechanism.
+
 Led security governance reviews and implementation paths, aligning security controls with business requirements.
+
 Reviewed platform baselines to identify key risks and vulnerabilities.
+
 Designed and maintained **Validating** and **Mutation** policies, continuously iterating the policy library.
+
 Delivered GitOps‑driven security policies for auditability, traceability and rollback.
+
 Worked closely with the CISO and security architects to implement security and compliance controls across Kubernetes and DevOps environments, supporting IPO readiness and ISO 27001 certification.
+
 Delivered platform‑level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply‑chain security (SBOM/signing), and audit logging.
 
 Value Created：
@@ -90,16 +110,23 @@ Balanced security requirements with delivery efficiency by aligning policies to 
 Responsibilities：
 
 Led the platform migration approach for moving selected workloads from **VMware vSphere** to **OpenShift Virtualization**, with the goal of reducing infrastructure cost and consolidating VM and container operations onto a single platform.
+
 Defined upfront mappings for **networking, storage, operating system dependencies, namespaces, and target landing zones** to reduce migration uncertainty and improve execution consistency.
+
 Assessed workload suitability, performance characteristics, and operational constraints to determine which systems should remain virtual machines, which could be containerised later, and which required phased treatment.
+
 Designed a phased rollout plan from **non-production to production**, with rollback paths, change control, and clear business impact assessment for each migration wave.
+
 Applied a **platform engineering methodology** rather than a tool-only migration approach, focusing on standardisation, reusable patterns, automation, Infrastructure as Code, self-service guardrails, observability, and governance.
+
 Worked across infrastructure and application stakeholders to balance downtime expectations, performance risk, compliance requirements, and delivery timelines.
 
 Value Created：
 
 Created a pragmatic migration path that supports both **cost reduction** and long-term **platform convergence**, using OpenShift as a foundation for both virtual machines and container workloads.
+
 Reduced migration risk by defining mappings and trade-offs early, improving predictability around storage, networking, performance, and operational ownership.
+
 Established reusable migration patterns and governance controls that make future workload onboarding faster, safer, and more auditable.
 
 
@@ -110,18 +137,21 @@ Delivered an internal AI/LLM enablement platform to support engineering use-case
 
 Responsibilities：
 
-Acted as technical owner, leading **platform architecture, capability layering and governance model**.
-Defined roadmap and delivery standards, ran architecture reviews, and coordinated cross‑team execution.
-Mentored junior engineers through task decomposition and peer reviews to improve delivery quality.
+Acted as technical owner, leading **platform architecture, capability layering and governance model**. Defined roadmap and delivery standards, ran architecture reviews, and coordinated cross‑team execution. Mentored junior engineers through task decomposition and peer reviews to improve delivery quality.
+
 Evaluated multiple LLM backends and tools (hosted APIs and local inference) with a focus on **latency, concurrency characteristics, token cost and model behaviour**.
+
 Designed a containerised deployment model on Kubernetes, including access control, team isolation and integration with existing SSO / developer tooling.
+
 Explored model‑selection strategies by comparing latency, output quality and token usage across different LLM providers (OpenAI, RequestyAI, local Llama variants), identifying which models were most suitable for specific request types.
+
 Implemented basic prompt governance, usage logging and cost visibility, laying groundwork for **responsible AI and auditability**.
 Worked with several R&D teams to promote AI‑assisted engineering practices and capture feedback for future platform evolution (e.g. RAG, code search, knowledge base integration).
   
 Value Created：
 
 Established the company’s first **unified internal AI entry point and platform capability layer**, significantly lowering the barrier for engineers to use LLMs in daily work.
+
 Shifted AI usage from ad‑hoc, individual experimentation to **systematic, policy‑aware consumption**.
 Created a practical foundation for future **AI Gateway‑style capabilities** such as multi‑tenant routing, cost/observability and governance.
 
@@ -296,10 +326,15 @@ At the University of Oslo, Gang worked as system engineer in managing and operat
 **Responsibilities**
 
 Server & Infrastructure Management: Installed, configured, and maintained compute systems for scientific workloads, including Linux-based compute nodes, distributed HPC servers, and NVIDIA GPU-accelerated machines. Built and operated foundational components of the university’s high-performance computing environment, ensuring system reliability, performance, and scalability across research workloads.
+
 Windows Deployment and Administration: Automated provisioning and lifecycle management of Windows clients using PXE and SCCM (System Center Configuration Manager). Streamlined software distribution, security patching, and policy compliance for stable operation.
+
 Network Operations: Administered public and private research networks using Cisco switches and routers, including NAT, VLAN segmentation, private dns domain and dhcp zone, firewall rules, port assignments, and connectivity troubleshooting to support secure, high-availability access to computing resources.
+
 Scientific Software & Distributed Computing Environment: Installed and maintained complex scientific software stacks with unstable dependencies. Optimized computational environments for bioinformatics, molecular modeling, and large-scale data analysis, providing technical guidance for advanced distributed workloads.
+
 Daily IT Operations: Performed daily responsibilities including user provisioning, access control, storage management, system monitoring (Nagios, Zabbix), and incident troubleshooting, minimizing downtime for critical research systems.
+
 High-Performance Computing (HPC) Engineering & Parallel Workload Support: Contributed to the build-out and ongoing operation of the university’s HPC cluster, including configuration of distributed compute nodes with NVIDIA GPU nodes, shared storage, and Slurm scheduling services. Supported researchers in running parallel and GPU-accelerated jobs, optimized workload performance, and troubleshot issues across multi-node and high-throughput workflows.
 
 
