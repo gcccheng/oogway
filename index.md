@@ -4,7 +4,7 @@ title: Gang Cheng's CV
 ---
 # Gang Cheng 
 
-Red Hat Certified Architect, Infrastructure/DevOps/DevEx/Platform Engineer
+<span class="accent">Red Hat Certified Architect</span>, <span class="accent">Infrastructure</span>/<span class="accent">DevOps</span>/<span class="accent">DevEx</span>/<span class="accent">Platform Engineer</span>
 
 <div id="webaddress">
 <a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng">Red Hat Profile</a> | <a href="https://www.linkedin.com/in/gang-cheng-7170a521/">Linkedin page</a>
@@ -12,11 +12,11 @@ Red Hat Certified Architect, Infrastructure/DevOps/DevEx/Platform Engineer
 
 ## Summary
 
-Gang is a self-motivated person, and he believes that the mindset of continuous learning and the ability to quickly adapt to new technologies are core competencies for a professional IT engineer. Throughout his career, Gang has proactively built expertise in managing modern infrastructure and platform through an ever-growing list of projects, certifications, workshops, conferences, courses, industry peers and through AI. His efforts and expertise were recognized when he received the honor of being awarded and titled as the Red Hat Certified Professional of the Year 2024(if you are curious of what it is, click Red Hat Bio on top for more info). 
+Gang is a self-motivated person, and he believes that the mindset of <span class="accent">continuous learning</span> and the ability to <span class="accent">quickly adapt</span> to new technologies are core competencies for a professional IT engineer. Throughout his career, Gang has proactively built expertise in managing <span class="accent">modern infrastructure</span> and <span class="accent">platform engineering</span> through an ever-growing list of projects, certifications, workshops, conferences, courses, industry peers and through AI. His efforts and expertise were recognized when he received the honor of being awarded and titled as the <span class="accent">Red Hat Certified Professional of the Year 2024</span>(if you are curious of what it is, click Red Hat Bio on top for more info). 
 
-In addition to his expertise in Red Hat, Gang has expanded his skills across DevOps engineering, platform engineering, and site reliability engineering. He has worked in both small and large teams, taking on roles such as System Administrator, Infrastructure Engineer, DevOps Engineer, Developer Experience (DevEx) Engineer, and Platform Engineer — or a combination of them all, depending on project requirements. In the era of AI-driven engineering, Gang is also actively exploring how artificial intelligence can assist platform and infrastructure work. This includes AI-assisted troubleshooting, automation generation, infrastructure documentation, and improving developer productivity through intelligent tooling. Rather than viewing AI as a replacement for engineers, he sees it as a powerful collaborator that enhances decision-making, accelerates problem-solving, and helps engineers focus on higher-level architectural thinking.
+In addition to his expertise in <span class="accent">Red Hat</span>, Gang has expanded his skills across <span class="accent">DevOps engineering</span>, <span class="accent">platform engineering</span>, and <span class="accent">site reliability engineering</span>. He has worked in both small and large teams, taking on roles such as System Administrator, Infrastructure Engineer, DevOps Engineer, Developer Experience (DevEx) Engineer, and Platform Engineer — or a combination of them all, depending on project requirements. In the era of AI-driven engineering, Gang is also actively exploring how artificial intelligence can assist platform and infrastructure work. This includes <span class="accent">AI-assisted troubleshooting</span>, <span class="accent">automation</span>, infrastructure documentation, and improving <span class="accent">developer productivity</span> through intelligent tooling. Rather than viewing AI as a replacement for engineers, he sees it as a powerful collaborator that enhances <span class="accent">decision-making</span>, accelerates <span class="accent">problem-solving</span>, and helps engineers focus on higher-level <span class="accent">architectural thinking</span>.
 
-No matter what title or environment, Gang adapts quickly to create value for the business through strong communication skills and a collaborative mindset.
+No matter what title or environment, Gang adapts quickly to create value for the business through strong <span class="accent">communication</span> skills and a <span class="accent">collaborative mindset</span>.
 
 
 ## Employment
@@ -24,7 +24,7 @@ No matter what title or environment, Gang adapts quickly to create value for the
 `2025-Now`  
 ***<font size="3">Senior Platform Engineer — Appear TV, Oslo</font>***
 
-At Appear, Gang works on building and maintaining a modern, scalable infrastructure powering developer productivity and high-performance applications. His work focuses on bare-metal Kubernetes, GitOps, observability, storage, CI/CD automation, and platform security.
+At Appear, Gang works on building and maintaining a modern, scalable infrastructure powering developer productivity and high-performance applications. His work focuses on <span class="accent">bare-metal Kubernetes</span>, <span class="accent">GitOps</span>, <span class="accent">observability</span>, <span class="accent">storage</span>, <span class="accent">CI/CD automation</span>, and <span class="accent">platform security</span>.
 
 `project`
 **NVIDIA GPU Cluster & Model Serving Platform**
@@ -102,6 +102,28 @@ Value Created：
 
 Established a platform‑level security governance system with auditable controls and compliance readiness.
 Balanced security requirements with delivery efficiency by aligning policies to business needs.
+
+
+`project`
+**ClickTime-Visma Internal Middleware Integration (Ongoing)**
+
+Responsibilities：
+
+Led the project to integrate time registration data between Clicktime and Visma.
+
+Started initial and ongoing coordination between **HR, Finance, ClickTime, and Visma** to define business requirements for the integration, including which project and time-registration data should be synchronised between the two systems.
+
+Set up sandbox environments for both **ClickTime** and **Visma**, studied their API documentation, and built proof-of-concept code to validate the integration approach and data flow.
+
+Contributed to the production deployment plan by defining API contracts, identifying change-detection needs, and helping structure the quality and operational model around the connector.
+
+Established engineering guardrails around the solution, including **unit tests**, **integration tests**, **contract tests**, **Ruff** linting, **Docker** image packaging, and deployment of the middleware as a **Kubernetes Deployment** in the cluster.
+
+Value Created：
+
+Enabled the company to move forward with a business-critical internal integration where no ready-to-use market solution existed.
+
+Although Gang does not come from a software development background, he proactively took on the challenge of exploring a new technical area and helped drive an internally built middleware solution when no ready-to-use connector existed for creating projects in **ClickTime**, registering project time, and synchronising the relevant time data into **Visma**. This ongoing project has deepened Gang’s understanding of **API integration**, **system interfaces**, and the end-to-end process of taking an integration from requirements discovery to production planning.
 
 
 `project`
@@ -183,7 +205,7 @@ Participated in the project of building Appear Hub, a customer-facing delivery p
 `2022-2025`
 ***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
 
-During past years, Gang has been worked as DevOps/infrastructure engineer and led/contributed to a variety of projects for customers, including:
+During past years, Gang has been worked as <span class="accent">DevOps</span>/<span class="accent">infrastructure engineer</span> and led/contributed to a variety of projects for customers, including:
 
 `project`
 **Building High Availability Kubernetes and Github Actions Runner Controller(ARC)(sole role)**
@@ -321,7 +343,7 @@ Value Created: Enhanced system reliability and performance by proactively identi
 `2012-2022`
 ***<font size= "3">System Engineer at University of Oslo</font>***
 
-At the University of Oslo, Gang worked as system engineer in managing and operating a local data center dedicated to delivering robust and reliable scientific computing infrastructure for researchers at the Centre for Molecular Medicine Norway (NCMM). His responsibilities spanned core IT operations, distributed systems engineering, and close collaboration with scientific researchers.
+At the University of Oslo, Gang worked as system engineer in managing and operating a local data center dedicated to delivering robust and reliable scientific computing infrastructure for researchers at the Centre for Molecular Medicine Norway (NCMM). His responsibilities spanned <span class="accent">core IT operations</span>, <span class="accent">distributed systems engineering</span>, and close <span class="accent">collaboration</span> with scientific researchers.
 
 **Responsibilities**
 
@@ -329,7 +351,7 @@ Server & Infrastructure Management: Installed, configured, and maintained comput
 
 Windows Deployment and Administration: Automated provisioning and lifecycle management of Windows clients using PXE and SCCM (System Center Configuration Manager). Streamlined software distribution, security patching, and policy compliance for stable operation.
 
-Network Operations: Worked with public university networks and an internal lab network for research equipment using Cisco switching and routing, including VLANs, trunks, NAT, iptables-based firewalling, internal DNS and DHCP, port assignments, and connectivity troubleshooting. Supported segmented internal infrastructure behind NAT via internal switching.
+Network Operations: Worked with public university networks and an internal lab network for research equipment using <span class="accent">Cisco</span> switching and routing, including <span class="accent">VLANs</span>, <span class="accent">trunks</span>, <span class="accent">NAT</span>, <span class="accent">iptables</span>-based firewalling, internal <span class="accent">DNS</span> and <span class="accent">DHCP</span>, port assignments, and connectivity troubleshooting. Supported segmented internal infrastructure behind NAT via internal switching.
 
 Scientific Software & Distributed Computing Environment: Installed and maintained complex scientific software stacks with unstable dependencies. Optimized computational environments for bioinformatics, molecular modeling, and large-scale data analysis, providing technical guidance for advanced distributed workloads.
 
@@ -452,10 +474,10 @@ Set up local directory service with OpenLDAP
 Intrusion detection and monitoring with Snort and Munin
 
 ## Experienced tech stacks
-Kubernetes, Docker, Podman, GitHub Actions, GitHub Actions Runner Controller(ARC), Red Hat Linux, Red Hat Satellite, Red Hat Openshift, Red Hat Ansible,  Atlassian Bitbucket, Atlassian Confluence, Atlassian Jira, Grafana, Prometheus, Dell PowerEdge, Cisco SWitch, Windows Server 2016, Ansible, Terrafform, Bash, Perl, Python Windows SCCM, Samba, NFS, FirewallD, Active Directory, Networking
+<span class="accent">OpenShift</span>, <span class="accent">Kubernetes</span>, <span class="accent">Docker</span>, <span class="accent">Podman</span>, <span class="accent">GitHub Actions</span>, GitHub Actions Runner Controller(ARC), <span class="accent">Red Hat Linux</span>, Red Hat Satellite, <span class="accent">Red Hat Ansible</span>, Atlassian Bitbucket, Atlassian Confluence, Atlassian Jira, <span class="accent">Grafana</span>, <span class="accent">Prometheus</span>, Dell PowerEdge, <span class="accent">Cisco Switch</span>, Windows Server 2016, <span class="accent">Ansible</span>, <span class="accent">Terraform</span>, <span class="accent">Bash</span>, Perl, <span class="accent">Python</span>, Windows SCCM, Samba, <span class="accent">NFS</span>, FirewallD, Active Directory, <span class="accent">Networking</span>
 
 ## Exposure Skills
-AWS, MS Azure, Openstack, Vagrant
+<span class="accent">AWS</span>, <span class="accent">MS Azure</span>, <span class="accent">OpenStack</span>, Vagrant
 
 ## Education
 `2010-2012`
