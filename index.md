@@ -73,11 +73,11 @@ Integrated a software supply-chain intelligence module capable of scanning Terra
 
 <strong style="color: #000;">Value Created</strong>：
 
-Reduced operational toil by automating classification and remediation of hundreds of infrastructure and security policy violations (e.g., Kyverno alerts and platform health checks).
+Demonstrated how operational toil could be reduced by automating classification and remediation of infrastructure and security policy violations (e.g., Kyverno alerts and platform health checks).
 
 Shifted maintenance left by transforming routine dependency updates into a structured review-and-approval workflow, accelerating platform upgrade cycles.
 
-Demonstrated safe AI-assisted operations, enabling autonomous execution of L1-level SRE tasks while freeing senior engineers to focus on architecture and platform evolution.
+Demonstrated safe AI-assisted operations by showing how L1-level SRE tasks could be automated under policy guardrails, allowing senior engineers to focus more on architecture and platform evolution.
 
 Established a foundation for AI-augmented platform operations, lowering the barrier for engineers to leverage LLM capabilities while maintaining governance and operational safety.
 
@@ -209,7 +209,7 @@ Collaborated directly with the **CISO** to ensure that CI/CD pipelines, Kubernet
 
 Improved reliability of the development workflow, reduced deployment friction, and enhanced the entire software delivery lifecycle through automation and platform standardization.
 
-Participated in the project of building Appear Hub, a customer-facing delivery platform for firmware, documentation, and license distribution. Implemented the solution on Azure using Container Apps for scalable backend services and Azure Front Door for global routing.
+Contributed to the project of building Appear Hub, a customer-facing delivery platform for firmware, documentation, and license distribution. Helped implement the solution on Azure using Container Apps for scalable backend services and Azure Front Door for global routing.
 
 
 `2022-2025`
@@ -217,7 +217,7 @@ Participated in the project of building Appear Hub, a customer-facing delivery p
 
 Sopra Steria is one of Europe's major digital services and consulting companies, and in Norway is positioned as a leading consulting company within digitalisation, innovation, and sustainability, serving large private companies and public-sector organisations.
 
-During past years, Gang has been worked as <span class="accent">DevOps</span>/<span class="accent">infrastructure engineer</span> and led/contributed to a variety of projects for customers, including:
+During his time at Sopra Steria, Gang worked as a <span class="accent">DevOps</span>/<span class="accent">infrastructure engineer</span> and led/contributed to a variety of projects for customers, including:
 
 `project`
 <strong style="color: #b22222;">Building High Availability Kubernetes and Github Actions Runner Controller(ARC)(sole role)</strong>
@@ -239,11 +239,11 @@ Contribution: Designed and deployed a MinIO-based S3-compatible backend on an in
 <strong style="color: #000;">Value Created</strong>: Established a reliable, centralized, and versioned Terraform state backend, improving collaboration, auditability, and infrastructure stability—without relying on public cloud services.
 
 `project`
-<strong style="color: #b22222;">Implementing GitOps Deployment Workflow with Argo CD (Ongoing)(sole role)</strong>
+<strong style="color: #b22222;">Implementing GitOps Deployment Workflow with Argo CD (Initial Implementation, Sole Platform Role)</strong>
 
 Description: With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
 
-Contribution: Designed and implemented GitOps workflows using Argo CD, connecting GitHub branches to Kubernetes namespaces for automated deployments. Built Helm-based reusable templates and structured repositories for dynamic environments, and implemented RBAC and project isolation for security. Worked with development teams to define deployment flows and ensure smooth integration.
+Contribution: Designed and implemented the initial GitOps workflows using Argo CD, connecting GitHub branches to Kubernetes namespaces for automated deployments. Built Helm-based reusable templates and structured repositories for dynamic environments, and implemented RBAC and project isolation for security. Coordinated with development teams to define deployment flows and ensure smooth integration.
 
 <strong style="color: #000;">Value Created</strong>: Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
 
@@ -254,7 +254,7 @@ Description: The client required a scalable and highly available storage backend
 
 Contribution: Deployed and configured a Ceph cluster to serve as the storage backend for OpenShift, ensuring high availability and replication across nodes. Integrated Ceph with OpenShift via StorageClasses and dynamic PVC provisioning to support stateful applications. Performed validation of read/write performance, redundancy, and failure recovery scenarios. Documented operational procedures, including node replacement, OSD recovery, monitoring, and capacity planning.
 
-<strong style="color: #000;">Value Created</strong>: Dlivered a production-ready storage foundation for OpenShift workloads, enabling the platform to run databases, message queues, and other stateful services reliably. Improved resilience and reduced operational risk through automated failover and self-healing storage capabilities.
+<strong style="color: #000;">Value Created</strong>: Delivered a production-ready storage foundation for OpenShift workloads, enabling the platform to run databases, message queues, and other stateful services reliably. Improved resilience and reduced operational risk through automated failover and self-healing storage capabilities.
 
 
 `project`
@@ -306,7 +306,7 @@ Contribution: Collaborated with teams on deploying the Ansible Automation Platfo
 
 
 `project`
-<strong style="color: #b22222;">Deploying Red Hat 9 to Production Infrastructure</strong>
+<strong style="color: #b22222;">Preparing Red Hat 9 for Production Infrastructure</strong>
 
 Description: Need to test RHEL9 and make it ready for production use.
 
