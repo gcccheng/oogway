@@ -27,7 +27,7 @@ No matter what title or environment, Gang adapts quickly to create value for the
 At Appear, Gang works on building and maintaining a modern, scalable infrastructure powering developer productivity and high-performance applications. His work focuses on <span class="accent">bare-metal Kubernetes</span>, <span class="accent">GitOps</span>, <span class="accent">observability</span>, <span class="accent">storage</span>, <span class="accent">CI/CD automation</span>, and <span class="accent">platform security</span>.
 
 `project`
-**NVIDIA GPU Cluster & Model Serving Platform**
+<span class="accent">NVIDIA GPU Cluster & Model Serving Platform</span>
 
 <strong style="color: #000;">Responsibilities</strong>：
 
@@ -51,7 +51,7 @@ Delivered a governable, observable, and rollback‑safe GPU platform for reliabl
 Improved GPU utilisation and delivery efficiency through multi‑tenant optimisation and elastic scaling.
 
 `project`
-**Autonomous Platform SRE Agent (AI-Driven Operations MVP)**
+<span class="accent">Autonomous Platform SRE Agent (AI-Driven Operations MVP)</span>
 
 <strong style="color: #000;">Responsibilities</strong>：
 
@@ -80,7 +80,7 @@ Demonstrated safe AI-assisted operations, enabling autonomous execution of L1-le
 Established a foundation for AI-augmented platform operations, lowering the barrier for engineers to leverage LLM capabilities while maintaining governance and operational safety.
 
 `project`
-**CISO Partnership & Platform Security Governance**
+<span class="accent">CISO Partnership & Platform Security Governance</span>
 
 <strong style="color: #000;">Responsibilities</strong>：
 
@@ -105,7 +105,7 @@ Balanced security requirements with delivery efficiency by aligning policies to 
 
 
 `project`
-**ClickTime & Visma Integration (Ongoing, Project Lead)**
+<span class="accent">ClickTime & Visma Integration (Ongoing, Project Lead)</span>
 
 <strong style="color: #000;">Responsibilities</strong>：
 
@@ -135,17 +135,17 @@ The most important learning was not only writing code, but communicating with st
 
 
 `project`
-**Migrating VMware vSphere Virtual Machines to OpenShift Virtualization**
+<span class="accent">OpenShift Virtualization Migration MVP</span>
 
 <strong style="color: #000;">Responsibilities</strong>：
 
-Led the platform migration approach for moving selected workloads from **VMware vSphere** to **OpenShift Virtualization**, with the goal of reducing infrastructure cost and consolidating VM and container operations onto a single platform.
+Led an MVP to evaluate moving selected workloads from **VMware vSphere** to **OpenShift Virtualization**, with the goal of understanding whether OpenShift VM could support future cost reduction and platform convergence.
 
 Defined upfront mappings for **networking, storage, operating system dependencies, namespaces, and target landing zones** to reduce migration uncertainty and improve execution consistency.
 
-Assessed workload suitability, performance characteristics, and operational constraints to determine which systems should remain virtual machines, which could be containerised later, and which required phased treatment.
+Assessed workload suitability, performance characteristics, and operational constraints to determine which systems could be tested on OpenShift Virtualization and which should remain on VMware.
 
-Designed a phased rollout plan from **non-production to production**, with rollback paths, change control, and clear business impact assessment for each migration wave.
+Tested migration scenarios in a non-production MVP context and documented rollout considerations, rollback needs, change-control requirements, and business impact for any future production adoption.
 
 Applied a **platform engineering methodology** rather than a tool-only migration approach, focusing on standardisation, reusable patterns, automation, Infrastructure as Code, self-service guardrails, observability, and governance.
 
@@ -153,15 +153,15 @@ Worked across infrastructure and application stakeholders to balance downtime ex
 
 <strong style="color: #000;">Value Created</strong>：
 
-Created a pragmatic migration path that supports both **cost reduction** and long-term **platform convergence**, using OpenShift as a foundation for both virtual machines and container workloads.
+Created a pragmatic evaluation path for potential **cost reduction** and long-term **platform convergence**, using OpenShift as a possible foundation for both virtual machines and container workloads.
 
 Reduced migration risk by defining mappings and trade-offs early, improving predictability around storage, networking, performance, and operational ownership.
 
-Established reusable migration patterns and governance controls that make future workload onboarding faster, safer, and more auditable.
+Established reusable evaluation patterns and governance considerations that would make future workload onboarding faster, safer, and more auditable if the company decides to move toward production adoption.
 
 
 `project`
-**Internal Self-Hosted AI Platform**
+<span class="accent">Internal Self-Hosted AI Platform</span>
 
 Delivered an internal AI/LLM enablement platform to support engineering use-cases such as log and telemetry analysis, documentation generation, incident explanation and code assistance.
 
@@ -187,7 +187,7 @@ Created a practical foundation for future **AI Gateway‑style capabilities** su
 
 
 `project`
-**Platform Engineering**
+<span class="accent">Platform Engineering</span>
 
 <strong style="color: #000;">Key Responsibilities</strong>:
 
@@ -216,7 +216,7 @@ Participated in the project of building Appear Hub, a customer-facing delivery p
 During past years, Gang has been worked as <span class="accent">DevOps</span>/<span class="accent">infrastructure engineer</span> and led/contributed to a variety of projects for customers, including:
 
 `project`
-**Building High Availability Kubernetes and Github Actions Runner Controller(ARC)(sole role)**
+<span class="accent">Building High Availability Kubernetes and Github Actions Runner Controller(ARC)(sole role)</span>
 
 Description: The existing use of GitHub self-hosted runners on virtual machines (VMs) led to significant scalability issues, race conditions, and lack of workload isolation. As the number of CI/CD workflows grew, VM-based runners could no longer provide a flexible and manageable solution. To address this, a container orchestration platform was required to dynamically provision and scale runners on demand, ensuring standardized, isolated, and scalable infrastructure for GitHub Actions workflows.
 
@@ -226,7 +226,7 @@ Contribution: Took sole role in designing and implementing a high-availability K
 
 
 `project`
-**Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)**
+<span class="accent">Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)</span>
 
 Description: Terraform state files were previously stored on local disks, causing issues like lack of version control and collaboration challenges. Public cloud storage (e.g., AWS S3) was not an option due to policy constraints.
 
@@ -235,7 +235,7 @@ Contribution: Designed and deployed a MinIO-based S3-compatible backend on an in
 <strong style="color: #000;">Value Created</strong>: Established a reliable, centralized, and versioned Terraform state backend, improving collaboration, auditability, and infrastructure stability—without relying on public cloud services.
 
 `project`
-**Implementing GitOps Deployment Workflow with Argo CD (Ongoing)(sole role)**
+<span class="accent">Implementing GitOps Deployment Workflow with Argo CD (Ongoing)(sole role)</span>
 
 Description: With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
 
@@ -244,7 +244,7 @@ Contribution: Designed and implemented GitOps workflows using Argo CD, connectin
 <strong style="color: #000;">Value Created</strong>: Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
 
 `project`
-**Implementing Ceph Storage Integration for OpenShift**
+<span class="accent">Implementing Ceph Storage Integration for OpenShift</span>
 
 Description: The client required a scalable and highly available storage backend to support stateful workloads running on OpenShift. I worked on deploying and integrating a Ceph-based storage solution to provide reliable Persistent Volume provisioning for the platform.
 
@@ -254,7 +254,7 @@ Contribution: Deployed and configured a Ceph cluster to serve as the storage bac
 
 
 `project`
-**Building Infrastructure Monitoring System(ongoing)(sole role)**
+<span class="accent">Building Infrastructure Monitoring System(ongoing)(sole role)</span>
 
 Description: With the increasing number of containers and virtual machines, it became critical to have a unified platform to monitor the entire infrastructure.
 
@@ -263,7 +263,7 @@ Contribution: Building Prometheus and Grafana on an existing Kubernetes platform
 <strong style="color: #000;">Value Created</strong>: Provided real-time infrastructure visibility, automated alerting, and improved platform stability.
  
 `project`
-**Troubleshooting and Improving CI/CD Pipelines**
+<span class="accent">Troubleshooting and Improving CI/CD Pipelines</span>
 
 Description: The development team encountered various errors and instability when running pipelines on self-hosted runners.
 
@@ -272,7 +272,7 @@ Contribution: Troubleshot pipeline errors, optimized performance, improved relia
 <strong style="color: #000;">Value Created</strong>: Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
 
 `project`
-**Infrastructure Standardization and Automation(sole role)**
+<span class="accent">Infrastructure Standardization and Automation(sole role)</span>
 
 Description: The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
 
@@ -282,7 +282,7 @@ Contribution: Standardized operating systems, simplified and automated VM provis
 
 
 `project`
-**Automating Upgrading RHEL7 to RHEL8**
+<span class="accent">Automating Upgrading RHEL7 to RHEL8</span>
 
 Description: RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority.
 
@@ -292,7 +292,7 @@ Contribution: Designed upgrading plan with application owners and automated upgr
 
 
 `project`
-**Ansible Automation Platform on Openshift**
+<span class="accent">Ansible Automation Platform on Openshift</span>
 
 Description: With an ever-increasing number of playbooks, inventories, and workflows, manually managing them is challenging. A central platform is required to orchestrate all the elements related to Ansible.
 
@@ -302,7 +302,7 @@ Contribution: Collaborated with teams on deploying the Ansible Automation Platfo
 
 
 `project`
-**Deploying Red Hat 9 to Production Infrastructure**
+<span class="accent">Deploying Red Hat 9 to Production Infrastructure</span>
 
 Description: Need to test RHEL9 and make it ready for production use.
 
@@ -312,7 +312,7 @@ Contribution: Deployed Red Hat 9 using Ansible, created a customized Red Hat ima
 
 
 `project`
-**Automating Patching of Red Hat VM**
+<span class="accent">Automating Patching of Red Hat VM</span>
 
 Description: The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
 
@@ -321,7 +321,7 @@ Contribution: Designed and implemented an Ansible-based workflow with Red Hat Sa
 <strong style="color: #000;">Value Created</strong>: Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
 
 `project`
-**Automating the Provisioning of Red Hat VM on VMWare Private Cloud Platform**
+<span class="accent">Automating the Provisioning of Red Hat VM on VMWare Private Cloud Platform</span>
 
 Description: The manual work of provisioning large-scale Red Hat VM was just impossible.
 
@@ -331,7 +331,7 @@ Contribution: Designed and implemented an Ansible-based workflow that automated 
 
 
 `project`
-**Deploying critical application to infrastructure(sole role)**
+<span class="accent">Deploying critical application to infrastructure(sole role)</span>
 
 Description: A critical cloud-based application must be deployed, configured, and tested across the entire platform.
 Contribution: Solo responsibility for installing, configuring, and troubleshooting applications.
@@ -339,7 +339,7 @@ Contribution: Solo responsibility for installing, configuring, and troubleshooti
 <strong style="color: #000;">Value Created</strong>: Ensure that the system is aligned with organization policies.
 
 `project`
-**Splunk Implementation**
+<span class="accent">Splunk Implementation</span>
 
 Description: Implemented Splunk to monitor and analyze logs and metrics across infrastructure. The project involved centralized log collection, efficient indexing, and actionable insights to enhance system observability and operational efficiency.
 
