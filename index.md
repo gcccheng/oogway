@@ -24,10 +24,12 @@ No matter what title or environment, Gang adapts quickly to create value for the
 `2025-Now`  
 ***<font size="3">Senior Platform Engineer — Appear TV, Oslo</font>***
 
+Appear TV is a leading global provider of video compression, media processing, and distribution technology, widely used by global broadcasters, telecom operators, and major live event organisations, including NBCUniversal, Discovery, NHL, Formula 1, and Riot Games.
+
 At Appear, Gang works on building and maintaining a modern, scalable infrastructure powering developer productivity and high-performance applications. His work focuses on <span class="accent">bare-metal Kubernetes</span>, <span class="accent">GitOps</span>, <span class="accent">observability</span>, <span class="accent">storage</span>, <span class="accent">CI/CD automation</span>, and <span class="accent">platform security</span>.
 
 `project`
-<span class="accent">NVIDIA GPU Cluster & Model Serving Platform</span>
+<strong style="color: #b22222;">NVIDIA GPU Cluster & Model Serving Platform</strong>
 
 <strong style="color: #000;">Responsibilities</strong>：
 
@@ -51,7 +53,7 @@ Delivered a governable, observable, and rollback‑safe GPU platform for reliabl
 Improved GPU utilisation and delivery efficiency through multi‑tenant optimisation and elastic scaling.
 
 `project`
-<span class="accent">Autonomous Platform SRE Agent (AI-Driven Operations MVP)</span>
+<strong style="color: #b22222;">Autonomous Platform SRE Agent (AI-Driven Operations MVP)</strong>
 
 <strong style="color: #000;">Responsibilities</strong>：
 
@@ -80,7 +82,7 @@ Demonstrated safe AI-assisted operations, enabling autonomous execution of L1-le
 Established a foundation for AI-augmented platform operations, lowering the barrier for engineers to leverage LLM capabilities while maintaining governance and operational safety.
 
 `project`
-<span class="accent">CISO Partnership & Platform Security Governance</span>
+<strong style="color: #b22222;">CISO Partnership & Platform Security Governance</strong>
 
 <strong style="color: #000;">Responsibilities</strong>：
 
@@ -105,7 +107,7 @@ Balanced security requirements with delivery efficiency by aligning policies to 
 
 
 `project`
-<span class="accent">ClickTime & Visma Integration (Ongoing, Project Lead)</span>
+<strong style="color: #b22222;">ClickTime & Visma Integration (Ongoing, Project Lead)</strong>
 
 <strong style="color: #000;">Responsibilities</strong>：
 
@@ -135,7 +137,7 @@ The most important learning was not only writing code, but communicating with st
 
 
 `project`
-<span class="accent">OpenShift Virtualization Migration MVP</span>
+<strong style="color: #b22222;">OpenShift Virtualization Migration MVP</strong>
 
 <strong style="color: #000;">Responsibilities</strong>：
 
@@ -161,7 +163,7 @@ Established reusable evaluation patterns and governance considerations that woul
 
 
 `project`
-<span class="accent">Internal Self-Hosted AI Platform</span>
+<strong style="color: #b22222;">Internal Self-Hosted AI Platform</strong>
 
 Delivered an internal AI/LLM enablement platform to support engineering use-cases such as log and telemetry analysis, documentation generation, incident explanation and code assistance.
 
@@ -187,7 +189,7 @@ Created a practical foundation for future **AI Gateway‑style capabilities** su
 
 
 `project`
-<span class="accent">Platform Engineering</span>
+<strong style="color: #b22222;">Platform Engineering</strong>
 
 <strong style="color: #000;">Key Responsibilities</strong>:
 
@@ -213,10 +215,12 @@ Participated in the project of building Appear Hub, a customer-facing delivery p
 `2022-2025`
 ***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
 
+Sopra Steria is one of Europe's major digital services and consulting companies, and in Norway is positioned as a leading consulting company within digitalisation, innovation, and sustainability, serving large private companies and public-sector organisations.
+
 During past years, Gang has been worked as <span class="accent">DevOps</span>/<span class="accent">infrastructure engineer</span> and led/contributed to a variety of projects for customers, including:
 
 `project`
-<span class="accent">Building High Availability Kubernetes and Github Actions Runner Controller(ARC)(sole role)</span>
+<strong style="color: #b22222;">Building High Availability Kubernetes and Github Actions Runner Controller(ARC)(sole role)</strong>
 
 Description: The existing use of GitHub self-hosted runners on virtual machines (VMs) led to significant scalability issues, race conditions, and lack of workload isolation. As the number of CI/CD workflows grew, VM-based runners could no longer provide a flexible and manageable solution. To address this, a container orchestration platform was required to dynamically provision and scale runners on demand, ensuring standardized, isolated, and scalable infrastructure for GitHub Actions workflows.
 
@@ -226,7 +230,7 @@ Contribution: Took sole role in designing and implementing a high-availability K
 
 
 `project`
-<span class="accent">Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)</span>
+<strong style="color: #b22222;">Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)</strong>
 
 Description: Terraform state files were previously stored on local disks, causing issues like lack of version control and collaboration challenges. Public cloud storage (e.g., AWS S3) was not an option due to policy constraints.
 
@@ -235,7 +239,7 @@ Contribution: Designed and deployed a MinIO-based S3-compatible backend on an in
 <strong style="color: #000;">Value Created</strong>: Established a reliable, centralized, and versioned Terraform state backend, improving collaboration, auditability, and infrastructure stability—without relying on public cloud services.
 
 `project`
-<span class="accent">Implementing GitOps Deployment Workflow with Argo CD (Ongoing)(sole role)</span>
+<strong style="color: #b22222;">Implementing GitOps Deployment Workflow with Argo CD (Ongoing)(sole role)</strong>
 
 Description: With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
 
@@ -244,7 +248,7 @@ Contribution: Designed and implemented GitOps workflows using Argo CD, connectin
 <strong style="color: #000;">Value Created</strong>: Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
 
 `project`
-<span class="accent">Implementing Ceph Storage Integration for OpenShift</span>
+<strong style="color: #b22222;">Implementing Ceph Storage Integration for OpenShift</strong>
 
 Description: The client required a scalable and highly available storage backend to support stateful workloads running on OpenShift. I worked on deploying and integrating a Ceph-based storage solution to provide reliable Persistent Volume provisioning for the platform.
 
@@ -254,7 +258,7 @@ Contribution: Deployed and configured a Ceph cluster to serve as the storage bac
 
 
 `project`
-<span class="accent">Building Infrastructure Monitoring System(ongoing)(sole role)</span>
+<strong style="color: #b22222;">Building Infrastructure Monitoring System(ongoing)(sole role)</strong>
 
 Description: With the increasing number of containers and virtual machines, it became critical to have a unified platform to monitor the entire infrastructure.
 
@@ -263,7 +267,7 @@ Contribution: Building Prometheus and Grafana on an existing Kubernetes platform
 <strong style="color: #000;">Value Created</strong>: Provided real-time infrastructure visibility, automated alerting, and improved platform stability.
  
 `project`
-<span class="accent">Troubleshooting and Improving CI/CD Pipelines</span>
+<strong style="color: #b22222;">Troubleshooting and Improving CI/CD Pipelines</strong>
 
 Description: The development team encountered various errors and instability when running pipelines on self-hosted runners.
 
@@ -272,7 +276,7 @@ Contribution: Troubleshot pipeline errors, optimized performance, improved relia
 <strong style="color: #000;">Value Created</strong>: Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
 
 `project`
-<span class="accent">Infrastructure Standardization and Automation(sole role)</span>
+<strong style="color: #b22222;">Infrastructure Standardization and Automation(sole role)</strong>
 
 Description: The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
 
@@ -282,7 +286,7 @@ Contribution: Standardized operating systems, simplified and automated VM provis
 
 
 `project`
-<span class="accent">Automating Upgrading RHEL7 to RHEL8</span>
+<strong style="color: #b22222;">Automating Upgrading RHEL7 to RHEL8</strong>
 
 Description: RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority.
 
@@ -292,7 +296,7 @@ Contribution: Designed upgrading plan with application owners and automated upgr
 
 
 `project`
-<span class="accent">Ansible Automation Platform on Openshift</span>
+<strong style="color: #b22222;">Ansible Automation Platform on Openshift</strong>
 
 Description: With an ever-increasing number of playbooks, inventories, and workflows, manually managing them is challenging. A central platform is required to orchestrate all the elements related to Ansible.
 
@@ -302,7 +306,7 @@ Contribution: Collaborated with teams on deploying the Ansible Automation Platfo
 
 
 `project`
-<span class="accent">Deploying Red Hat 9 to Production Infrastructure</span>
+<strong style="color: #b22222;">Deploying Red Hat 9 to Production Infrastructure</strong>
 
 Description: Need to test RHEL9 and make it ready for production use.
 
@@ -312,7 +316,7 @@ Contribution: Deployed Red Hat 9 using Ansible, created a customized Red Hat ima
 
 
 `project`
-<span class="accent">Automating Patching of Red Hat VM</span>
+<strong style="color: #b22222;">Automating Patching of Red Hat VM</strong>
 
 Description: The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
 
@@ -321,7 +325,7 @@ Contribution: Designed and implemented an Ansible-based workflow with Red Hat Sa
 <strong style="color: #000;">Value Created</strong>: Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
 
 `project`
-<span class="accent">Automating the Provisioning of Red Hat VM on VMWare Private Cloud Platform</span>
+<strong style="color: #b22222;">Automating the Provisioning of Red Hat VM on VMWare Private Cloud Platform</strong>
 
 Description: The manual work of provisioning large-scale Red Hat VM was just impossible.
 
@@ -331,7 +335,7 @@ Contribution: Designed and implemented an Ansible-based workflow that automated 
 
 
 `project`
-<span class="accent">Deploying critical application to infrastructure(sole role)</span>
+<strong style="color: #b22222;">Deploying critical application to infrastructure(sole role)</strong>
 
 Description: A critical cloud-based application must be deployed, configured, and tested across the entire platform.
 Contribution: Solo responsibility for installing, configuring, and troubleshooting applications.
@@ -339,7 +343,7 @@ Contribution: Solo responsibility for installing, configuring, and troubleshooti
 <strong style="color: #000;">Value Created</strong>: Ensure that the system is aligned with organization policies.
 
 `project`
-<span class="accent">Splunk Implementation</span>
+<strong style="color: #b22222;">Splunk Implementation</strong>
 
 Description: Implemented Splunk to monitor and analyze logs and metrics across infrastructure. The project involved centralized log collection, efficient indexing, and actionable insights to enhance system observability and operational efficiency.
 
