@@ -29,7 +29,7 @@ At Appear, Gang works on building and maintaining a modern, scalable infrastruct
 `project`
 **NVIDIA GPU Cluster & Model Serving Platform**
 
-Responsibilities：
+<strong style="color: #000;">Responsibilities</strong>：
 
 Designed and delivered **platformised NVIDIA GPU cluster capabilities**, defining GPU resource governance and service‑oriented delivery paths.
 
@@ -45,7 +45,7 @@ Enforced access control and policy guardrails for GPU workloads via **Kyverno**.
 
 Coordinated R&D and platform teams to operationalise model serving and inference workflows.
 
-Value Created：
+<strong style="color: #000;">Value Created</strong>：
 
 Delivered a governable, observable, and rollback‑safe GPU platform for reliable model serving.
 Improved GPU utilisation and delivery efficiency through multi‑tenant optimisation and elastic scaling.
@@ -53,7 +53,7 @@ Improved GPU utilisation and delivery efficiency through multi‑tenant optimisa
 `project`
 **Autonomous Platform SRE Agent (AI-Driven Operations MVP)**
 
-Responsibilities：
+<strong style="color: #000;">Responsibilities</strong>：
 
 Designed and built a modular autonomous SRE agent to reduce operational toil and automate repetitive platform engineering tasks, enabling a shift from reactive alerting to proactive remediation.
 
@@ -69,7 +69,7 @@ Solved the immutable pod remediation challenge by enabling semantic reasoning to
 
 Integrated a software supply-chain intelligence module capable of scanning Terraform and Ansible repositories, analysing GitHub release notes, and performing semantic risk analysis before recommending dependency upgrades.
 
-Value Created：
+<strong style="color: #000;">Value Created</strong>：
 
 Reduced operational toil by automating classification and remediation of hundreds of infrastructure and security policy violations (e.g., Kyverno alerts and platform health checks).
 
@@ -82,7 +82,7 @@ Established a foundation for AI-augmented platform operations, lowering the barr
 `project`
 **CISO Partnership & Platform Security Governance**
 
-Responsibilities：
+<strong style="color: #000;">Responsibilities</strong>：
 
 Built and implemented **Kyverno Policy‑as‑Code** as the core platform security governance mechanism.
 
@@ -98,38 +98,46 @@ Worked closely with the CISO and security architects to implement security and c
 
 Delivered platform‑level security hardening, including RBAC/IAM governance, network policies, secrets management, vulnerability remediation, image scanning, supply‑chain security (SBOM/signing), and audit logging.
 
-Value Created：
+<strong style="color: #000;">Value Created</strong>：
 
 Established a platform‑level security governance system with auditable controls and compliance readiness.
 Balanced security requirements with delivery efficiency by aligning policies to business needs.
 
 
 `project`
-**ClickTime-Visma Internal Middleware Integration (Ongoing)**
+**ClickTime & Visma Integration (Ongoing, Project Lead)**
 
-Responsibilities：
+<strong style="color: #000;">Responsibilities</strong>：
 
-Led the project to integrate time registration data between Clicktime and Visma.
+Lead the ongoing internal integration project connecting **ClickTime** and **Visma** so time entries registered in ClickTime can be synchronised into Visma for payroll and reporting.
 
-Started initial and ongoing coordination between **HR, Finance, ClickTime, and Visma** to define business requirements for the integration, including which project and time-registration data should be synchronised between the two systems.
+Worked with HR, Finance, project owners, and system stakeholders to understand the company's need to track flexitime and overtime by project and group, a level of detail not covered by Visma alone.
 
-Set up sandbox environments for both **ClickTime** and **Visma**, studied their API documentation, and built proof-of-concept code to validate the integration approach and data flow.
+Helped stakeholders define and control requirements, translating broad business needs into practical integration scope, data flows, and validation scenarios.
 
-Contributed to the production deployment plan by defining API contracts, identifying change-detection needs, and helping structure the quality and operational model around the connector.
+Volunteered to build the integration even though software development is not the core responsibility of a platform engineer, using **Rust** and AI-assisted development with **Claude Code**.
 
-Established engineering guardrails around the solution, including **unit tests**, **integration tests**, **contract tests**, **Ruff** linting, **Docker** image packaging, and deployment of the middleware as a **Kubernetes Deployment** in the cluster.
+Researched the **ClickTime** and **Visma** APIs to understand authentication, data models, endpoint behaviour, and how project, group, and time-entry data should map between the two systems.
 
-Value Created：
+Designed the integration as an internal middleware service with idempotency checks, duplicate prevention, retry handling, and auditable synchronisation.
 
-Enabled the company to move forward with a business-critical internal integration where no ready-to-use market solution existed.
+Applied platform engineering practices including threat modelling, risk analysis, code testing, linting, Docker image packaging, Kubernetes deployment, and Argo CD setup.
 
-Although Gang does not come from a software development background, he proactively took on the challenge of exploring a new technical area and helped drive an internally built middleware solution when no ready-to-use connector existed for creating projects in **ClickTime**, registering project time, and synchronising the relevant time data into **Visma**. This ongoing project has deepened Gang’s understanding of **API integration**, **system interfaces**, and the end-to-end process of taking an integration from requirements discovery to production planning.
+Kept the solution aligned with Norwegian payroll workflows while reducing dependency on expensive vendor-built customisation.
+
+<strong style="color: #000;">Value Created</strong>：
+
+Created a cost-saving internal alternative to a vendor-built ClickTime integration, enabling the company to track time at project and group level while still aligning with Visma and Norwegian payroll requirements.
+
+Gained practical experience with a compact software development lifecycle, from stakeholder discovery and requirement shaping to API integration design, implementation, testing, and production planning.
+
+The most important learning was not only writing code, but communicating with stakeholders: understanding their real needs, helping them define realistic requirements, and keeping the project scope under control.
 
 
 `project`
 **Migrating VMware vSphere Virtual Machines to OpenShift Virtualization**
 
-Responsibilities：
+<strong style="color: #000;">Responsibilities</strong>：
 
 Led the platform migration approach for moving selected workloads from **VMware vSphere** to **OpenShift Virtualization**, with the goal of reducing infrastructure cost and consolidating VM and container operations onto a single platform.
 
@@ -143,7 +151,7 @@ Applied a **platform engineering methodology** rather than a tool-only migration
 
 Worked across infrastructure and application stakeholders to balance downtime expectations, performance risk, compliance requirements, and delivery timelines.
 
-Value Created：
+<strong style="color: #000;">Value Created</strong>：
 
 Created a pragmatic migration path that supports both **cost reduction** and long-term **platform convergence**, using OpenShift as a foundation for both virtual machines and container workloads.
 
@@ -157,7 +165,7 @@ Established reusable migration patterns and governance controls that make future
 
 Delivered an internal AI/LLM enablement platform to support engineering use-cases such as log and telemetry analysis, documentation generation, incident explanation and code assistance.
 
-Responsibilities：
+<strong style="color: #000;">Responsibilities</strong>：
 
 Acted as technical owner, leading **platform architecture, capability layering and governance model**. Defined roadmap and delivery standards, ran architecture reviews, and coordinated cross‑team execution. Mentored junior engineers through task decomposition and peer reviews to improve delivery quality.
 
@@ -170,7 +178,7 @@ Explored model‑selection strategies by comparing latency, output quality and t
 Implemented basic prompt governance, usage logging and cost visibility, laying groundwork for **responsible AI and auditability**.
 Worked with several R&D teams to promote AI‑assisted engineering practices and capture feedback for future platform evolution (e.g. RAG, code search, knowledge base integration).
   
-Value Created：
+<strong style="color: #000;">Value Created</strong>：
 
 Established the company’s first **unified internal AI entry point and platform capability layer**, significantly lowering the barrier for engineers to use LLMs in daily work.
 
@@ -181,7 +189,7 @@ Created a practical foundation for future **AI Gateway‑style capabilities** su
 `project`
 **Platform Engineering**
 
-Key Responsibilities:
+<strong style="color: #000;">Key Responsibilities</strong>:
 
 Built and maintained **bare-metal Kubernetes clusters** managed by Rancher, running on Flatcar (immutable OS), supporting internal R&D teams working with Rust, C++, Python, Yocto, and TypeScript.
 
@@ -214,7 +222,7 @@ Description: The existing use of GitHub self-hosted runners on virtual machines 
 
 Contribution: Took sole role in designing and implementing a high-availability Kubernetes cluster with GitHub Actions Runner Controller (ARC) to manage dynamic runner provisioning. Migrated CI/CD workflows from VM-based runners to Kubernetes, implemented automated scaling and isolation, and collaborated with developers to refactor pipelines. Established platform monitoring and ongoing maintenance processes.
 
-Value Created: Delivered a secure, scalable, and automated CI/CD runner platform, reducing manual overhead and improving isolation, reliability, and developer productivity. Standardized the CI/CD pipeline infrastructure for consistency and scalability, while enabling on-demand scaling to meet workload peaks.
+<strong style="color: #000;">Value Created</strong>: Delivered a secure, scalable, and automated CI/CD runner platform, reducing manual overhead and improving isolation, reliability, and developer productivity. Standardized the CI/CD pipeline infrastructure for consistency and scalability, while enabling on-demand scaling to meet workload peaks.
 
 
 `project`
@@ -224,7 +232,7 @@ Description: Terraform state files were previously stored on local disks, causin
 
 Contribution: Designed and deployed a MinIO-based S3-compatible backend on an internal Kubernetes platform. Integrated it with GitHub Actions pipelines to enable secure and versioned Terraform state storage within the CI/CD workflow.
 
-Value Created: Established a reliable, centralized, and versioned Terraform state backend, improving collaboration, auditability, and infrastructure stability—without relying on public cloud services.
+<strong style="color: #000;">Value Created</strong>: Established a reliable, centralized, and versioned Terraform state backend, improving collaboration, auditability, and infrastructure stability—without relying on public cloud services.
 
 `project`
 **Implementing GitOps Deployment Workflow with Argo CD (Ongoing)(sole role)**
@@ -233,7 +241,7 @@ Description: With increasing demands from developers for faster and more flexibl
 
 Contribution: Designed and implemented GitOps workflows using Argo CD, connecting GitHub branches to Kubernetes namespaces for automated deployments. Built Helm-based reusable templates and structured repositories for dynamic environments, and implemented RBAC and project isolation for security. Worked with development teams to define deployment flows and ensure smooth integration.
 
-Value Created: Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
+<strong style="color: #000;">Value Created</strong>: Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
 
 `project`
 **Implementing Ceph Storage Integration for OpenShift**
@@ -242,7 +250,7 @@ Description: The client required a scalable and highly available storage backend
 
 Contribution: Deployed and configured a Ceph cluster to serve as the storage backend for OpenShift, ensuring high availability and replication across nodes. Integrated Ceph with OpenShift via StorageClasses and dynamic PVC provisioning to support stateful applications. Performed validation of read/write performance, redundancy, and failure recovery scenarios. Documented operational procedures, including node replacement, OSD recovery, monitoring, and capacity planning.
 
-Value Created: Dlivered a production-ready storage foundation for OpenShift workloads, enabling the platform to run databases, message queues, and other stateful services reliably. Improved resilience and reduced operational risk through automated failover and self-healing storage capabilities.
+<strong style="color: #000;">Value Created</strong>: Dlivered a production-ready storage foundation for OpenShift workloads, enabling the platform to run databases, message queues, and other stateful services reliably. Improved resilience and reduced operational risk through automated failover and self-healing storage capabilities.
 
 
 `project`
@@ -252,7 +260,7 @@ Description: With the increasing number of containers and virtual machines, it b
 
 Contribution: Building Prometheus and Grafana on an existing Kubernetes platform to monitor both containers and VMs, integrating alerting and visualization.
 
-Value Created: Provided real-time infrastructure visibility, automated alerting, and improved platform stability.
+<strong style="color: #000;">Value Created</strong>: Provided real-time infrastructure visibility, automated alerting, and improved platform stability.
  
 `project`
 **Troubleshooting and Improving CI/CD Pipelines**
@@ -261,7 +269,7 @@ Description: The development team encountered various errors and instability whe
 
 Contribution: Troubleshot pipeline errors, optimized performance, improved reliability, and worked closely with developers to maintain organized workflows.
 
-Value Created: Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
+<strong style="color: #000;">Value Created</strong>: Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
 
 `project`
 **Infrastructure Standardization and Automation(sole role)**
@@ -270,7 +278,7 @@ Description: The current infrastructure management was manual, inconsistent, and
 
 Contribution: Standardized operating systems, simplified and automated VM provisioning and management process.
 
-Value Created: Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
+<strong style="color: #000;">Value Created</strong>: Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
 
 
 `project`
@@ -280,7 +288,7 @@ Description: RHEL7 was approaching the end of support, so upgrading hundreds of 
 
 Contribution: Designed upgrading plan with application owners and automated upgrading job with Ansible.
 
-Value Created: Ensure systems are aligned with security compliance standards.
+<strong style="color: #000;">Value Created</strong>: Ensure systems are aligned with security compliance standards.
 
 
 `project`
@@ -290,7 +298,7 @@ Description: With an ever-increasing number of playbooks, inventories, and workf
 
 Contribution: Collaborated with teams on deploying the Ansible Automation Platform on Openshift.
 
-Value Created: Reduced manual tasks and errors while managing playbooks, inventories, and secrets, improved operational efficiency, and enhanced security
+<strong style="color: #000;">Value Created</strong>: Reduced manual tasks and errors while managing playbooks, inventories, and secrets, improved operational efficiency, and enhanced security
 
 
 `project`
@@ -300,7 +308,7 @@ Description: Need to test RHEL9 and make it ready for production use.
 
 Contribution: Deployed Red Hat 9 using Ansible, created a customized Red Hat image template for VMware, and integrated the system with Windows AD.
 
-Value Created: Enable seamless deployment, ensure system compatibility, and make new OS ready for production environment.
+<strong style="color: #000;">Value Created</strong>: Enable seamless deployment, ensure system compatibility, and make new OS ready for production environment.
 
 
 `project`
@@ -310,7 +318,7 @@ Description: The manual patching process for a large-scale Red Hat environment w
 
 Contribution: Designed and implemented an Ansible-based workflow with Red Hat Satellite to automate patching.
 
-Value Created: Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
+<strong style="color: #000;">Value Created</strong>: Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
 
 `project`
 **Automating the Provisioning of Red Hat VM on VMWare Private Cloud Platform**
@@ -319,7 +327,7 @@ Description: The manual work of provisioning large-scale Red Hat VM was just imp
 
 Contribution: Designed and implemented an Ansible-based workflow that automated the process of provisioning VM into the production environment.
 
-Value Created: Streamlined installation, configuration, and management of VM.
+<strong style="color: #000;">Value Created</strong>: Streamlined installation, configuration, and management of VM.
 
 
 `project`
@@ -328,7 +336,7 @@ Value Created: Streamlined installation, configuration, and management of VM.
 Description: A critical cloud-based application must be deployed, configured, and tested across the entire platform.
 Contribution: Solo responsibility for installing, configuring, and troubleshooting applications.
 
-Value Created: Ensure that the system is aligned with organization policies.
+<strong style="color: #000;">Value Created</strong>: Ensure that the system is aligned with organization policies.
 
 `project`
 **Splunk Implementation**
@@ -337,7 +345,7 @@ Description: Implemented Splunk to monitor and analyze logs and metrics across i
 
 Contribution: Deployed and configured Splunk Enterprise for centralized log aggregation and real-time monitoring. Developed custom dashboards for infrastructure health monitoring, including CPU usage, memory consumption, disk I/O, and application performance metrics.
 
-Value Created: Enhanced system reliability and performance by proactively identifying incidents.
+<strong style="color: #000;">Value Created</strong>: Enhanced system reliability and performance by proactively identifying incidents.
 
 
 `2012-2022`
@@ -345,7 +353,7 @@ Value Created: Enhanced system reliability and performance by proactively identi
 
 At the University of Oslo, Gang worked as system engineer in managing and operating a local data center dedicated to delivering robust and reliable scientific computing infrastructure for researchers at the Centre for Molecular Medicine Norway (NCMM). His responsibilities spanned <span class="accent">core IT operations</span>, <span class="accent">distributed systems engineering</span>, and close <span class="accent">collaboration</span> with scientific researchers.
 
-**Responsibilities**
+<strong style="color: #000;">Responsibilities</strong>
 
 Server & Infrastructure Management: Installed, configured, and maintained compute systems for scientific workloads, including Linux-based compute nodes, distributed HPC servers, and NVIDIA GPU-accelerated machines. Built and operated foundational components of the university’s high-performance computing environment, ensuring system reliability, performance, and scalability across research workloads.
 
