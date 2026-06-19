@@ -33,11 +33,21 @@ At Appear, Gang works on building and maintaining a modern, scalable infrastruct
 
 <strong style="color: #000;">Responsibilities</strong>：
 
-Designed and delivered **platformised NVIDIA GPU cluster capabilities**, defining GPU resource governance and service‑oriented delivery paths.
+Designed and delivered **platformised NVIDIA GPU cluster capabilities** as the infrastructure foundation for a local AI / inference platform, defining GPU resource governance, service-oriented delivery paths, and operational ownership.
 
 Standardised GPU foundations using **GPU Operator**, establishing reusable cluster baselines.
 
 Introduced **Time Slicing** and **MPS** to enable fine‑grained GPU sharing and multi‑tenant concurrency.
+
+Brought open-source LLM inference onto Kubernetes using **vLLM** running in GPU-enabled pods, exposing models as managed internal services instead of ad-hoc host-based deployments.
+
+Selected and integrated **Envoy Gateway** and **Envoy AI Gateway** as the traffic and AI routing layer, creating a foundation for model endpoint exposure, request routing, policy enforcement, and future observability of inference traffic.
+
+Integrated **Longhorn** as a Kubernetes-native storage layer for platform services and model-serving workloads, supporting persistent components while keeping the platform aligned with GitOps-driven cluster operations.
+
+Evaluated and deployed open-source models for internal use, focusing on practical serving characteristics such as GPU memory footprint, latency, concurrency, model loading behaviour, and operational stability.
+
+Became the backend serving layer for the **Internal Self-Hosted AI Platform**, where Open WebUI consumes model endpoints provided by the Kubernetes-based inference platform.
 
 Brought **GitLab Runner** GPU workloads into platform scheduling with defined policies for GPU pipelines.
 
@@ -49,8 +59,38 @@ Coordinated R&D and platform teams to operationalise GPU-backed machine learning
 
 <strong style="color: #000;">Value Created</strong>：
 
-Delivered a governable, observable, and rollback‑safe GPU platform for reliable machine learning model serving.
-Improved GPU utilisation and delivery efficiency through multi‑tenant optimisation and elastic scaling.
+Delivered a governable, observable, and rollback‑safe GPU platform for reliable local machine learning model serving.
+Improved GPU utilisation and delivery efficiency through multi‑tenant optimisation, shared GPU scheduling, and Kubernetes-native service delivery.
+Established the technical backend for the company's internal self-hosted AI platform, reducing dependency on external AI services for selected use cases and creating a foundation for controlled internal inference.
+
+`project`
+<strong style="color: #b22222;">Internal Self-Hosted AI Platform</strong>
+
+Delivered an internal AI/LLM enablement platform to support engineering use-cases such as log and telemetry analysis, documentation generation, incident explanation and code assistance.
+
+<strong style="color: #000;">Responsibilities</strong>：
+
+Acted as technical owner, leading **platform architecture, capability layering and governance model**. Defined roadmap and delivery standards, ran architecture reviews, and coordinated cross‑team execution. Mentored junior engineers through task decomposition and peer reviews to improve delivery quality.
+
+Designed the platform around **Open WebUI** as the user-facing interface, backed by locally served Kubernetes-based model endpoints from the NVIDIA GPU inference platform.
+
+Evaluated multiple LLM backends and tools (hosted APIs and local inference) with a focus on **latency, concurrency characteristics, token cost and model behaviour**.
+
+Designed a containerised deployment model on Kubernetes, including access control, team isolation and integration with existing SSO / developer tooling.
+
+Explored model‑selection strategies by comparing latency, output quality and token usage across different LLM providers (OpenAI, RequestyAI, local Llama variants), identifying which models were most suitable for specific request types.
+
+Connected the user-facing AI platform with the local inference backend to support a hybrid AI strategy: external providers where appropriate, and self-hosted open-source models where data control, cost, or platform independence mattered more.
+
+Implemented basic prompt governance, usage logging and cost visibility, laying groundwork for **responsible AI and auditability**.
+Worked with several R&D teams to promote AI‑assisted engineering practices and capture feedback for future platform evolution (e.g. RAG, code search, knowledge base integration).
+
+<strong style="color: #000;">Value Created</strong>：
+
+Established the company’s first **unified internal AI entry point and platform capability layer**, significantly lowering the barrier for engineers to use LLMs in daily work.
+
+Shifted AI usage from ad‑hoc, individual experimentation to **systematic, policy‑aware consumption**.
+Created a practical foundation for future **AI Gateway‑style capabilities** such as multi‑tenant routing, cost/observability, local inference, and governance.
 
 `project`
 <strong style="color: #b22222;">Autonomous Platform SRE Agent (AI-Driven Operations MVP)</strong>
@@ -125,6 +165,10 @@ Designed the integration as an internal middleware service with idempotency chec
 
 Applied platform engineering practices including threat modelling, risk analysis, code testing, linting, Docker image packaging, Kubernetes deployment, and Argo CD setup.
 
+Worked with a security engineer to perform security analysis and risk assessment for the integration, identifying what could go wrong across authentication, data mapping, access control, payroll-sensitive data handling, API failures, duplicate synchronisation, auditability, and operational ownership.
+
+Translated the risk assessment into practical mitigations, including least-privilege API access, secret handling, validation checks, idempotency controls, retry and failure handling, logging, audit trails, and controlled rollout planning.
+
 Kept the solution aligned with Norwegian payroll workflows while reducing dependency on expensive vendor-built customisation.
 
 <strong style="color: #000;">Value Created</strong>：
@@ -134,6 +178,8 @@ Created a cost-saving internal alternative to a vendor-built ClickTime integrati
 Gained practical experience with a compact software development lifecycle, from stakeholder discovery and requirement shaping to API integration design, implementation, testing, and production planning.
 
 The most important learning was not only writing code, but communicating with stakeholders: understanding their real needs, helping them define realistic requirements, and keeping the project scope under control.
+
+Improved the project's production readiness by treating security and business risk as part of the design, not as a late-stage review activity.
 
 
 `project`
@@ -160,32 +206,6 @@ Created a pragmatic evaluation path for potential **cost reduction** and long-te
 Reduced migration risk by defining mappings and trade-offs early, improving predictability around storage, networking, performance, and operational ownership.
 
 Established reusable evaluation patterns and governance considerations that would make future workload onboarding faster, safer, and more auditable if the company decides to move toward production adoption.
-
-
-`project`
-<strong style="color: #b22222;">Internal Self-Hosted AI Platform</strong>
-
-Delivered an internal AI/LLM enablement platform to support engineering use-cases such as log and telemetry analysis, documentation generation, incident explanation and code assistance.
-
-<strong style="color: #000;">Responsibilities</strong>：
-
-Acted as technical owner, leading **platform architecture, capability layering and governance model**. Defined roadmap and delivery standards, ran architecture reviews, and coordinated cross‑team execution. Mentored junior engineers through task decomposition and peer reviews to improve delivery quality.
-
-Evaluated multiple LLM backends and tools (hosted APIs and local inference) with a focus on **latency, concurrency characteristics, token cost and model behaviour**.
-
-Designed a containerised deployment model on Kubernetes, including access control, team isolation and integration with existing SSO / developer tooling.
-
-Explored model‑selection strategies by comparing latency, output quality and token usage across different LLM providers (OpenAI, RequestyAI, local Llama variants), identifying which models were most suitable for specific request types.
-
-Implemented basic prompt governance, usage logging and cost visibility, laying groundwork for **responsible AI and auditability**.
-Worked with several R&D teams to promote AI‑assisted engineering practices and capture feedback for future platform evolution (e.g. RAG, code search, knowledge base integration).
-  
-<strong style="color: #000;">Value Created</strong>：
-
-Established the company’s first **unified internal AI entry point and platform capability layer**, significantly lowering the barrier for engineers to use LLMs in daily work.
-
-Shifted AI usage from ad‑hoc, individual experimentation to **systematic, policy‑aware consumption**.
-Created a practical foundation for future **AI Gateway‑style capabilities** such as multi‑tenant routing, cost/observability and governance.
 
 
 `project`
