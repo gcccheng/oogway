@@ -29,7 +29,7 @@ Appear TV is a leading global provider of video compression, media processing, a
 At Appear, Gang works on building and maintaining a modern, scalable infrastructure powering developer productivity and high-performance applications. His work focuses on <span class="accent">bare-metal Kubernetes</span>, <span class="accent">GitOps</span>, <span class="accent">observability</span>, <span class="accent">storage</span>, <span class="accent">CI/CD automation</span>, and <span class="accent">platform security</span>.
 
 `project`
-<strong style="color: #b22222;">NVIDIA GPU Cluster & Machine Learning Model Serving Platform</strong>
+<strong style="color: #b22222;">NVIDIA GPU Cluster & AL Model Serving Platform</strong>
 
 <strong style="color: #000;">Responsibilities</strong>：
 
