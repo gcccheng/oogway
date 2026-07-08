@@ -1,8 +1,8 @@
 ---
 layout: cv
-title: Gang Cheng 的中文简历
+title: 程刚 的中文简历
 ---
-# Gang Cheng
+# 程刚
 
 <span class="accent">Red Hat 认证架构师</span>，<span class="accent">基础设施</span>/<span class="accent">DevOps</span>/<span class="accent">DevEx</span>/<span class="accent">平台工程师</span>
 
@@ -12,11 +12,11 @@ title: Gang Cheng 的中文简历
 
 ## 个人简介
 
-Gang 是一名自驱型工程师。他相信，<span class="accent">持续学习</span>的心态以及<span class="accent">快速适应</span>新技术的能力，是专业 IT 工程师的核心竞争力。在职业生涯中，Gang 通过不断参与项目、获取认证、参加工作坊和会议、学习课程、与行业同行交流以及使用 AI 工具，主动构建了在<span class="accent">现代基础设施</span>和<span class="accent">平台工程</span>方面的专业能力。他的努力和专业能力也得到了认可，并获得了 <span class="accent">Red Hat Certified Professional of the Year 2024</span> 的荣誉称号（如需了解该奖项，可点击页面顶部的 Red Hat 个人介绍链接）。
+程刚 是一名自驱型工程师。他相信，<span class="accent">持续学习</span>的心态以及<span class="accent">快速适应</span>新技术的能力，是专业 IT 工程师的核心竞争力。在职业生涯中，程刚 通过不断参与项目、获取认证、参加工作坊和会议、学习课程、与行业同行交流以及使用 AI 工具，主动构建了在<span class="accent">现代基础设施</span>和<span class="accent">平台工程</span>方面的专业能力。他的努力和专业能力也得到了认可，并获得了 <span class="accent">Red Hat Certified Professional of the Year 2024</span> 的荣誉称号（如需了解该奖项，可点击页面顶部的 Red Hat 个人介绍链接）。
 
-除了在 <span class="accent">Red Hat</span> 技术领域的专业经验，Gang 也持续扩展自己在 <span class="accent">DevOps 工程</span>、<span class="accent">平台工程</span>和<span class="accent">站点可靠性工程</span>方面的能力。他曾在小型和大型团队中工作，并根据项目需求承担过系统管理员、基础设施工程师、DevOps 工程师、开发者体验（DevEx）工程师和平台工程师等角色，或同时结合这些职责。在 AI 驱动工程的时代，Gang 也在积极探索人工智能如何辅助平台和基础设施工作，包括 <span class="accent">AI 辅助故障排查</span>、<span class="accent">自动化</span>、基础设施文档，以及通过智能工具提升<span class="accent">开发者生产力</span>。他并不把 AI 看作工程师的替代品，而是将其视为强大的协作者，可以增强<span class="accent">决策能力</span>、加速<span class="accent">问题解决</span>，并帮助工程师把更多精力放在更高层次的<span class="accent">架构思考</span>上。
+除了在 <span class="accent">Red Hat</span> 技术领域的专业经验，程刚 也持续扩展自己在 <span class="accent">DevOps 工程</span>、<span class="accent">平台工程</span>和<span class="accent">站点可靠性工程</span>方面的能力。他曾在小型和大型团队中工作，并根据项目需求承担过系统管理员、基础设施工程师、DevOps 工程师、开发者体验（DevEx）工程师和平台工程师等角色，或同时结合这些职责。在 AI 驱动工程的时代，程刚 也在积极探索人工智能如何辅助平台和基础设施工作，包括 <span class="accent">AI 辅助故障排查</span>、<span class="accent">自动化</span>、基础设施文档，以及通过智能工具提升<span class="accent">开发者生产力</span>。他并不把 AI 看作工程师的替代品，而是将其视为强大的协作者，可以增强<span class="accent">决策能力</span>、加速<span class="accent">问题解决</span>，并帮助工程师把更多精力放在更高层次的<span class="accent">架构思考</span>上。
 
-无论职位名称或工作环境如何变化，Gang 都能快速适应，并通过良好的<span class="accent">沟通能力</span>和<span class="accent">协作意识</span>为业务创造价值。
+无论职位名称或工作环境如何变化，程刚 都能快速适应，并通过良好的<span class="accent">沟通能力</span>和<span class="accent">协作意识</span>为业务创造价值。
 
 
 ## 工作经历
@@ -26,42 +26,45 @@ Gang 是一名自驱型工程师。他相信，<span class="accent">持续学习
 
 Appear TV 是全球领先的视频压缩、媒体处理和分发技术提供商，其技术被全球广播公司、电信运营商以及重大直播活动组织广泛使用，客户包括 NBCUniversal、Discovery、NHL、Formula 1 和 Riot Games。
 
-在 Appear，Gang 负责构建和维护现代化、可扩展的基础设施，以支撑开发者生产力和高性能应用。他的工作重点包括 <span class="accent">裸金属 Kubernetes</span>、<span class="accent">GitOps</span>、<span class="accent">可观测性</span>、<span class="accent">存储</span>、<span class="accent">CI/CD 自动化</span>和<span class="accent">平台安全</span>。
+在 Appear，程刚 负责构建和维护现代化、可扩展的基础设施，以支撑开发者生产力和高性能应用。他的工作重点包括 <span class="accent">裸金属 Kubernetes</span>、<span class="accent">GitOps</span>、<span class="accent">可观测性</span>、<span class="accent">存储</span>、<span class="accent">CI/CD 自动化</span>和<span class="accent">平台安全</span>。
 
 `项目`
 <strong style="color: #b22222;">NVIDIA GPU 集群与机器学习模型服务平台</strong>
 
 <strong style="color: #000;">职责</strong>：
 
-设计并交付了**平台化 NVIDIA GPU 集群能力**，作为本地 AI / 推理平台的基础设施底座，定义了 GPU 资源治理、面向服务的交付路径和运维责任边界。
+基于 NVIDIA GPU Operator 建立 Kubernetes GPU 平台标准，实现 GPU Driver、Container Toolkit、Device Plugin 及相关组件的自动化部署与生命周期管理，形成统一的 GPU 集群基线，降低 GPU 节点维护复杂度，提高平台一致性及可维护性。采用 Helm 与 GitOps 管理 GPU 平台组件，实现 GPU Operator、平台服务及基础设施的声明式部署，使 GPU 平台具备标准化交付、版本管理及快速回滚能力。
 
-使用 **GPU Operator** 标准化 GPU 基础能力，建立可复用的集群基线。
+**GPU 资源管理**
 
-引入 **Time Slicing** 和 **MPS**，实现更细粒度的 GPU 共享和多租户并发能力。
+基于 Kubernetes 建立统一 GPU 资源池，将 GPU 作为平台资源进行集中管理，为 AI 工作负载提供统一调度入口。引入 CUDA MPS 与 GPU Time Slicing，实现 GPU 共享能力，提高 GPU 利用率，支持多个推理服务及研发工作负载共享 GPU 资源。基于 Namespace、ResourceQuota、LimitRange 及 RBAC 建立 GPU 多租户资源管理机制，为不同研发团队提供统一 GPU 服务入口，并结合 Kyverno 对 GPU 工作负载实施安全策略、资源规范及访问控制。完成 NVIDIA MIG（Multi-Instance GPU）平台方案设计及 MVP 验证，评估 GPU 切分、多租户资源隔离及 GPU 利用率优化能力，并与 Time Slicing、CUDA MPS 等 GPU Sharing 技术进行对比分析。
 
-将开源 LLM 推理引入 Kubernetes，通过运行在 GPU Pod 中的 **vLLM** 提供模型服务，使模型以受管内部服务的形式交付，而不是依赖临时的主机部署。
+**AI 工作负载平台**
 
-选择并集成 **Envoy Gateway** 和 **Envoy AI Gateway** 作为流量和 AI 路由层，为模型端点暴露、请求路由、策略执行以及未来推理流量可观测性打下基础。
+以 vLLM 作为典型 GPU 工作负载，在 Kubernetes GPU 平台部署企业内部推理服务，验证 GPU 平台对 LLM 推理、GPU 调度、GPU 共享及模型生命周期管理的支撑能力。部署 Open WebUI，为内部研发团队提供统一 AI Portal，由 Kubernetes GPU 平台提供模型推理能力，形成完整的内部 AI 服务链路。选择并集成 Envoy Gateway 与 Envoy AI Gateway，统一管理模型服务入口，实现 AI 服务路由、模型端点管理、访问控制及未来 AI Gateway 能力扩展。持续评估和部署多个开源 LLM，重点关注 GPU 显存占用、模型加载时间、推理延迟、吞吐能力、GPU 利用率及平台稳定性，为 GPU 平台容量规划及资源管理提供依据。
 
-集成 **Longhorn** 作为 Kubernetes 原生存储层，支撑平台服务和模型服务工作负载中的持久化组件，同时保持平台与 GitOps 驱动的集群运维方式一致。
+**GPU 平台自动化**
 
-评估并部署用于内部场景的开源模型，重点关注 GPU 显存占用、延迟、并发能力、模型加载行为和运维稳定性等实际服务特征。
+将 GitLab Runner GPU Job 纳入 Kubernetes GPU 平台统一管理，实现 GPU CI/CD 工作负载调度，并建立 GPU Pipeline 使用规范。利用 Helm、GitOps 及 Kubernetes 原生能力，实现 GPU 平台组件、模型服务及 AI 工作负载自动化部署，提高平台一致性及交付效率。协调研发团队、平台团队及 AI 使用团队，将 GPU 工作负载从研发实验环境逐步沉淀为企业级平台服务，建立统一运维流程及平台责任边界。
 
-成为**内部自托管 AI 平台**的后端模型服务层，由 Open WebUI 消费 Kubernetes 推理平台提供的模型端点。
+**GPU 可观测性**
 
-将 **GitLab Runner** 的 GPU 工作负载纳入平台调度，并定义 GPU 流水线策略。
+将 GPU 平台纳入企业统一监控体系，集成 DCGM Exporter、Prometheus、Grafana，实现 GPU 利用率、GPU Memory、GPU Temperature、Power Usage、ECC Error、GPU Pod 使用情况等指标监控。建立 GPU 平台 Dashboard，持续跟踪 GPU 利用率、推理吞吐量、模型响应延迟及 GPU 资源使用情况，为 GPU 容量规划及平台优化提供数据支撑。
 
-将 GPU 可观测性集成到平台栈中，覆盖 **GPU 利用率、推理延迟和吞吐量**。
+**Kubernetes 平台能力**
 
-通过 **Kyverno** 为 GPU 工作负载实施访问控制和策略护栏。
-
-协调研发团队和平台团队，将基于 GPU 的机器学习模型服务能力落地为可运维的平台能力。
+集成 Kubernetes 原生分布式存储，为模型缓存、平台组件及 AI 工作负载提供持久化能力，同时保持平台与 GitOps 运维模式一致。 建立 Kubernetes 原生 AI Platform 运维体系，实现 GPU 平台、AI 服务及基础设施统一纳管，并保持平台组件标准化升级及生命周期管理。
 
 <strong style="color: #000;">创造的价值</strong>：
 
-交付了一个可治理、可观测、可回滚的 GPU 平台，用于可靠的本地机器学习模型服务。
-通过多租户优化、共享 GPU 调度和 Kubernetes 原生服务交付，提高了 GPU 利用率和交付效率。
-为公司内部自托管 AI 平台建立了技术后端，在部分使用场景中降低对外部 AI 服务的依赖，并为受控的内部推理能力奠定基础。
+构建企业统一 GPU AI Infrastructure Platform，为机器学习模型推理、AI 应用及 GPU 工作负载提供稳定、可治理、可观测的平台能力。
+
+建立 Kubernetes 原生 GPU 平台标准，实现 GPU 生命周期管理、GPU 自动化部署及统一运维流程，提高平台一致性及可维护性。
+
+通过 GPU 共享、多租户资源管理及 Kubernetes 原生平台能力，提高 GPU 利用率及 GPU 资源交付效率，降低研发团队使用 GPU 的门槛。
+
+为企业内部自托管 AI 平台建立统一 GPU 后端基础设施，在部分业务场景中降低对外部 AI 服务的依赖，并为未来 GPU 集群、AI 推理平台及企业 AI 基础设施建设奠定平台基础。
+
 
 `项目`
 <strong style="color: #b22222;">内部自托管 AI 平台</strong>
@@ -237,7 +240,7 @@ Appear TV 是全球领先的视频压缩、媒体处理和分发技术提供商�
 
 Sopra Steria 是欧洲主要的数字服务和咨询公司之一，在挪威是数字化、创新和可持续发展领域的领先咨询公司，服务大型私营企业和公共部门组织。
 
-在 Sopra Steria 期间，Gang 担任 <span class="accent">DevOps</span>/<span class="accent">基础设施工程师</span>，并为客户主导或参与多个项目，包括：
+在 Sopra Steria 期间，程刚 担任 <span class="accent">DevOps</span>/<span class="accent">基础设施工程师</span>，并为客户主导或参与多个项目，包括：
 
 `项目`
 <strong style="color: #b22222;">构建高可用 Kubernetes 与 GitHub Actions Runner Controller（ARC）（独立负责）</strong>
@@ -375,7 +378,7 @@ Sopra Steria 是欧洲主要的数字服务和咨询公司之一，在挪威是�
 `2012-2022`
 ***<font size= "3">奥斯陆大学系统工程师</font>***
 
-在奥斯陆大学，Gang 担任系统工程师，负责管理和运维一个本地数据中心，为挪威分子医学中心（NCMM）的研究人员提供稳定可靠的科学计算基础设施。他的职责覆盖<span class="accent">核心 IT 运维</span>、<span class="accent">分布式系统工程</span>以及与科研人员的紧密<span class="accent">协作</span>。
+在奥斯陆大学，程刚 担任系统工程师，负责管理和运维一个本地数据中心，为挪威分子医学中心（NCMM）的研究人员提供稳定可靠的科学计算基础设施。他的职责覆盖<span class="accent">核心 IT 运维</span>、<span class="accent">分布式系统工程</span>以及与科研人员的紧密<span class="accent">协作</span>。
 
 <strong style="color: #000;">职责</strong>
 
@@ -393,7 +396,7 @@ Windows 部署与管理：使用 PXE 和 SCCM（System Center Configuration Mana
 
 
 ## 证书
-<a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng"> Red Hat Certified Professional of the Year 2024</a>
+<a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-程刚-cheng"> Red Hat Certified Professional of the Year 2024</a>
 
 <a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Architect</a>
 
@@ -426,7 +429,7 @@ Windows 部署与管理：使用 PXE 和 SCCM（System Center Configuration Mana
 
 <a href="https://medium.com/@gcccheng/challenges-tips-and-rewards-working-as-a-consultant-in-norway-4b6ddce2ff3b"> Challenges, tips, and rewards: working as a consultant in Norway </a>
 
-<a href="https://www.linkedin.com/pulse/cloud-native-day-oslo-reflections-highlights-gang-cheng-ripaf/?trackingId=rpGDQr2us8CpWZiuR3Sx%2FA%3D%3D"> Cloud Native Day Oslo — From DevOps to DevEx </a>
+<a href="https://www.linkedin.com/pulse/cloud-native-day-oslo-reflections-highlights-程刚-cheng-ripaf/?trackingId=rpGDQr2us8CpWZiuR3Sx%2FA%3D%3D"> Cloud Native Day Oslo — From DevOps to DevEx </a>
 
 ## 课程
 
