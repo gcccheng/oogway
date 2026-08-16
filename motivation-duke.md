@@ -1,11 +1,10 @@
 # Motivation Letter
 
-Dear Hiring Team,
+Dear Hiring Committee,
 
-My name is Gang Cheng. I am a **Red Hat Certified Architect** with **more than fourteen years of experience** in infrastructure, systems, research computing, and modern engineering platforms. When I read the **Manager of Infrastructure, Systems and Web Services** role, my first reaction was
-simple: this is the opportunity and the moment **I have been preparing for!** This role brings together the university environment I know, the broad experience I have built, and the leadership direction I have been preparing for. **So, after fourteen years of working abroad, I am willing and ready to bring all my skills and experience back to China.**
+My name is Gang Cheng. I am a **Red Hat Certified Architect** with **more than fourteen years of experience** in infrastructure, systems, research computing, and modern engineering platforms. When I read the **Manager of Infrastructure, Systems and Web Services** role, my first reaction was simple: this is the opportunity and the moment **I have been preparing for!** This role brings together the university environment I know, the broad experience I have built, and the leadership direction I have been preparing for. **After fourteen years of working abroad, I am willing and ready to bring all my skills and experience back to China.**
 
-After speaking with HR and learning more about the position, my motivation became even stronger.  Now, you can put aside my long CV, and instead allow me to walk through the key points and show you why I am the right person for this role.
+After speaking with HR and learning more about the position, my motivation became even stronger. Now, you can put aside my long CV, and instead allow me to walk through the key points and show you why I am the right person for this role.
 
 ## 1. Why my background matches this role
 
@@ -19,7 +18,9 @@ Here is what I can provide:
 
 - **Technical leadership and people-development experience**, including coaching junior engineers, collaborating across teams, building consensus, negotiating priorities, managing risks, and delivering services within resource constraints.
 
-- Broad hands-on experience across **infrastructure, systems, networks, storage, virtualization, automation, monitoring, security, AI/Infra, and research computing**, combined with technical leadership for resilient platforms and reliable services.
+- Broad hands-on experience across **infrastructure, systems, networks, storage, virtualization, automation, monitoring, security, AI infrastructure, and research computing**, combined with technical leadership for resilient platforms and reliable services.
+
+- Experience in **infrastructure procurement, capacity, and budget planning**, balancing current platform capacity, anticipated research demand, future system development, and available funding when selecting servers and planning expansion.
 
 - Experience collaborating with security leadership, addressing vulnerabilities, improving operational efficiency through process optimization, and promoting policies, standards, and best practices.
 
@@ -41,11 +42,11 @@ Third, I bring a demonstrated commitment to **continuous learning and knowledge 
 
 Finally, as a Chinese engineer who studied and worked in Norway for many years, I bring **strong cross-cultural communication skills**. I understand different expectations, communication styles, and organizational cultures. I can work professionally in **both Chinese and English** and partner with DKU leadership, academic, research, and business communities, technical specialists, vendors, and colleagues at Duke University.
 
-## Why this opportunity fits my long-term direction
+## 3. Why this opportunity fits my long-term direction
 
 I am not simply looking for a technical role in China. I am looking for a position where my **international experience, university background, infrastructure breadth, and leadership capability** can support an institution with a meaningful long-term mission.
 
-DKU's combination of **Chinese and international academic environments** is particularly attractive to me. Its five-person team is small enough for the manager to remain close to the people and technology, yet broad enough to require strategic planning, operational execution, clear priorities, trust, and collaboration. This balance suits my careful approach to reliability and security, as well as my interest in building new capabilities when they solve real problems.
+DKU's combination of **Chinese and international academic environments** is particularly attractive to me. The five-person team this role will lead is small enough for the manager to remain close to the people and technology, yet broad enough to require strategic planning, operational execution, clear priorities, trust, and collaboration. This balance suits my careful approach to reliability and security, as well as my interest in building new capabilities when they solve real problems.
 
 Thank you for taking the time to read my application. I look forward to discussing the challenges and opportunities facing DKU's Infrastructure, Systems and Web Services team, and how I can contribute to the university's teaching, research, and institutional mission.
 

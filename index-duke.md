@@ -80,7 +80,7 @@ Combined hands-on infrastructure work with user enablement, knowledge sharing, a
 
 Developed a practical understanding of what faculty and researchers need from IT: <strong>reliable services, clear communication, responsive problem solving, and fit-for-purpose infrastructure</strong> that enables rather than obstructs research.
 
-`2025-Now`  
+`2025-Present`  
 ***<font size="3">Senior Platform Engineer - Appear, Oslo</font>***
 
 Appear is a global provider of media processing and distribution technology. Gang works on infrastructure for engineering productivity and high-performance applications, covering bare-metal Kubernetes, GitOps, observability, storage, CI/CD automation, platform security, GPU infrastructure, and AI enablement.
