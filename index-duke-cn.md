@@ -5,7 +5,7 @@ body_class: duke-cv
 ---
 # 程刚
 
-<span class="accent">红帽认证架构师</span> | <span class="accent">科研 IT</span> / <span class="accent">基础设施</span> / <span class="accent">系统</span> / <span class="accent">AI 与 GPU 平台技术负责人</span>
+<span class="accent">红帽认证架构师</span>，<span class="accent">科研 IT</span> / <span class="accent">基础设施</span> / <span class="accent">系统</span> / <span class="accent">AI 与 GPU 平台技术负责人</span>
 
 <div id="webaddress">
 <a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng">红帽个人专访</a> | <a href="https://www.linkedin.com/in/gang-cheng-7170a521/">LinkedIn</a>
