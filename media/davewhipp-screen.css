@@ -183,6 +183,11 @@ strong {
 	font-weight: bold;
 }
 
+.accent {
+	color: #b22222;
+	font-weight: 700;
+}
+
 #address {
 	display: none;
 }

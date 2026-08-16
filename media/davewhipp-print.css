@@ -185,10 +185,14 @@ strong {
 	font-weight: bold;
 }
 
+.accent {
+	color: #b22222;
+	font-weight: 700;
+}
+
 #ghbutton {
 	display: none;
 	visibility: hidden;
 }
-
 
 

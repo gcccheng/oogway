@@ -184,11 +184,57 @@ strong {
 	font-weight: bold;
 }
 
+.accent {
+	color: #b22222;
+	font-weight: 700;
+}
+
+/* DKU CV: larger print text while preserving the two-column structure. */
+body.duke-cv {
+	font-size: 11pt;
+	line-height: 1.42em;
+}
+
+body.duke-cv p,
+body.duke-cv ul {
+	left: 26%;
+	width: 72%;
+}
+
+body.duke-cv p {
+	margin-bottom: 0.3em;
+}
+
+body.duke-cv h1,
+body.duke-cv #webaddress {
+	left: 26%;
+}
+
+body.duke-cv h2 {
+	color: #000;
+	font-weight: 700;
+	width: 16%;
+}
+
+body.duke-cv code {
+	color: #555;
+	font-size: 70%;
+}
+
+body.duke-cv #webaddress {
+	color: #444;
+	font-size: 85%;
+	width: 72%;
+}
+
+body.duke-cv .accent,
+body.duke-cv strong {
+	color: #000;
+	font-weight: 700;
+}
+
 #ghbutton {
 	display: none;
 	visibility: hidden;
 }
-
-
-
 

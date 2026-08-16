@@ -1,2 +1,10 @@
 _site/
 .sass-cache/
+.DS_Store
+.hugo_build.lock
+public/
+docs/
+layouts/
+content/
+positions/
+Image_20260202200221_9_36.jpg

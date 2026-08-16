@@ -182,6 +182,87 @@ strong {
 	font-weight: bold;
 }
 
+.accent {
+	color: #b22222;
+	font-weight: 700;
+}
+
+/* DKU CV: improve on-screen readability without changing other CV pages. */
+body.duke-cv {
+	font-size: 95%;
+	line-height: 1.55em;
+}
+
+body.duke-cv p,
+body.duke-cv ul {
+	left: 28%;
+	width: 70%;
+}
+
+body.duke-cv p {
+	margin-bottom: 0.85em;
+}
+
+body.duke-cv h1,
+body.duke-cv #webaddress {
+	left: 28%;
+}
+
+body.duke-cv h2 {
+	color: #000;
+	font-weight: 700;
+	width: 17%;
+}
+
+body.duke-cv code {
+	color: #666;
+	font-size: 75%;
+}
+
+body.duke-cv #webaddress {
+	color: #555;
+	font-size: 90%;
+	width: 70%;
+}
+
+body.duke-cv .accent,
+body.duke-cv strong {
+	color: #000;
+	font-weight: 700;
+}
+
+@media only screen and (max-width: 760px) {
+	body.duke-cv {
+		font-size: 100%;
+		line-height: 1.55em;
+		margin: 1.25rem;
+	}
+
+	body.duke-cv p,
+	body.duke-cv ul,
+	body.duke-cv h1,
+	body.duke-cv h2,
+	body.duke-cv h3,
+	body.duke-cv #webaddress {
+		position: static;
+		width: auto;
+		text-align: left;
+	}
+
+	body.duke-cv h1 {
+		font-size: 2.4em;
+	}
+
+	body.duke-cv h2 {
+		margin-top: 2em;
+	}
+
+	body.duke-cv p code {
+		position: static;
+		margin-right: 0.5em;
+	}
+}
+
 #address {
 	display: none;
 }
