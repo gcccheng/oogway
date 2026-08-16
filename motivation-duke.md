@@ -1,4 +1,4 @@
-# Cover Letter
+# Motivation Letter
 
 Dear Hiring Team,
 
