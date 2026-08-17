@@ -21,7 +21,7 @@ In his recent senior roles, Gang has combined hands-on engineering with <strong>
 
 ## Relevant Professional Experience
 
-`2012-2022`  
+`2012.01-2022.03`  
 ***<font size="3">Senior System Engineer - University of Oslo, Oslo</font>***  
 *Progressed from System Administrator to System Engineer and then Senior System Engineer*
 
@@ -80,7 +80,7 @@ Combined hands-on infrastructure work with user enablement, knowledge sharing, a
 
 Developed a practical understanding of what faculty and researchers need from IT: <strong>reliable services, clear communication, responsive problem solving, and fit-for-purpose infrastructure</strong> that enables rather than obstructs research.
 
-`2025-Present`  
+`2025.08-Present`  
 ***<font size="3">Senior Platform Engineer - Appear, Oslo</font>***
 
 Appear is a global provider of media processing and distribution technology. Gang works on infrastructure for engineering productivity and high-performance applications, covering bare-metal Kubernetes, GitOps, observability, storage, CI/CD automation, platform security, GPU infrastructure, and AI enablement.
@@ -130,7 +130,7 @@ Led architecture, security, and risk reviews, balancing organizational controls 
 
 Led an internal integration project involving HR, Finance, project owners, and security stakeholders, translating broad needs into scope, data flows, controls, validation, and rollout planning.
 
-`2022-2025`  
+`2022.04-2025.07`  
 ***<font size="3">Senior Infrastructure Engineer - Sopra Steria, Oslo</font>***
 
 Sopra Steria is a major European digital services and consulting company. Gang delivered infrastructure, automation, DevOps, and platform services for enterprise and public-sector customers in complex, security-conscious environments.
