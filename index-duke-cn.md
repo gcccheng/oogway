@@ -209,8 +209,10 @@ Sopra Steria 是欧洲主要的数字服务与咨询公司之一。程刚为企�
 高校与科研 IT、学术与科研合作、数据中心运维、基础设施采购、容量与预算规划、Dell 与 HP 服务器、Dell PowerEdge XE9680、NVIDIA H100、Mellanox ConnectX-7、Linux、Windows、Red Hat Enterprise Linux、Red Hat Satellite、Ansible Automation Platform、OpenShift、Kubernetes、Rancher、Docker、Podman、GitLab、GitHub Actions、Argo CD、Helm、Kustomize、Terraform、VMware、SCCM、Active Directory、Cisco 交换、VLAN、DNS、DHCP、NFS、TrueNAS、Ceph、MinIO、Slurm、Prometheus、Grafana、Splunk、Zabbix、Nagios、Python、Bash、NVIDIA GPU Operator、vLLM、Open WebUI、AI Agent、可复用 Agent Skill、平台安全、漏洞管理、RBAC/IAM、策略即代码、事件响应、服务文档和架构治理。
 
 ## 教育背景
+
 `2006-2010`  
 中国传媒大学：计算机科学
+
 `2010-2012`  
 奥斯陆大学：网络与系统管理硕士
 
