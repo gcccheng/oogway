@@ -206,7 +206,8 @@ Improved infrastructure consistency and service delivery through automation, doc
 Higher education and research IT, academic and research partnership, data center operations, infrastructure procurement, capacity and budget planning, Dell and HP servers, Dell PowerEdge XE9680, NVIDIA H100, Mellanox ConnectX-7, Linux, Windows, Red Hat Enterprise Linux, Red Hat Satellite, Ansible Automation Platform, OpenShift, Kubernetes, Rancher, Docker, Podman, GitLab, GitHub Actions, Argo CD, Helm, Kustomize, Terraform, VMware, SCCM, Active Directory, Cisco switching, VLANs, DNS, DHCP, NFS, TrueNAS, Ceph, MinIO, Slurm, Prometheus, Grafana, Splunk, Zabbix, Nagios, Python, Bash, NVIDIA GPU Operator, vLLM, Open WebUI, AI agents, reusable agent skills, platform security, vulnerability management, RBAC/IAM, policy-as-code, incident response, service documentation, and architecture governance.
 
 ## Education
-
+`2006-2010`  
+Communication University of China: Bachelor in Computer Science
 `2010-2012`  
 University of Oslo: Master in Network and System Administration
 
