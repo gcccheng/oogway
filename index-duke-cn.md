@@ -21,7 +21,7 @@ body_class: duke-cv
 
 ## 相关工作经历
 
-`2012-2022`  
+`2012年1月-2022年3月`  
 ***<font size="3">高级系统工程师 - 奥斯陆大学，奥斯陆</font>***  
 *由系统管理员晋升为系统工程师，随后晋升为高级系统工程师*
 
@@ -83,7 +83,7 @@ body_class: duke-cv
 
 通过这段经历深入理解教师和科研人员对 IT 的真正需求：<strong>可靠的服务、清晰的沟通、及时的问题解决，以及适合科研目标的基础设施</strong>，让技术推动而不是阻碍科研进展。
 
-`2025-至今`  
+`2025年8月-至今`  
 ***<font size="3">高级平台工程师 - Appear，奥斯陆</font>***
 
 Appear 是一家面向全球市场的媒体处理与传输技术公司。程刚负责支撑研发效率和高性能应用的基础设施，工作范围包括裸金属 Kubernetes、GitOps、可观测性、存储、CI/CD 自动化、平台安全、GPU 基础设施和 AI 能力建设。
@@ -133,7 +133,7 @@ GPU 基础设施由<strong>两台 Dell PowerEdge XE9680 服务器</strong>组成
 
 主导涉及 HR、财务、项目负责人和安全团队的内部集成项目，将较为宽泛的业务需求转化为明确的范围、数据流、控制措施、验证方法和上线计划。
 
-`2022-2025`  
+`2022年4月-2025年7月`  
 ***<font size="3">高级基础设施工程师 - Sopra Steria，奥斯陆</font>***
 
 Sopra Steria 是欧洲主要的数字服务与咨询公司之一。程刚为企业和公共部门客户交付基础设施、自动化、DevOps 和平台服务，工作环境复杂且对安全有严格要求。
@@ -209,7 +209,8 @@ Sopra Steria 是欧洲主要的数字服务与咨询公司之一。程刚为企�
 高校与科研 IT、学术与科研合作、数据中心运维、基础设施采购、容量与预算规划、Dell 与 HP 服务器、Dell PowerEdge XE9680、NVIDIA H100、Mellanox ConnectX-7、Linux、Windows、Red Hat Enterprise Linux、Red Hat Satellite、Ansible Automation Platform、OpenShift、Kubernetes、Rancher、Docker、Podman、GitLab、GitHub Actions、Argo CD、Helm、Kustomize、Terraform、VMware、SCCM、Active Directory、Cisco 交换、VLAN、DNS、DHCP、NFS、TrueNAS、Ceph、MinIO、Slurm、Prometheus、Grafana、Splunk、Zabbix、Nagios、Python、Bash、NVIDIA GPU Operator、vLLM、Open WebUI、AI Agent、可复用 Agent Skill、平台安全、漏洞管理、RBAC/IAM、策略即代码、事件响应、服务文档和架构治理。
 
 ## 教育背景
-
+`2006-2010`  
+中国传媒大学：计算机科学
 `2010-2012`  
 奥斯陆大学：网络与系统管理硕士
 
