@@ -4,7 +4,7 @@ title: Gang Cheng's CV
 ---
 # Gang Cheng 
 
-<span class="accent">Red Hat Certified Architect</span>, <span class="accent">Infrastructure</span>/<span class="accent">DevOps</span>/<span class="accent">DevEx</span>/<span class="accent">Platform Engineer</span>
+<span class="accent">Red Hat Certified Architect</span>, <span class="accent">Infrastructure</span>/<span class="accent">DevSecOps</span>/<span class="accent">DevEx</span>/<span class="accent">Platform Engineer</span>
 
 <div id="webaddress">
 <a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng">Red Hat Profile</a> | <a href="https://www.linkedin.com/in/gang-cheng-7170a521/">Linkedin page</a>
@@ -26,103 +26,142 @@ No matter what title or environment, Gang adapts quickly to create value for the
 
 Appear TV is a leading global provider of video compression, media processing, and distribution technology, widely used by global broadcasters, telecom operators, and major live event organisations, including NBCUniversal, Discovery, NHL, Formula 1, and Riot Games.
 
-At Appear, Gang works on building and maintaining a modern, scalable infrastructure powering developer productivity and high-performance applications. His work focuses on <span class="accent">bare-metal Kubernetes</span>, <span class="accent">GitOps</span>, <span class="accent">observability</span>, <span class="accent">storage</span>, <span class="accent">CI/CD automation</span>, and <span class="accent">platform security</span>.
+At Appear, Gang's role combines <span class="accent">day-to-day platform engineering</span> with <span class="accent">project delivery</span>. Daily responsibilities include platform operations, developer and CI support, troubleshooting, component version updates, and infrastructure upgrades. Project work is planned and delivered through <span class="accent">sprint-based management</span>, covering improvements to Kubernetes infrastructure, GPU capabilities, automation, and platform security.
 
 `project`
-<strong style="color: #b22222;">NVIDIA GPU Cluster & AL Model Serving Platform</strong>
+<strong style="color: #b22222;">Platform Engineering</strong>
+
+<strong style="color: #000;">Key Responsibilities</strong>:
+
+Built and maintained **bare-metal Kubernetes clusters** managed by Rancher, running on Flatcar (immutable OS), supporting internal R&D teams working with Rust, C++, Python, Yocto, and TypeScript.
+
+Designed end-to-end **GitOps workflows** using GitLab + ArgoCD with Kustomize, enabling automated deployments, consistent environment management, and reduced operational overhead.
+
+Automated infrastructure provisioning using **Terraform**, with GitLab pipelines triggering Terraform apply for predictable and auditable changes.
+
+Integrated a **TrueNAS NFS backend** to provide persistent storage for stateful and stateless workloads, with centrally managed **PersistentVolumes (PVs)** and namespace-scoped **PersistentVolumeClaims (PVCs)**.
+
+Managed and optimized internal platform components: **Harbor registry, PXE bootstrap node, VMware VM lifecycle, ExternalDNS, Bind9, MetalLB, Replicator, GitLab Runners**.
+
+Supported developers with **CI jobs**, troubleshooting build and test failures, runner issues, and resource constraints to improve pipeline reliability and keep development workflows running smoothly.
+
+Used the existing **Prometheus + Grafana** observability stack to monitor system health, investigate issues, and support platform operations through metrics, dashboards, and alerts.
+
+Improved reliability of the development workflow, reduced deployment friction, and enhanced the entire software delivery lifecycle through automation and platform standardization.
+
+Contributed to the project of building Appear Hub, a customer-facing delivery platform for firmware, documentation, and license distribution. Helped implement the solution on Azure using Container Apps for scalable backend services and Azure Front Door for global routing.
+
+`project`
+<strong style="color: #b22222;">NVIDIA GPU Cluster for Developer Workloads</strong>
+
+Built and operated Kubernetes GPU capabilities with **GPU nodes in production use by developers**.
 
 <strong style="color: #000;">Responsibilities</strong>：
 
-Designed and delivered **platformised NVIDIA GPU cluster capabilities** as the infrastructure foundation for a local AI / inference platform, defining GPU resource governance, service-oriented delivery paths, and operational ownership.
+Standardised GPU foundations using **NVIDIA GPU Operator**, establishing reusable cluster baselines and operational ownership.
 
-Standardised GPU foundations using **GPU Operator**, establishing reusable cluster baselines.
-
-Introduced **Time Slicing** and **MPS** to enable fine‑grained GPU sharing and multi‑tenant concurrency.
-
-Brought open-source LLM inference onto Kubernetes using **vLLM** running in GPU-enabled pods, exposing models as managed internal services instead of ad-hoc host-based deployments.
-
-Selected and integrated **Envoy Gateway** and **Envoy AI Gateway** as the traffic and AI routing layer, creating a foundation for model endpoint exposure, request routing, policy enforcement, and future observability of inference traffic.
-
-Integrated **Longhorn** as a Kubernetes-native storage layer for platform services and model-serving workloads, supporting persistent components while keeping the platform aligned with GitOps-driven cluster operations.
-
-Evaluated and deployed open-source models for internal use, focusing on practical serving characteristics such as GPU memory footprint, latency, concurrency, model loading behaviour, and operational stability.
-
-Became the backend serving layer for the **Internal Self-Hosted AI Platform**, where Open WebUI consumes model endpoints provided by the Kubernetes-based inference platform.
+Introduced **Time Slicing** and **MPS** to support GPU sharing and concurrent developer workloads.
 
 Brought **GitLab Runner** GPU workloads into platform scheduling with defined policies for GPU pipelines.
 
-Integrated GPU observability into the platform stack, covering **utilisation, inference latency, and throughput**.
+Integrated GPU utilisation monitoring into the platform observability stack and applied access controls and policy guardrails using **Kyverno**.
 
-Enforced access control and policy guardrails for GPU workloads via **Kyverno**.
-
-Coordinated R&D and platform teams to operationalise GPU-backed machine learning model serving capabilities.
+Worked with R&D teams to align GPU resource allocation and platform operations with developer workload requirements.
 
 <strong style="color: #000;">Value Created</strong>：
 
-Delivered a governable, observable, and rollback‑safe GPU platform for reliable local machine learning model serving.
-Improved GPU utilisation and delivery efficiency through multi‑tenant optimisation, shared GPU scheduling, and Kubernetes-native service delivery.
-Established the technical backend for the company's internal self-hosted AI platform, reducing dependency on external AI services for selected use cases and creating a foundation for controlled internal inference.
+Provided shared, observable GPU infrastructure for production developer workloads, improving resource utilisation and consistency of GPU-backed CI execution.
 
 `project`
-<strong style="color: #b22222;">Internal Self-Hosted AI Platform</strong>
+<strong style="color: #b22222;">Self-Hosted LLM & Open WebUI Platform (MVP)</strong>
 
-Delivered an internal AI/LLM enablement platform to support engineering use-cases such as log and telemetry analysis, documentation generation, incident explanation and code assistance.
+Built an MVP that demonstrated the feasibility of self-hosted LLM inference and an internal AI interface. The available GPUs supported prototype validation but lacked the capacity for the intended production workloads.
 
 <strong style="color: #000;">Responsibilities</strong>：
 
-Acted as technical owner, leading **platform architecture, capability layering and governance model**. Defined roadmap and delivery standards, ran architecture reviews, and coordinated cross‑team execution. Mentored junior engineers through task decomposition and peer reviews to improve delivery quality.
+Prototyped **vLLM** inference on Kubernetes and connected model endpoints to **Open WebUI** to test an internal AI access workflow.
 
-Designed the platform around **Open WebUI** as the user-facing interface, backed by locally served Kubernetes-based model endpoints from the NVIDIA GPU inference platform.
+Evaluated local models and hosted APIs, considering GPU capacity, model memory requirements, latency, concurrency, output quality, and cost.
 
-Evaluated multiple LLM backends and tools (hosted APIs and local inference) with a focus on **latency, concurrency characteristics, token cost and model behaviour**.
+Explored gateway routing, persistent storage, access controls, and usage visibility as part of the prototype architecture.
 
-Designed a containerised deployment model on Kubernetes, including access control, team isolation and integration with existing SSO / developer tooling.
-
-Explored model‑selection strategies by comparing latency, output quality and token usage across different LLM providers (OpenAI, RequestyAI, local Llama variants), identifying which models were most suitable for specific request types.
-
-Connected the user-facing AI platform with the local inference backend to support a hybrid AI strategy: external providers where appropriate, and self-hosted open-source models where data control, cost, or platform independence mattered more.
-
-Implemented basic prompt governance, usage logging and cost visibility, laying groundwork for **responsible AI and auditability**.
-Worked with several R&D teams to promote AI‑assisted engineering practices and capture feedback for future platform evolution (e.g. RAG, code search, knowledge base integration).
+Worked with engineering stakeholders to explore potential uses such as log analysis, documentation, and code assistance and assess requirements for future adoption.
 
 <strong style="color: #000;">Value Created</strong>：
 
-Established the company’s first **unified internal AI entry point and platform capability layer**, significantly lowering the barrier for engineers to use LLMs in daily work.
+Validated the local LLM serving approach and its integration with a user-facing AI interface, providing a technical basis for planning production AI infrastructure.
 
-Shifted AI usage from ad‑hoc, individual experimentation to **systematic, policy‑aware consumption**.
-Created a practical foundation for future **AI Gateway‑style capabilities** such as multi‑tenant routing, cost/observability, local inference, and governance.
+Identified hardware capacity requirements for production adoption. A budget proposal for infrastructure to host local LLMs has been submitted and is awaiting approval.
+
+### **CISO Partnership Across Platform Security Projects**
+
+Collaborated directly with the **CISO and security team** across vulnerability management, CI runner hardening, privileged workload risk mitigation, and platform security governance, supporting **ISO 27001 and external audit preparation**. Aligned CI/CD pipelines, Kubernetes cluster settings, and deployment workflows with security requirements and internal governance while balancing operational needs across the following projects.
+
+Worked with a security engineer to develop reusable **Claude skills** that automate parts of risk assessment and, where appropriate, threat modelling for tools proposed for deployment to the cluster, supporting more consistent security reviews.
 
 `project`
-<strong style="color: #b22222;">Autonomous Platform SRE Agent (AI-Driven Operations MVP)</strong>
+<strong style="color: #b22222;">Platform Vulnerability Management & CVE Remediation</strong>
+
+Led a cross-team vulnerability management effort for a **production Kubernetes cluster hosting approximately 55 applications and platform tools**.
 
 <strong style="color: #000;">Responsibilities</strong>：
 
-Designed and built a modular autonomous SRE agent to reduce operational toil and automate repetitive platform engineering tasks, enabling a shift from reactive alerting to proactive remediation.
+Deployed and operated **Trivy Operator** for vulnerability visibility and Kubernetes security posture assessment, including **node and control-plane configuration checks**, detailed compliance reporting, and **Prometheus integration**.
 
-Architected a Python-based orchestrator framework with pluggable expert modules (Kubernetes, Vsphere, and supply-chain intelligence) to handle multi-domain infrastructure operations.
+Presented CVE reports in **Grafana** to support ongoing visibility and review. Reviewed findings with a security engineer, prioritising critical findings and coordinating developers to define remediation responsibilities and mitigation plans.
 
-Implemented a “Brain + Tools” architecture, where the agent scans infrastructure APIs (Kubernetes and Vsphere), detects operational violations, and leverages LLM reasoning (GPT-4o) to analyse root causes and generate remediation strategies rather than simply reporting errors.
+Owned hands-on remediation for platform-managed internal tools through patching and Helm chart upgrades. Helped application developers upgrade base images, rebuild container images, and revise Dockerfiles to address vulnerable components in their deployed applications.
 
-Built a Safety Engine & Policy Gatekeeper to constrain AI autonomy: the agent can automatically remediate low-risk issues (e.g., restarting stalled VMs or resolving policy violations), while high-risk changes require human approval.
+Scanned updated container images before deployment and compared vulnerability reports before and after upgrades to check which issues were fixed. Investigated remaining critical findings to see whether fixes were available and assess the risk in our environment.
 
-Developed a Mission Control Dashboard using Flask and HTMX, providing visibility into the agent’s reasoning process and enabling engineers to review and approve remediation actions with one-click execution.
-
-Solved the immutable pod remediation challenge by enabling semantic reasoning to identify and patch the parent controllers (Deployments/StatefulSets) instead of transient pods.
-
-Integrated a software supply-chain intelligence module capable of scanning Terraform and Ansible repositories, analysing GitHub release notes, and performing semantic risk analysis before recommending dependency upgrades.
+Established a repeatable process to identify, review, document, and address findings. Documented unresolved vulnerabilities and proposed risk acceptance for security approval with re-check dates; required security confirmation before suppressing false positives.
 
 <strong style="color: #000;">Value Created</strong>：
 
-Demonstrated how operational toil could be reduced by automating classification and remediation of infrastructure and security policy violations (e.g., Kyverno alerts and platform health checks).
+Significantly reduced critical and high CVE findings across platform workloads through coordinated component upgrades and container image improvements, with remaining findings documented for security review.
 
-Shifted maintenance left by transforming routine dependency updates into a structured review-and-approval workflow, accelerating platform upgrade cycles.
-
-Demonstrated safe AI-assisted operations by showing how L1-level SRE tasks could be automated under policy guardrails, allowing senior engineers to focus more on architecture and platform evolution.
-
-Established a foundation for AI-augmented platform operations, lowering the barrier for engineers to leverage LLM capabilities while maintaining governance and operational safety.
+Established an ongoing vulnerability management routine with shared responsibility between platform engineering, security, and development teams, supporting audit preparation and continued visibility into unresolved risks.
 
 `project`
-<strong style="color: #b22222;">CISO Partnership & Platform Security Governance</strong>
+<strong style="color: #b22222;">CI Runner Restructuring & Platform Hardening</strong>
+
+Restructured the cluster's CI runner infrastructure to improve execution efficiency and strengthen security across diverse engineering workloads.
+
+<strong style="color: #000;">Responsibilities</strong>：
+
+Reviewed runner requirements across **compilation, container builds, deployment jobs, Yocto release builds, video processing, video stream tests, and hardware testing**.
+
+Reorganised runners around workload-specific resource requirements and bottlenecks spanning **CPU, GPU, memory, network, and disk I/O**, aligning CI job execution with suitable platform resources.
+
+Removed **privileged execution** from most runners and restricted designated runners to authorised repositories, tightening access to runner capabilities and infrastructure resources.
+
+Balanced platform hardening with the execution requirements of existing CI workloads, including jobs requiring specialised hardware and resource-intensive builds or tests.
+
+<strong style="color: #000;">Value Created</strong>：
+
+Improved the efficiency of existing CI workloads through better alignment between job requirements and runner resources.
+
+Reduced exposure from privileged CI execution and strengthened repository-level control over runner access, establishing a more secure foundation for build, deployment, and testing workloads.
+
+`project`
+<strong style="color: #b22222;">Privileged Workload Risk Mitigation (Ongoing)</strong>
+
+Driving an ongoing effort to mitigate privileged workload risks through complementary controls across runner hardening, runtime detection, node segregation, and audit logging.
+
+<strong style="color: #000;">Responsibilities</strong>：
+
+Using **Falco** for runtime detection of suspicious behaviour through stable, incubating, and custom rules.
+
+Working on **node segregation** to separate privileged workloads from non-privileged workloads, alongside runner hardening to reduce unnecessary privileges.
+
+Working on **Kubernetes API server audit logging** to improve visibility into API activity and support security investigations.
+
+<strong style="color: #000;">Intended Value</strong>：
+
+Reduce the potential impact of compromised workloads and improve detection and traceability of security-relevant activity while maintaining platform usability for engineering teams.
+
+`project`
+<strong style="color: #b22222;">Platform Security Governance</strong>
 
 <strong style="color: #000;">Responsibilities</strong>：
 
@@ -181,6 +220,14 @@ The most important learning was not only writing code, but communicating with st
 
 Improved the project's production readiness by treating security and business risk as part of the design, not as a late-stage review activity.
 
+`project`
+<strong style="color: #b22222;">AI-Assisted Platform SRE Agent (MVP)</strong>
+
+Built a **Python-based MVP** to explore AI-assisted troubleshooting and remediation for Kubernetes and VMware infrastructure.
+
+Combined infrastructure checks with LLM-assisted analysis and a review interface, using policy guardrails and human approval for higher-risk actions.
+
+Demonstrated potential to reduce repetitive operational work while retaining engineer oversight; the project remained a prototype.
 
 `project`
 <strong style="color: #b22222;">OpenShift Virtualization Migration MVP</strong>
@@ -207,170 +254,32 @@ Reduced migration risk by defining mappings and trade-offs early, improving pred
 
 Established reusable evaluation patterns and governance considerations that would make future workload onboarding faster, safer, and more auditable if the company decides to move toward production adoption.
 
-
-`project`
-<strong style="color: #b22222;">Platform Engineering</strong>
-
-<strong style="color: #000;">Key Responsibilities</strong>:
-
-Built and maintained **bare-metal Kubernetes clusters** managed by Rancher, running on Flatcar (immutable OS), supporting internal R&D teams working with Rust, C++, Python, Yocto, and TypeScript.
-
-Designed end-to-end **GitOps workflows** using GitLab + ArgoCD with Kustomize, enabling automated deployments, consistent environment management, and reduced operational overhead.
-
-Automated infrastructure provisioning using **Terraform**, with GitLab pipelines triggering Terraform apply for predictable and auditable changes.
-
-Integrated **TrueNAS NFS backend** to support stateless workloads with decoupled persistent storage.
-
-Managed and optimized internal platform components: **Harbor registry, PXE bootstrap node, VMware VM lifecycle, ExternalDNS, Bind9, MetalLB, Replicator, GitLab Runners**.
-
-Built observability stack using **Prometheus + Grafana**, providing system health metrics, dashboards, and alerting.
-
-Collaborated directly with the **CISO** to ensure that CI/CD pipelines, Kubernetes cluster settings, and deployment workflows comply with security requirements and internal governance.
-
-Improved reliability of the development workflow, reduced deployment friction, and enhanced the entire software delivery lifecycle through automation and platform standardization.
-
-Contributed to the project of building Appear Hub, a customer-facing delivery platform for firmware, documentation, and license distribution. Helped implement the solution on Azure using Container Apps for scalable backend services and Azure Front Door for global routing.
-
-
 `2022-2025`
 ***<font size= "3">Senior Infrastructure Engineer at Sopra Steria</font>***
 
 Sopra Steria is one of Europe's major digital services and consulting companies, and in Norway is positioned as a leading consulting company within digitalisation, innovation, and sustainability, serving large private companies and public-sector organisations.
 
-During his time at Sopra Steria, Gang worked as a <span class="accent">DevOps</span>/<span class="accent">infrastructure engineer</span> and led/contributed to a variety of projects for customers, including:
+During his time at Sopra Steria, Gang delivered infrastructure, automation, DevOps, and platform services for enterprise and public-sector customers.
 
-`project`
-<strong style="color: #b22222;">Building High Availability Kubernetes and Github Actions Runner Controller(ARC)(sole role)</strong>
+`selected work`
+<strong style="color: #b22222;">Enterprise Linux, Virtualisation & Automation</strong>
 
-Description: The existing use of GitHub self-hosted runners on virtual machines (VMs) led to significant scalability issues, race conditions, and lack of workload isolation. As the number of CI/CD workflows grew, VM-based runners could no longer provide a flexible and manageable solution. To address this, a container orchestration platform was required to dynamically provision and scale runners on demand, ensuring standardized, isolated, and scalable infrastructure for GitHub Actions workflows.
+Designed and implemented automated lifecycle management for **Red Hat Enterprise Linux on VMware**, covering standardised images, provisioning, patching, and operating system upgrades using **Ansible and Red Hat Satellite**.
 
-Contribution: Took sole role in designing and implementing a high-availability Kubernetes cluster with GitHub Actions Runner Controller (ARC) to manage dynamic runner provisioning. Migrated CI/CD workflows from VM-based runners to Kubernetes, implemented automated scaling and isolation, and collaborated with developers to refactor pipelines. Established platform monitoring and ongoing maintenance processes.
+Worked with application owners on RHEL upgrades and production readiness, including a standardised RHEL9 baseline and Active Directory integration. Collaborated on deploying **Ansible Automation Platform on OpenShift** to centralise automation workflows.
 
-<strong style="color: #000;">Value Created</strong>: Delivered a secure, scalable, and automated CI/CD runner platform, reducing manual overhead and improving isolation, reliability, and developer productivity. Standardized the CI/CD pipeline infrastructure for consistency and scalability, while enabling on-demand scaling to meet workload peaks.
+Standardised infrastructure and supported critical application deployment, configuration, and troubleshooting, reducing manual work and improving consistency and alignment with security requirements.
 
+`selected work`
+<strong style="color: #b22222;">Kubernetes, GitOps, Storage & Service Reliability</strong>
 
-`project`
-<strong style="color: #b22222;">Implementing Local S3-Compatible Backend for Terraform State Management using MinIO on Kubernetes(sole role)</strong>
+Independently designed and implemented a high-availability **Kubernetes** platform with **GitHub Actions Runner Controller**, migrating VM-based runners to scalable, isolated CI/CD execution. Worked with developers to troubleshoot and improve pipeline reliability.
 
-Description: Terraform state files were previously stored on local disks, causing issues like lack of version control and collaboration challenges. Public cloud storage (e.g., AWS S3) was not an option due to policy constraints.
+Implemented initial **Argo CD** GitOps workflows with reusable Helm templates and access controls, enabling consistent self-service deployments for development teams.
 
-Contribution: Designed and deployed a MinIO-based S3-compatible backend on an internal Kubernetes platform. Integrated it with GitHub Actions pipelines to enable secure and versioned Terraform state storage within the CI/CD workflow.
+Deployed an internal **MinIO** backend for versioned Terraform state management and integrated it with CI workflows, improving collaboration within customer hosting constraints.
 
-<strong style="color: #000;">Value Created</strong>: Established a reliable, centralized, and versioned Terraform state backend, improving collaboration, auditability, and infrastructure stability—without relying on public cloud services.
-
-`project`
-<strong style="color: #b22222;">Implementing GitOps Deployment Workflow with Argo CD (Initial Implementation, Sole Platform Role)</strong>
-
-Description: With increasing demands from developers for faster and more flexible deployments, there was a growing need for a platform that allows developers to dynamically choose which environment to deploy their code to. The goal was to create an automated workflow where a code merge in GitHub would automatically trigger deployment of a new version in Kubernetes — enabling self-service, reducing manual operations, and aligning with modern DevOps practices.
-
-Contribution: Designed and implemented the initial GitOps workflows using Argo CD, connecting GitHub branches to Kubernetes namespaces for automated deployments. Built Helm-based reusable templates and structured repositories for dynamic environments, and implemented RBAC and project isolation for security. Coordinated with development teams to define deployment flows and ensure smooth integration.
-
-<strong style="color: #000;">Value Created</strong>: Established a flexible and automated deployment pipeline aligned with GitOps, enabling developers to deploy code seamlessly across environments. Improved deployment speed, consistency, and security, and reduced operational overhead by shifting to self-service workflows.
-
-`project`
-<strong style="color: #b22222;">Implementing Ceph Storage Integration for OpenShift</strong>
-
-Description: The client required a scalable and highly available storage backend to support stateful workloads running on OpenShift. I worked on deploying and integrating a Ceph-based storage solution to provide reliable Persistent Volume provisioning for the platform.
-
-Contribution: Deployed and configured a Ceph cluster to serve as the storage backend for OpenShift, ensuring high availability and replication across nodes. Integrated Ceph with OpenShift via StorageClasses and dynamic PVC provisioning to support stateful applications. Performed validation of read/write performance, redundancy, and failure recovery scenarios. Documented operational procedures, including node replacement, OSD recovery, monitoring, and capacity planning.
-
-<strong style="color: #000;">Value Created</strong>: Delivered a production-ready storage foundation for OpenShift workloads, enabling the platform to run databases, message queues, and other stateful services reliably. Improved resilience and reduced operational risk through automated failover and self-healing storage capabilities.
-
-
-`project`
-<strong style="color: #b22222;">Building Infrastructure Monitoring System(ongoing)(sole role)</strong>
-
-Description: With the increasing number of containers and virtual machines, it became critical to have a unified platform to monitor the entire infrastructure.
-
-Contribution: Building Prometheus and Grafana on an existing Kubernetes platform to monitor both containers and VMs, integrating alerting and visualization.
-
-<strong style="color: #000;">Value Created</strong>: Provided real-time infrastructure visibility, automated alerting, and improved platform stability.
- 
-`project`
-<strong style="color: #b22222;">Troubleshooting and Improving CI/CD Pipelines</strong>
-
-Description: The development team encountered various errors and instability when running pipelines on self-hosted runners.
-
-Contribution: Troubleshot pipeline errors, optimized performance, improved reliability, and worked closely with developers to maintain organized workflows.
-
-<strong style="color: #000;">Value Created</strong>: Freed developers from troubleshooting, allowing them to focus on development and improving overall pipeline efficiency.
-
-`project`
-<strong style="color: #b22222;">Infrastructure Standardization and Automation(sole role)</strong>
-
-Description: The current infrastructure management was manual, inconsistent, and lacked standardization, leading to inefficiencies and errors across different environments.
-
-Contribution: Standardized operating systems, simplified and automated VM provisioning and management process.
-
-<strong style="color: #000;">Value Created</strong>: Improve infrastructure consistency, reduce manual errors, enhance security, and significantly speed up deployment times through automation.
-
-
-`project`
-<strong style="color: #b22222;">Automating Upgrading RHEL7 to RHEL8</strong>
-
-Description: RHEL7 was approaching the end of support, so upgrading hundreds of RHEL7 was a high priority.
-
-Contribution: Designed upgrading plan with application owners and automated upgrading job with Ansible.
-
-<strong style="color: #000;">Value Created</strong>: Ensure systems are aligned with security compliance standards.
-
-
-`project`
-<strong style="color: #b22222;">Ansible Automation Platform on Openshift</strong>
-
-Description: With an ever-increasing number of playbooks, inventories, and workflows, manually managing them is challenging. A central platform is required to orchestrate all the elements related to Ansible.
-
-Contribution: Collaborated with teams on deploying the Ansible Automation Platform on Openshift.
-
-<strong style="color: #000;">Value Created</strong>: Reduced manual tasks and errors while managing playbooks, inventories, and secrets, improved operational efficiency, and enhanced security
-
-
-`project`
-<strong style="color: #b22222;">Preparing Red Hat 9 for Production Infrastructure</strong>
-
-Description: Need to test RHEL9 and make it ready for production use.
-
-Contribution: Deployed Red Hat 9 using Ansible, created a customized Red Hat image template for VMware, and integrated the system with Windows AD.
-
-<strong style="color: #000;">Value Created</strong>: Enable seamless deployment, ensure system compatibility, and make new OS ready for production environment.
-
-
-`project`
-<strong style="color: #b22222;">Automating Patching of Red Hat VM</strong>
-
-Description: The manual patching process for a large-scale Red Hat environment was time-consuming and prone to errors, requiring a more efficient automated solution.
-
-Contribution: Designed and implemented an Ansible-based workflow with Red Hat Satellite to automate patching.
-
-<strong style="color: #000;">Value Created</strong>: Streamlined patching, reduced errors, and improved system uptime and security across the infrastructure.
-
-`project`
-<strong style="color: #b22222;">Automating the Provisioning of Red Hat VM on VMWare Private Cloud Platform</strong>
-
-Description: The manual work of provisioning large-scale Red Hat VM was just impossible.
-
-Contribution: Designed and implemented an Ansible-based workflow that automated the process of provisioning VM into the production environment.
-
-<strong style="color: #000;">Value Created</strong>: Streamlined installation, configuration, and management of VM.
-
-
-`project`
-<strong style="color: #b22222;">Deploying critical application to infrastructure(sole role)</strong>
-
-Description: A critical cloud-based application must be deployed, configured, and tested across the entire platform.
-Contribution: Solo responsibility for installing, configuring, and troubleshooting applications.
-
-<strong style="color: #000;">Value Created</strong>: Ensure that the system is aligned with organization policies.
-
-`project`
-<strong style="color: #b22222;">Splunk Implementation</strong>
-
-Description: Implemented Splunk to monitor and analyze logs and metrics across infrastructure. The project involved centralized log collection, efficient indexing, and actionable insights to enhance system observability and operational efficiency.
-
-Contribution: Deployed and configured Splunk Enterprise for centralized log aggregation and real-time monitoring. Developed custom dashboards for infrastructure health monitoring, including CPU usage, memory consumption, disk I/O, and application performance metrics.
-
-<strong style="color: #000;">Value Created</strong>: Enhanced system reliability and performance by proactively identifying incidents.
-
+Worked on infrastructure monitoring with **Prometheus and Grafana**, improving visibility, alerting, and troubleshooting across containers and virtual machines.
 
 `2012-2022`
 ***<font size= "3">System Engineer at University of Oslo</font>***
@@ -393,6 +302,12 @@ High-Performance Computing (HPC) Engineering & Parallel Workload Support: Contri
 
 
 ## Certificate
+**Certificate of Completion - AI Infrastructure and Operations Fundamentals**<br>
+NVIDIA
+
+**LFS255: Mastering Kubernetes Security with Kyverno**<br>
+The Linux Foundation
+
 <a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng"> Red Hat Certified Professional of the Year 2024</a>
 
 <a href="https://rhtapps.redhat.com/verify?certId=210-181-160"> Red Hat Certified Architect</a>
@@ -429,6 +344,11 @@ High-Performance Computing (HPC) Engineering & Parallel Workload Support: Contri
 <a href="https://www.linkedin.com/pulse/cloud-native-day-oslo-reflections-highlights-gang-cheng-ripaf/?trackingId=rpGDQr2us8CpWZiuR3Sx%2FA%3D%3D"> Cloud Native Day Oslo — From DevOps to DevEx </a>
 
 ## Courses
+
+<a href="https://www.nvidia.com/en-us/training/academy/course-detail/?id=course%3A15139853">NVIDIA Cumulus Linux Essentials</a>
+
+<a href="https://www.nvidia.com/en-us/training/academy/course-detail/?id=course%3A15139833">NVIDIA Introduction to Networking</a>
+
 
 <a href="https://www.coursera.org/learn/gcp-fundamentals"> Google Cloud Foundamentals </a>
 
