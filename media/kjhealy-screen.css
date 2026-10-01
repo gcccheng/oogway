@@ -273,3 +273,10 @@ body.duke-cv strong {
 @media only screen and (max-width: 480px) {
 	make one column somehow...
 }*/
+
+/* General CV: use bold black emphasis on screen and in print. */
+body.general-cv h2,
+body.general-cv strong {
+	color: #000;
+	font-weight: 700;
+}

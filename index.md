@@ -1,10 +1,11 @@
 ---
 layout: cv
+body_class: general-cv
 title: Gang Cheng's CV
 ---
 # Gang Cheng 
 
-<span class="accent">Red Hat Certified Architect</span>, <span class="accent">Infrastructure</span>/<span class="accent">DevSecOps</span>/<span class="accent">DevEx</span>/<span class="accent">Platform Engineer</span>
+<strong>Red Hat Certified Architect</strong>, <strong>Infrastructure</strong>/<strong>DevSecOps</strong>/<strong>DevEx</strong>/<strong>Platform Engineer</strong>
 
 <div id="webaddress">
 <a href="https://www.redhat.com/en/blog/announcing-2024-red-hat-certified-professional-year-gang-cheng">Red Hat Profile</a> | <a href="https://www.linkedin.com/in/gang-cheng-7170a521/">Linkedin page</a>
@@ -12,11 +13,11 @@ title: Gang Cheng's CV
 
 ## Summary
 
-Gang is a self-motivated person, and he believes that the mindset of <span class="accent">continuous learning</span> and the ability to <span class="accent">quickly adapt</span> to new technologies are core competencies for a professional IT engineer. Throughout his career, Gang has proactively built expertise in managing <span class="accent">modern infrastructure</span> and <span class="accent">platform engineering</span> through an ever-growing list of projects, certifications, workshops, conferences, courses, industry peers and through AI. His efforts and expertise were recognized when he received the honor of being awarded and titled as the <span class="accent">Red Hat Certified Professional of the Year 2024</span>(if you are curious of what it is, click Red Hat Bio on top for more info). 
+Gang is a self-motivated person, and he believes that the mindset of <strong>continuous learning</strong> and the ability to <strong>quickly adapt</strong> to new technologies are core competencies for a professional IT engineer. Throughout his career, Gang has proactively built expertise in managing <strong>modern infrastructure</strong> and <strong>platform engineering</strong> through an ever-growing list of projects, certifications, workshops, conferences, courses, industry peers and through AI. His efforts and expertise were recognized when he received the honor of being awarded and titled as the <strong>Red Hat Certified Professional of the Year 2024</strong>(if you are curious of what it is, click Red Hat Bio on top for more info).
 
-In addition to his expertise in Red Hat, Gang has expanded his skills across DevOps, Security, Cloud Native, and AIOps. He has worked in both small and large teams, taking on roles as <span class="accent">System Administrator</span>, <span class="accent">Infrastructure Engineer</span>, <span class="accent">DevSecOps Engineer</span>, and <span class="accent">Platform Engineer</span> — or a combination of them all, depending on project requirements. In the era of AI-driven engineering, Gang is also actively exploring how artificial intelligence can assist platform and infrastructure work. This includes AI-assisted troubleshooting, automation, infrastructure documentation, and improving developer productivity through intelligent tooling. Rather than viewing AI as a replacement for engineers, he sees it as a powerful collaborator that enhances decision-making, accelerates problem-solving, and helps engineers focus on higher-level architectural thinking.
+In addition to his expertise in Red Hat, Gang has expanded his skills across DevOps, Security, Cloud Native, and AIOps. He has worked in both small and large teams, taking on roles as <strong>System Administrator</strong>, <strong>Infrastructure Engineer</strong>, <strong>DevSecOps Engineer</strong>, and <strong>Platform Engineer</strong> — or a combination of them all, depending on project requirements. In the era of AI-driven engineering, Gang is also actively exploring how artificial intelligence can assist platform and infrastructure work. This includes AI-assisted troubleshooting, automation, infrastructure documentation, and improving developer productivity through intelligent tooling. Rather than viewing AI as a replacement for engineers, he sees it as a powerful collaborator that enhances decision-making, accelerates problem-solving, and helps engineers focus on higher-level architectural thinking.
 
-No matter what title or environment, Gang adapts quickly to create value for the business through strong <span class="accent">communication</span> skills and a <span class="accent">collaborative mindset</span>.
+No matter what title or environment, Gang adapts quickly to create value for the business through strong <strong>communication</strong> skills and a <strong>collaborative mindset</strong>.
 
 
 ## Employment
@@ -26,10 +27,10 @@ No matter what title or environment, Gang adapts quickly to create value for the
 
 Appear TV is a leading global provider of video compression, media processing, and distribution technology, widely used by global broadcasters, telecom operators, and major live event organisations, including NBCUniversal, Discovery, NHL, Formula 1, and Riot Games.
 
-At Appear, Gang's role combines <span class="accent">day-to-day platform engineering</span> with <span class="accent">project delivery</span>. Daily responsibilities include platform operations, developer and CI support, troubleshooting, component version updates, and infrastructure upgrades. Project work is planned and delivered through <span class="accent">sprint-based management</span>, covering improvements to Kubernetes infrastructure, GPU capabilities, automation, and platform security.
+At Appear, Gang's role combines <strong>day-to-day platform engineering</strong> with <strong>project delivery</strong>. Daily responsibilities include platform operations, developer and CI support, troubleshooting, component version updates, and infrastructure upgrades. Project work is planned and delivered through <strong>sprint-based management</strong>, covering improvements to Kubernetes infrastructure, GPU capabilities, automation, and platform security.
 
 `project`
-<strong style="color: #b22222;">Platform Engineering</strong>
+<strong style="color: #000;">Platform Engineering</strong>
 
 <strong style="color: #000;">Key Responsibilities</strong>:
 
@@ -52,7 +53,7 @@ Improved reliability of the development workflow, reduced deployment friction, a
 Contributed to the project of building Appear Hub, a customer-facing delivery platform for firmware, documentation, and license distribution. Helped implement the solution on Azure using Container Apps for scalable backend services and Azure Front Door for global routing.
 
 `project`
-<strong style="color: #b22222;">NVIDIA GPU Cluster for Developer Workloads</strong>
+<strong style="color: #000;">NVIDIA GPU Cluster for Developer Workloads</strong>
 
 Built and operated Kubernetes GPU capabilities with **GPU nodes in production use by developers**.
 
@@ -73,7 +74,7 @@ Worked with R&D teams to align GPU resource allocation and platform operations w
 Provided shared, observable GPU infrastructure for production developer workloads, improving resource utilisation and consistency of GPU-backed CI execution.
 
 `project`
-<strong style="color: #b22222;">Self-Hosted LLM & Open WebUI Platform (MVP)</strong>
+<strong style="color: #000;">Self-Hosted LLM & Open WebUI Platform (MVP)</strong>
 
 Built an MVP that demonstrated the feasibility of self-hosted LLM inference and an internal AI interface. The available GPUs supported prototype validation but lacked the capacity for the intended production workloads.
 
@@ -100,7 +101,7 @@ Collaborated directly with the **CISO and security team** across vulnerability m
 Worked with a security engineer to develop reusable **Claude skills** that automate parts of risk assessment and, where appropriate, threat modelling for tools proposed for deployment to the cluster, supporting more consistent security reviews.
 
 `project`
-<strong style="color: #b22222;">Platform Vulnerability Management & CVE Remediation</strong>
+<strong style="color: #000;">Platform Vulnerability Management & CVE Remediation</strong>
 
 Led a cross-team vulnerability management effort for a **production Kubernetes cluster hosting approximately 55 applications and platform tools**.
 
@@ -123,7 +124,7 @@ Significantly reduced critical and high CVE findings across platform workloads t
 Established an ongoing vulnerability management routine with shared responsibility between platform engineering, security, and development teams, supporting audit preparation and continued visibility into unresolved risks.
 
 `project`
-<strong style="color: #b22222;">CI Runner Restructuring & Platform Hardening</strong>
+<strong style="color: #000;">CI Runner Restructuring & Platform Hardening</strong>
 
 Restructured the cluster's CI runner infrastructure to improve execution efficiency and strengthen security across diverse engineering workloads.
 
@@ -144,7 +145,7 @@ Improved the efficiency of existing CI workloads through better alignment betwee
 Reduced exposure from privileged CI execution and strengthened repository-level control over runner access, establishing a more secure foundation for build, deployment, and testing workloads.
 
 `project`
-<strong style="color: #b22222;">Privileged Workload Risk Mitigation (Ongoing)</strong>
+<strong style="color: #000;">Privileged Workload Risk Mitigation (Ongoing)</strong>
 
 Driving an ongoing effort to mitigate privileged workload risks through complementary controls across runner hardening, runtime detection, node segregation, and audit logging.
 
@@ -161,7 +162,7 @@ Working on **Kubernetes API server audit logging** to improve visibility into AP
 Reduce the potential impact of compromised workloads and improve detection and traceability of security-relevant activity while maintaining platform usability for engineering teams.
 
 `project`
-<strong style="color: #b22222;">Platform Security Governance</strong>
+<strong style="color: #000;">Platform Security Governance</strong>
 
 <strong style="color: #000;">Responsibilities</strong>：
 
@@ -186,7 +187,7 @@ Balanced security requirements with delivery efficiency by aligning policies to 
 
 
 `project`
-<strong style="color: #b22222;">ClickTime & Visma Integration (Ongoing, Project Lead)</strong>
+<strong style="color: #000;">ClickTime & Visma Integration (Ongoing, Project Lead)</strong>
 
 <strong style="color: #000;">Responsibilities</strong>：
 
@@ -221,7 +222,7 @@ The most important learning was not only writing code, but communicating with st
 Improved the project's production readiness by treating security and business risk as part of the design, not as a late-stage review activity.
 
 `project`
-<strong style="color: #b22222;">AI-Assisted Platform SRE Agent (MVP)</strong>
+<strong style="color: #000;">AI-Assisted Platform SRE Agent (MVP)</strong>
 
 Built a **Python-based MVP** to explore AI-assisted troubleshooting and remediation for Kubernetes and VMware infrastructure.
 
@@ -230,7 +231,7 @@ Combined infrastructure checks with LLM-assisted analysis and a review interface
 Demonstrated potential to reduce repetitive operational work while retaining engineer oversight; the project remained a prototype.
 
 `project`
-<strong style="color: #b22222;">OpenShift Virtualization Migration MVP</strong>
+<strong style="color: #000;">OpenShift Virtualization Migration MVP</strong>
 
 <strong style="color: #000;">Responsibilities</strong>：
 
@@ -262,7 +263,7 @@ Sopra Steria is one of Europe's major digital services and consulting companies,
 During his time at Sopra Steria, Gang delivered infrastructure, automation, DevOps, and platform services for enterprise and public-sector customers.
 
 `selected work`
-<strong style="color: #b22222;">Enterprise Linux, Virtualisation & Automation</strong>
+<strong style="color: #000;">Enterprise Linux, Virtualisation & Automation</strong>
 
 Designed and implemented automated lifecycle management for **Red Hat Enterprise Linux on VMware**, covering standardised images, provisioning, patching, and operating system upgrades using **Ansible and Red Hat Satellite**.
 
@@ -271,7 +272,7 @@ Worked with application owners on RHEL upgrades and production readiness, includ
 Standardised infrastructure and supported critical application deployment, configuration, and troubleshooting, reducing manual work and improving consistency and alignment with security requirements.
 
 `selected work`
-<strong style="color: #b22222;">Kubernetes, GitOps, Storage & Service Reliability</strong>
+<strong style="color: #000;">Kubernetes, GitOps, Storage & Service Reliability</strong>
 
 Independently designed and implemented a high-availability **Kubernetes** platform with **GitHub Actions Runner Controller**, migrating VM-based runners to scalable, isolated CI/CD execution. Worked with developers to troubleshoot and improve pipeline reliability.
 
@@ -284,7 +285,7 @@ Worked on infrastructure monitoring with **Prometheus and Grafana**, improving v
 `2012-2022`
 ***<font size= "3">System Engineer at University of Oslo</font>***
 
-At the University of Oslo, Gang worked as system engineer in managing and operating a local data center dedicated to delivering robust and reliable scientific computing infrastructure for researchers at the Centre for Molecular Medicine Norway (NCMM). His responsibilities spanned <span class="accent">core IT operations</span>, <span class="accent">distributed systems engineering</span>, and close <span class="accent">collaboration</span> with scientific researchers.
+At the University of Oslo, Gang worked as system engineer in managing and operating a local data center dedicated to delivering robust and reliable scientific computing infrastructure for researchers at the Centre for Molecular Medicine Norway (NCMM). His responsibilities spanned <strong>core IT operations</strong>, <strong>distributed systems engineering</strong>, and close <strong>collaboration</strong> with scientific researchers.
 
 <strong style="color: #000;">Responsibilities</strong>
 
@@ -292,7 +293,7 @@ Server & Infrastructure Management: Installed, configured, and maintained comput
 
 Windows Deployment and Administration: Automated provisioning and lifecycle management of Windows clients using PXE and SCCM (System Center Configuration Manager). Streamlined software distribution, security patching, and policy compliance for stable operation.
 
-Network Operations: Worked with public university networks and an internal lab network for research equipment using <span class="accent">Cisco</span> switching and routing, including <span class="accent">VLANs</span>, <span class="accent">trunks</span>, <span class="accent">NAT</span>, <span class="accent">iptables</span>-based firewalling, internal <span class="accent">DNS</span> and <span class="accent">DHCP</span>, port assignments, and connectivity troubleshooting. Supported segmented internal infrastructure behind NAT via internal switching.
+Network Operations: Worked with public university networks and an internal lab network for research equipment using <strong>Cisco</strong> switching and routing, including <strong>VLANs</strong>, <strong>trunks</strong>, <strong>NAT</strong>, <strong>iptables</strong>-based firewalling, internal <strong>DNS</strong> and <strong>DHCP</strong>, port assignments, and connectivity troubleshooting. Supported segmented internal infrastructure behind NAT via internal switching.
 
 Scientific Software & Distributed Computing Environment: Installed and maintained complex scientific software stacks with unstable dependencies. Optimized computational environments for bioinformatics, molecular modeling, and large-scale data analysis, providing technical guidance for advanced distributed workloads.
 
@@ -426,10 +427,10 @@ Set up local directory service with OpenLDAP
 Intrusion detection and monitoring with Snort and Munin
 
 ## Experienced tech stacks
-<span class="accent">OpenShift</span>, <span class="accent">Kubernetes</span>, <span class="accent">Docker</span>, <span class="accent">Podman</span>, <span class="accent">GitHub Actions</span>, GitHub Actions Runner Controller(ARC), <span class="accent">Red Hat Linux</span>, Red Hat Satellite, <span class="accent">Red Hat Ansible</span>, Atlassian Bitbucket, Atlassian Confluence, Atlassian Jira, <span class="accent">Grafana</span>, <span class="accent">Prometheus</span>, Dell PowerEdge, <span class="accent">Cisco Switch</span>, Windows Server 2016, <span class="accent">Ansible</span>, <span class="accent">Terraform</span>, <span class="accent">Bash</span>, Perl, <span class="accent">Python</span>, Windows SCCM, Samba, <span class="accent">NFS</span>, FirewallD, Active Directory, <span class="accent">Networking</span>
+<strong>OpenShift</strong>, <strong>Kubernetes</strong>, <strong>Docker</strong>, <strong>Podman</strong>, <strong>GitHub Actions</strong>, GitHub Actions Runner Controller(ARC), <strong>Red Hat Linux</strong>, Red Hat Satellite, <strong>Red Hat Ansible</strong>, Atlassian Bitbucket, Atlassian Confluence, Atlassian Jira, <strong>Grafana</strong>, <strong>Prometheus</strong>, Dell PowerEdge, <strong>Cisco Switch</strong>, Windows Server 2016, <strong>Ansible</strong>, <strong>Terraform</strong>, <strong>Bash</strong>, Perl, <strong>Python</strong>, Windows SCCM, Samba, <strong>NFS</strong>, FirewallD, Active Directory, <strong>Networking</strong>
 
 ## Exposure Skills
-<span class="accent">AWS</span>, <span class="accent">MS Azure</span>, <span class="accent">OpenStack</span>, Vagrant
+<strong>AWS</strong>, <strong>MS Azure</strong>, <strong>OpenStack</strong>, Vagrant
 
 ## Education
 `2010-2012`
