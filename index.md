@@ -93,7 +93,7 @@ Validated the local LLM serving approach and its integration with a user-facing 
 
 Identified hardware capacity requirements for production adoption. A budget proposal for infrastructure to host local LLMs has been submitted and is awaiting approval.
 
-### **CISO Partnership Across Platform Security Projects**
+**CISO Partnership Across Platform Security Projects**
 
 Collaborated directly with the **CISO and security team** across vulnerability management, CI runner hardening, privileged workload risk mitigation, and platform security governance, supporting **ISO 27001 and external audit preparation**. Aligned CI/CD pipelines, Kubernetes cluster settings, and deployment workflows with security requirements and internal governance while balancing operational needs across the following projects.
 
